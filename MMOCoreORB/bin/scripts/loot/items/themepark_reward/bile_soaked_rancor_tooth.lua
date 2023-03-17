@@ -13,7 +13,7 @@ bile_soaked_rancor_tooth = {
 		{"attackhealthcost",30,30,0},
 		{"attackactioncost",25,25,0},
 		{"attackmindcost",25,25,0},
-		{"useCount",2,10,0},
+		{"useCount",20,100,0},
 	},
 	customizationStringNames = {},
 	customizationValues = {}

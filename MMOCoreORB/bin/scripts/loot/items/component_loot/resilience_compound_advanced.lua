@@ -8,7 +8,7 @@ resilience_compound_advanced = {
 	craftingValues = {
 		{"potency", 20,100,0},
 		{"duration",36,180,0},
-		{"useCount",3,7,0}
+		{"useCount",30,70,0}
 	},
 	customizationStringName = {},
 	customizationValues = {}

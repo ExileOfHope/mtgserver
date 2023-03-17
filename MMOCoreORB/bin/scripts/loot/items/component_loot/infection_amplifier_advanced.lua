@@ -7,7 +7,7 @@ infection_amplifier_advanced = {
 	directObjectTemplate = "object/tangible/component/chemistry/infection_amplifier_advanced.iff",
 	craftingValues = {
 		{"power", 15,75,0},
-		{"useCount",3,7,0}
+		{"useCount",30,70,0}
 	},
 	customizationStringName = {},
 	customizationValues = {}

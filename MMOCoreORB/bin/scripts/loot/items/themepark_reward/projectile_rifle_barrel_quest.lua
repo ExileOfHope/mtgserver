@@ -11,7 +11,7 @@ projectile_rifle_barrel_quest = {
 		{"attackspeed",-0.4,-0.4,1},
 		{"woundchance",20,20,0},
 		{"midrangemod",15,15,0},
-		{"useCount",2,10,0},
+		{"useCount",20,100,0},
 		{"hitpoints",0,0,0},
 	},
 	customizationStringNames = {},

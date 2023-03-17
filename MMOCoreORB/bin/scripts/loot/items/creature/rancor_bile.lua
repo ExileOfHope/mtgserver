@@ -8,7 +8,7 @@ rancor_bile = {
 	craftingValues = {
 		{"power",5,20,0},
 		{"charges",70,300,0},
-		{"useCount",1,5,0},
+		{"useCount",10,50,0},
 	},
 	customizationStringNames = {},
 	customizationValues = {}

@@ -13,7 +13,7 @@ kimogila_bone_segment = {
 		{"armor_integrity",700,1400,0},
 		{"armor_action_encumbrance",10,5,0},
 		{"armor_mind_encumbrance",5,-3,0},
-		{"useCount",1,10,0},
+		{"useCount",10,100,0},
 	},
 	customizationStringNames = {},
 	customizationValues = {}

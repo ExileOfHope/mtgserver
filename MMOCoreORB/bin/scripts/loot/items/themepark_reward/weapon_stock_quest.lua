@@ -11,7 +11,7 @@ weapon_stock_quest = {
 		{"attackspeed",-0.5,-0.5,1},
 		{"woundchance",10,10,0},
 		{"midrangemod",15,15,0},
-		{"useCount",2,10,0},
+		{"useCount",20,100,0},
 		{"attackhealthcost",0,0,0},
 		{"attackactioncost",0,0,0},
 		{"attackmindcost",0,0,0},

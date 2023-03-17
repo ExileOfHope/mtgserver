@@ -17,7 +17,7 @@ sword_core_advanced = {
 		{"attackhealthcost",7,-3,0},
 		{"attackactioncost",7,-3,0},
 		{"attackmindcost",7,-3,0},
-		{"useCount",3,7,0}
+		{"useCount",30,70,0}
 	},
 	customizationStringName = {},
 	customizationValues = {}

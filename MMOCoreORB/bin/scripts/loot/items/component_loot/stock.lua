@@ -15,7 +15,7 @@ stock = {
 		{"attackhealthcost",20,0,0},
 		{"attackactioncost",20,0,0},
 		{"attackmindcost",20,0,0},
-		{"useCount",3,7,0}
+		{"useCount",30,70,0}
 	},
 	customizationStringName = {},
 	customizationValues = {}

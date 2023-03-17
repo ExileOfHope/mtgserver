@@ -13,7 +13,7 @@ high_velocity_blaster_pistol_barrel = {
 		{"zerorangemod",0,0,0},
 		{"maxrangemod",0,0,0},
 		{"midrangemod",12,12,0},
-		{"useCount",2,10,0},
+		{"useCount",20,100,0},
 	},
 	customizationStringNames = {},
 	customizationValues = {}

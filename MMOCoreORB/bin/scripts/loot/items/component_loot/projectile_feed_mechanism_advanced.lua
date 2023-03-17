@@ -10,7 +10,7 @@ projectile_feed_mechanism_advanced = {
 		{"maxdamage", 10,50,0},
 		{"attackspeed",-0.1,-0.5,1},
 		{"hitpoints",20,100,0},
-		{"useCount",3,11,0}
+		{"useCount",30,110,0}
 	},
 	customizationStringName = {},
 	customizationValues = {}

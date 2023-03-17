@@ -14,7 +14,7 @@ sharnaff_plating_segment = {
 		{"coldeffectiveness",3,11,10},
 		{"armor_action_encumbrance",22,18,0},
 		{"armor_mind_encumbrance",23,10,0},
-		{"useCount",1,10,0},
+		{"useCount",10,100,0},
 	},
 	customizationStringNames = {},
 	customizationValues = {}

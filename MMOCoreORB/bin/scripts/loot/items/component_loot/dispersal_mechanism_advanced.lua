@@ -9,7 +9,7 @@ dispersal_mechanism_advanced = {
 		{"charges", 6,30,0},
 		{"area", 4,20,0},
 		{"range", 5,25,0},
-		{"useCount",3,7,0}
+		{"useCount",30,70,0}
 	},
 	customizationStringName = {},
 	customizationValues = {}

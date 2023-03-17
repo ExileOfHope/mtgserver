@@ -14,7 +14,7 @@ projectile_pistol_barrel_quest = {
 		{"zerorangemod",0,0,0},
 		{"maxrangemod",0,0,0},
 		{"midrangemod",20,20,0},
-		{"useCount",2,10,0},
+		{"useCount",20,100,0},
 	},
 	customizationStringNames = {},
 	customizationValues = {}

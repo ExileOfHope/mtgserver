@@ -12,7 +12,7 @@ projectile_pistol_barrel_advanced = {
 		{"woundchance",5,10,1},
 		{"hitpoints",20,100,0},
 		{"midrangemod",10,25,0},
-		{"useCount",3,7,0}
+		{"useCount",30,70,0}
 	},
 	customizationStringName = {},
 	customizationValues = {}

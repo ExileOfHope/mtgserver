@@ -11,7 +11,7 @@ fambaa_plates = {
 		{"armor_health_encumbrance",2,-2,0},
 		{"armor_action_encumbrance",2,-2,0},
 		{"armor_mind_encumbrance",2,-2,0},
-		{"useCount",1,10,0},
+		{"useCount",10,100,0},
 	},
 	customizationStringNames = {},
 	customizationValues = {}

@@ -8,7 +8,7 @@ biologic_effect_controller = {
 	craftingValues = {
 		{"power", 2,10,0},
 		{"charges", 2,10,0},
-		{"useCount",3,7,0}
+		{"useCount",30,70,0}
 	},
 	customizationStringName = {},
 	customizationValues = {}

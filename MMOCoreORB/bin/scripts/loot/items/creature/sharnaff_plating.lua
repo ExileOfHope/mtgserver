@@ -12,7 +12,7 @@ sharnaff_plating = {
 		{"coldeffectiveness",2,4,10},
 		{"armor_action_encumbrance",5,0,0},
 		{"armor_mind_encumbrance",4,-1,0},
-		{"useCount",1,10,0},
+		{"useCount",10,100,0},
 	},
 	customizationStringNames = {},
 	customizationValues = {}
