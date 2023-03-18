@@ -94,17 +94,6 @@ SaberSlash2Command = {
 		),
 	},
 
-	stateEffects = {
-		StateEffect(
-			POSTUREDOWN_EFFECT,
-			{ "postureDownRecovery" },
-			{ "posture_change_down_defense" },
-			{},
-			100,
-			0,
-			0
-		)
-	},
 
 	combatSpam = "saberslash2",
 

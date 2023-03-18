@@ -59,18 +59,7 @@ ActionShot2Command = {
 	animType = GENERATE_RANGED,
 
 	combatSpam = "sapblast",
-	    
-	stateEffects = {
-	  StateEffect( 
-		POSTUREDOWN_EFFECT, 
-		{ "postureDownRecovery" }, 
-		{ "posture_change_down_defense" }, 
-		{},
-		100, 
-		0, 
-		0 
-	  )
-	},	
+
 
 	dotEffects = {
 	  DotEffect( 

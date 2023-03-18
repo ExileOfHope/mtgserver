@@ -68,15 +68,15 @@ ForceThrow2Command = {
 
 	combatSpam = "forcethrow2",
 
-	poolsToDamage = RANDOM_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE,
 
 	forceAttack = true,
 	damageType = KINETIC_DAMAGE,
 
-	frsLightMinDamageModifier = 3,
-	frsLightMaxDamageModifier = 6,
-	frsDarkMinDamageModifier = 3,
-	frsDarkMaxDamageModifier = 6,
+	frsLightMinDamageModifier = 4,
+	frsLightMaxDamageModifier = 8,
+	frsDarkMinDamageModifier = 4,
+	frsDarkMaxDamageModifier = 8,
 
 	range = 32
 }

@@ -47,6 +47,8 @@ HealStatesSelfCommand = {
 	statesToHeal = STUNNED_STATE + DIZZY_STATE + BLINDED_STATE + INTIMIDATED_STATE,
 	healStateCost = 25,
 	defaultTime = 3,
+	frsDarkExtraForceCostModifier = -0.003,
+	frsLightExtraForceCostModifier = -0.003,
 }
 
 AddCommand(HealStatesSelfCommand)

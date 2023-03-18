@@ -49,6 +49,10 @@ HealMindWoundOther2Command = {
 	defaultTime = 6,
 	woundAttributesToHeal = MIND_ATTRIBUTE,
 	range = 32,
+	frsDarkExtraForceCostModifier = -0.003,
+	frsLightExtraForceCostModifier = -0.003,
+	frsLightBuffModifier = 0.35,
+	frsDarkBuffModifier = 0.35,
 }
 
 AddCommand(HealMindWoundOther2Command)

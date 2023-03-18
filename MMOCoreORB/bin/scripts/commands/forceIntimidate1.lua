@@ -71,7 +71,10 @@ ForceIntimidate1Command = {
 
 	poolsToDamage = NO_ATTRIBUTE,
 
-	range = 32
+	range = 32,
+
+	frsDarkExtraForceCostModifier = 0.002,
+	frsLightExtraForceCostModifier = 0.002
 }
 
 AddCommand(ForceIntimidate1Command)

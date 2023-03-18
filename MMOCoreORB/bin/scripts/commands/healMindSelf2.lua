@@ -49,6 +49,10 @@ HealMindSelf2Command = {
 	defaultTime = 6,
 	attributesToHeal = MIND_ATTRIBUTE,
 	range = 0,
+	frsDarkExtraForceCostModifier = -0.003,
+	frsLightExtraForceCostModifier = -0.003,
+	frsLightBuffModifier = 0.35,
+	frsDarkBuffModifier = 0.35,
 }
 
 AddCommand(HealMindSelf2Command)

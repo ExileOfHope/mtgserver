@@ -48,6 +48,8 @@ ForceCurePoisonCommand = {
 	allowedTarget = FORCE_HEAL_TARGET_SELF + FORCE_HEAL_TARGET_OTHER,
 	defaultTime = 2,
 	range = 32,
+	frsDarkExtraForceCostModifier = 0.002,
+	frsLightExtraForceCostModifier = 0.002,
 }
 
 AddCommand(ForceCurePoisonCommand)

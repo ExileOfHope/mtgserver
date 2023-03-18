@@ -48,6 +48,8 @@ HealStatesOtherCommand = {
 	healStateCost = 50,
 	defaultTime = 3,
 	range = 32,
+	frsDarkExtraForceCostModifier = -0.003,
+	frsLightExtraForceCostModifier = -0.003,
 }
 
 AddCommand(HealStatesOtherCommand)

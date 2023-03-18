@@ -48,6 +48,10 @@ HealHealthWoundSelf1Command = {
 	forceCostMultiplier = 0.05,
 	defaultTime = 6,
 	woundAttributesToHeal = HEALTH_ATTRIBUTE,
+	frsDarkExtraForceCostModifier = -0.003,
+	frsLightExtraForceCostModifier = -0.003,
+	frsLightBuffModifier = 0.25,
+	frsDarkBuffModifier = 0.25,
 }
 
 AddCommand(HealHealthWoundSelf1Command)
