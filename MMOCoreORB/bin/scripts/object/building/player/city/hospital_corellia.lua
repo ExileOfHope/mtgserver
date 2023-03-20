@@ -43,7 +43,7 @@
 
 object_building_player_city_hospital_corellia = object_building_player_city_shared_hospital_corellia:new {
 	lotSize = 3,
-	baseMaintenanceRate = 50,
+	baseMaintenanceRate = 0,
 	planetMapCategory = "medicalcenter",
 	allowedZones = {"corellia", "talus"},
 	length = 5,
@@ -52,7 +52,7 @@ object_building_player_city_hospital_corellia = object_building_player_city_shar
 	abilityRequired = "place_hospital",
 	zoneComponent = "StructureZoneComponent",
 	skillMods = {
-		{"private_medical_rating", 100},
+		{"private_medical_rating", 125},
 		{"private_med_wound_health", 100},
 		{"private_med_wound_action", 100},
 		{"private_safe_logout", 1},

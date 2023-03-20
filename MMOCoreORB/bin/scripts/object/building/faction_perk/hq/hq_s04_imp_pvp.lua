@@ -60,11 +60,11 @@ object_building_faction_perk_hq_hq_s04_imp_pvp = object_building_faction_perk_hq
 	factionBaseType = 1,
 
 	skillMods = {
-		{"private_buff_mind", 100},
+		{"private_buff_mind", 125},
 		--{"private_faction_buff_mind", 25},
 		{"private_med_battle_fatigue", 5},
 		--{"private_faction_mind_heal", 10},
-		{"private_medical_rating", 100},
+		{"private_medical_rating", 125},
 		--{"private_faction_medical_rating", 25},
 	},
 

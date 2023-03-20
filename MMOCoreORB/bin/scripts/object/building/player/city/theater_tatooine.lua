@@ -43,7 +43,7 @@
 
 object_building_player_city_theater_tatooine = object_building_player_city_shared_theater_tatooine:new {
 	lotSize = 3,
-	baseMaintenanceRate = 50,
+	baseMaintenanceRate = 0,
 	allowedZones = {"dantooine", "lok", "tatooine"},
 	length = 5,
 	width = 6,
@@ -51,7 +51,7 @@ object_building_player_city_theater_tatooine = object_building_player_city_share
 	planetMapCategory = "theater",
 	abilityRequired = "place_theater",
 	skillMods = {
-		{"private_buff_mind", 100},
+		{"private_buff_mind", 125},
 		{"private_med_battle_fatigue", 5},
 		{"private_safe_logout", 1}
 	},

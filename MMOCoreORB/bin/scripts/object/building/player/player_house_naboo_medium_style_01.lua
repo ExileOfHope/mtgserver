@@ -43,12 +43,12 @@
 
 object_building_player_player_house_naboo_medium_style_01 = object_building_player_shared_player_house_naboo_medium_style_01:new {
 	lotSize = 2,
-	baseMaintenanceRate = 34,
+	baseMaintenanceRate = 0,
 	allowedZones = {"dantooine", "naboo", "rori"},
 	publicStructure = 0,
 	skillMods = {
-		{"private_medical_rating", 100},
-		{"private_buff_mind", 100},
+		{"private_medical_rating", 125},
+		{"private_buff_mind", 125},
 		{"private_med_battle_fatigue", 5},
 		{"private_safe_logout", 1}
 	},

@@ -58,9 +58,9 @@ object_building_faction_perk_hq_hq_s03_rebel = object_building_faction_perk_hq_s
 	factionBaseType = 1,
 
 	skillMods = {
-		{"private_buff_mind", 100},
+		{"private_buff_mind", 125},
 		{"private_med_battle_fatigue", 5},
-		{"private_medical_rating", 100},
+		{"private_medical_rating", 125},
 	},
 
 	childObjects = {

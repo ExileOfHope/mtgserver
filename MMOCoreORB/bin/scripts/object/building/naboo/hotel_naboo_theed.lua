@@ -44,8 +44,9 @@
 object_building_naboo_hotel_naboo_theed = object_building_naboo_shared_hotel_naboo_theed:new {
 	gameObjectType = 523,
 	skillMods = {
-		{"private_buff_mind", 100},
+		{"private_buff_mind", 125},
 		{"private_med_battle_fatigue", 5},
+		{"private_med_wound_action", 100},
 		{"private_safe_logout", 1}
 	},
 	planetMapCategory = "hotel"

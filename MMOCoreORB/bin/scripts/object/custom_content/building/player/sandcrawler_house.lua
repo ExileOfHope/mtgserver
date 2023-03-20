@@ -7,8 +7,8 @@ object_building_player_sandcrawler_house = object_building_player_shared_sandcra
 	length = 4,
 	width = 2,
 		skillMods = {
-		{"private_medical_rating", 100},
-		{"private_buff_mind", 100},
+		{"private_medical_rating", 125},
+		{"private_buff_mind", 125},
 		{"private_med_battle_fatigue", 5},
 		{"private_safe_logout", 1},
 	},

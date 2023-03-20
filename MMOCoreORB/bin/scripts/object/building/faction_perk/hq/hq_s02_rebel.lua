@@ -57,7 +57,7 @@ object_building_faction_perk_hq_hq_s02_rebel = object_building_faction_perk_hq_s
 	factionBaseType = 1,
 
 	skillMods = {
-		{"private_medical_rating", 100},
+		{"private_medical_rating", 125},
 		{"private_med_wound_health", 100},
 		{"private_med_wound_action", 100},
 	},

@@ -43,7 +43,7 @@
 
 object_building_player_city_cantina_tatooine = object_building_player_city_shared_cantina_tatooine:new {
 	lotSize = 5,
-	baseMaintenanceRate = 50,
+	baseMaintenanceRate = 0,
 	allowedZones = {"dantooine", "lok", "tatooine"},
 	length = 7,
 	width = 7,
@@ -52,8 +52,8 @@ object_building_player_city_cantina_tatooine = object_building_player_city_share
 	limitToOnePerCity = 0,
 	abilityRequired = "place_cantina",
 	skillMods = {
-		{"private_buff_mind", 100},
-		{"private_medical_rating", 100},
+		{"private_buff_mind", 125},
+		{"private_medical_rating", 125},
 		{"private_med_battle_fatigue", 5},
 		{"private_safe_logout", 1}
 	},

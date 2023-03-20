@@ -49,9 +49,9 @@ object_building_corellia_ply_corl_house_m_s01_fp1 = object_building_corellia_sha
 
 	skillMods = {
 		{"private_med_wound_mind", 20},
-		{"private_buff_mind", 100},
+		{"private_buff_mind", 125},
 		{"private_med_battle_fatigue", 5},
-		{"private_medical_rating", 100},
+		{"private_medical_rating", 125},
 		{"private_med_wound_health", 100},
 		{"private_med_wound_action", 100},
 		{"private_safe_logout", 1}

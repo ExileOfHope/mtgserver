@@ -54,7 +54,7 @@ object_building_player_city_cityhall_tatooine = object_building_player_city_shar
 	cityMaintenanceRate = 25000,
 	abilityRequired = "place_cityhall",
 	skillMods = {
-		{"private_buff_mind", 100},
+		{"private_buff_mind", 125},
 		{"private_med_battle_fatigue", 5},
 		{"private_safe_logout", 1}
 	},

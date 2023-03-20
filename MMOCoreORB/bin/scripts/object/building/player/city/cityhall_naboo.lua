@@ -54,7 +54,7 @@ object_building_player_city_cityhall_naboo = object_building_player_city_shared_
 	cityMaintenanceBase = 35000,
 	cityMaintenanceRate = 25000,
 	skillMods = {
-		{"private_buff_mind", 100},
+		{"private_buff_mind", 125},
 		{"private_med_battle_fatigue", 5},
 		{"private_safe_logout", 1}
 	},
