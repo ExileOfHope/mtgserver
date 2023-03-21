@@ -532,14 +532,16 @@ void SlicingSessionImplementation::handleWeaponSlice() {
 
 	}
 
-	uint8 percentage = System::random(max - min) + min;
+	uint8 percentage = max;
 
 	switch(System::random(1)) {
 	case 0:
+		handleSliceSpeed(percentage);
 		handleSliceDamage(percentage);
 		break;
 	case 1:
 		handleSliceSpeed(percentage);
+		handleSliceDamage(percentage);
 		break;
 	}
 }
@@ -638,13 +640,15 @@ void SlicingSessionImplementation::handleArmorSlice() {
 		return;
 	}
 
-	uint8 percent = System::random(max - min) + min;
+	uint8 percent = max;
 
 	switch (sliceType) {
 	case 0:
 		handleSliceEffectiveness(percent);
+		handleSliceEncumbrance(percent);
 		break;
 	case 1:
+		handleSliceEffectiveness(percent);
 		handleSliceEncumbrance(percent);
 		break;
 	}

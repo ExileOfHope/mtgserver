@@ -83,7 +83,6 @@ object_tangible_crafting_station_jedi_tool_crit_assembly_20 = object_tangible_cr
 	experimentalMin = {0, 0, 1000, -15},
 	experimentalMax = {0, 0, 1000, 15},
 	experimentalCombineType = {0, 0, 4, 1},
-	experimentalPrecision = {0, 0, 0, 0},
-	experimentalCombineType = {1, 1, 1, 1},
+	experimentalPrecision = {0, 0, 0, 0}
 }
 ObjectTemplates:addTemplate(object_tangible_crafting_station_jedi_tool_crit_assembly_20, "object/tangible/crafting/station/jedi_tool_crit_assembly_20.iff")

@@ -81,7 +81,6 @@ object_tangible_crafting_station_weapon_station = object_tangible_crafting_stati
 	experimentalMax = {0, 0, 1000, 15},
 	experimentalCombineType = {0, 0, 4, 1},
 	experimentalPrecision = {0, 0, 0, 0},
-	experimentalCombineType = {1, 1, 1, 1},
 
 	childObjects = {
 		{ templateFile = "object/tangible/hopper/crafting_station_ingredient_hopper_1.iff", x = 0, z = 0, y = 0, ow = 0, ox = 0, oy = 0, oz = 0, cellid = -1, containmentType = 4 },
