@@ -72,8 +72,6 @@ ForceKnockdown1Command = {
 
 	range = 32,
 
-	frsDarkExtraForceCostModifier = 0.002,
-	frsLightExtraForceCostModifier = 0.002
 }
 
 AddCommand(ForceKnockdown1Command)

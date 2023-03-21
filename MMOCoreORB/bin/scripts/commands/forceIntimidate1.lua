@@ -73,8 +73,6 @@ ForceIntimidate1Command = {
 
 	range = 32,
 
-	frsDarkExtraForceCostModifier = 0.002,
-	frsLightExtraForceCostModifier = 0.002
 }
 
 AddCommand(ForceIntimidate1Command)

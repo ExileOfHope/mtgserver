@@ -60,8 +60,6 @@ ForceWeaken1Command = {
 
 	range = 32,
 	
-	frsDarkExtraForceCostModifier = -0.003,
-	frsLightExtraForceCostModifier = -0.003,
 }
 
 AddCommand(ForceWeaken1Command)
