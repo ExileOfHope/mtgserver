@@ -120,8 +120,6 @@ object_weapon_melee_sword_crafted_saber_sword_lightsaber_s1_training = object_we
 	attackSpeed = 4.8,
 
 	woundsRatio = 6,
-
-	defenderToughnessModifiers = { "lightsaber_toughness" },
 	
 	noTrade = 1,
 

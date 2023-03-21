@@ -101,8 +101,6 @@ object_weapon_melee_polearm_crafted_saber_sword_lightsaber_polearm_gen4_heroic =
 
 	-- Leave blank for now
 	damageModifiers = { },
-	
-	defenderToughnessModifiers = { "lightsaber_toughness" },
 
 
 	-- The values below are the default values.  To be used for blue frog objects primarily

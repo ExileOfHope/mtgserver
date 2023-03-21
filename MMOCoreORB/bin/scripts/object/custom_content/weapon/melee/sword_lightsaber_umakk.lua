@@ -76,7 +76,7 @@ object_weapon_melee_sword_sword_lightsaber_umakk = object_weapon_melee_sword_sha
 	attackType = MELEEATTACK,
 
 	-- ENERGY, KINETIC, ELECTRICITY, STUN, BLAST, HEAT, COLD, ACID, FORCE, LIGHTSABER
-	damageType = KINETIC,
+	damageType = LIGHTSABER,
 
 	-- NONE, LIGHT, MEDIUM, HEAVY
 	armorPiercing = NONE,
@@ -84,23 +84,21 @@ object_weapon_melee_sword_sword_lightsaber_umakk = object_weapon_melee_sword_sha
 	-- combat_rangedspecialize_bactarifle, combat_rangedspecialize_rifle, combat_rangedspecialize_pistol, combat_rangedspecialize_heavy, combat_rangedspecialize_carbine
 	-- combat_meleespecialize_unarmed, combat_meleespecialize_twohand, combat_meleespecialize_polearm, combat_meleespecialize_onehand, combat_general,
 	-- combat_meleespecialize_twohandlightsaber, combat_meleespecialize_polearmlightsaber, combat_meleespecialize_onehandlightsaber
-	xpType = "combat_meleespecialize_onehand",
-
+	xpType = "jedi_general",
+	
 	-- See http://www.ocdsoft.com/files/certifications.xls
-	certificationsRequired = { "cert_sword_01" },
+	certificationsRequired = { "cert_onehandlightsaber_gen4" },
 	-- See http://www.ocdsoft.com/files/accuracy.xls
-	creatureAccuracyModifiers = { "onehandmelee_accuracy" },
+	creatureAccuracyModifiers = { "onehandlightsaber_accuracy" },
 
 	-- See http://www.ocdsoft.com/files/defense.xls
 	defenderDefenseModifiers = { "melee_defense" },
 
 	-- Leave as "dodge" for now, may have additions later
-	defenderSecondaryDefenseModifiers = { "dodge" },
-
-	defenderToughnessModifiers = { "onehandmelee_toughness" },
+	defenderSecondaryDefenseModifiers = { "saber_block" },
 
 	-- See http://www.ocdsoft.com/files/speed.xls
-	speedModifiers = { "onehandmelee_speed" },
+	speedModifiers = { "onehandlightsaber_speed" },
 
 	-- Leave blank for now
 	damageModifiers = { },

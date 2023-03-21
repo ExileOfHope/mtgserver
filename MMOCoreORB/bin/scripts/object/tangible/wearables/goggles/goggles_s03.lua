@@ -42,7 +42,7 @@
 
 
 object_tangible_wearables_goggles_goggles_s03 = object_tangible_wearables_goggles_shared_goggles_s03:new {
-	objectMenuComponent = "ArmorObjectMenuComponent",
+
 	playerRaces = { 	"object/creature/player/smc_female.iff",
 				"object/creature/player/smc_male.iff",
 				"object/creature/player/talz_male.iff",
