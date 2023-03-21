@@ -25,7 +25,6 @@ potbellied_vrobal = Creature:new {
 	creatureBitmask = NONE,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
-	scale = .6,
 
 	templates = {"object/mobile/vrobal.iff"},
 	hues = { 8, 9, 10, 11, 12, 13, 14, 15 },

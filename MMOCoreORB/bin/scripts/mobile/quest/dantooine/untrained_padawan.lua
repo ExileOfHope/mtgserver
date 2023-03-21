@@ -28,7 +28,6 @@ untrained_padawan = Creature:new {
 	diet = HERBIVORE,
 
 	templates = {"object/mobile/dressed_dark_force_crystal_hunter.iff"}, 
-	lootGroups = {},
 	lootGroups = {
 	 {
 	        groups = {

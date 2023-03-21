@@ -7,6 +7,6 @@ function updateObject()
 if (className == "bla") 
 --deleteVariable("varName")
 --changeVariableName("oldName", "newName)
-end
+then end
 
 end

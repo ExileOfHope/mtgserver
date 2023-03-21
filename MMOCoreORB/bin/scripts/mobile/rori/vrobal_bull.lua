@@ -25,7 +25,6 @@ vrobal_bull = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
-	scale = 1.15,
 
 	templates = {"object/mobile/vrobal_bull.iff"},
 	hues = { 16, 17, 18, 19, 20, 21, 22, 23 },

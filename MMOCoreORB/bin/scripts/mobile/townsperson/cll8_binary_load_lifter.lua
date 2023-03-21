@@ -3,7 +3,6 @@ cll8_binary_load_lifter = Creature:new {
 	socialGroup = "townsperson",
 	faction = "townsperson",
 	mobType = MOB_DROID,
-	faction = "",
 	level = 4,
 	chanceHit = 0.24,
 	damageMin = 40,
