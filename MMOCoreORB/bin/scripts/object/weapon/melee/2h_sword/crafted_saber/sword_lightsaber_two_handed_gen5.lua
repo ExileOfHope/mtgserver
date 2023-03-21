@@ -101,9 +101,9 @@ object_weapon_melee_2h_sword_crafted_saber_sword_lightsaber_two_handed_gen5 = ob
 	noTrade = 1,
 	
 	-- The values below are the default values.  To be used for blue frog objects primarily
-	healthAttackCost = 105,
-	actionAttackCost = 50,
-	mindAttackCost = 55,
+	healthAttackCost = 75,
+	actionAttackCost = 55,
+	mindAttackCost = 50,
 	forceCost = 60,
 
 	pointBlankRange = 0,
@@ -115,12 +115,12 @@ object_weapon_melee_2h_sword_crafted_saber_sword_lightsaber_two_handed_gen5 = ob
 	maxRange = 5,
 	maxRangeAccuracy = 5,
 
-	minDamage = 195,
-        maxDamage = 275,
+	minDamage = 205,
+    maxDamage = 350,
 
-	attackSpeed = 4.8,
+	attackSpeed = 4.5,
 
-	woundsRatio = 45,
+	woundsRatio = 63,
 
 }
 
