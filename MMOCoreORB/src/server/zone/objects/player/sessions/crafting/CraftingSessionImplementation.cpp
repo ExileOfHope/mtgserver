@@ -1226,7 +1226,7 @@ void CraftingSessionImplementation::createPrototype(int clientCounter, bool crea
 		closeCraftingWindow(clientCounter, true);
 
 		String xpType = manufactureSchematic->getDraftSchematic()->getXpType();
-		int xp = manufactureSchematic->getDraftSchematic()->getXpAmount();
+		int xp = 2.0 * (manufactureSchematic->getDraftSchematic()->getXpAmount());
 
 		if (createItem) {
 
