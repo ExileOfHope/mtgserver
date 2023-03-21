@@ -108,18 +108,18 @@ object_weapon_ranged_heavy_heavy_lightning_beam = object_weapon_ranged_heavy_sha
 	forceCost = 0,
 
 	pointBlankRange = 0,
-	pointBlankAccuracy = -20,
+	pointBlankAccuracy = -40,
 
-	idealRange = 16,
-	idealAccuracy = -20,
+	idealRange = 32,
+	idealAccuracy = 20,
 
 	maxRange = 64,
-	maxRangeAccuracy = -80,
+	maxRangeAccuracy = -110,
 
-	minDamage = 10,
-	maxDamage = 400,
+	minDamage = 1138,
+	maxDamage = 2475,
 
-	attackSpeed = 6,
+	attackSpeed = 7.5,
 
 	woundsRatio = 18,
 

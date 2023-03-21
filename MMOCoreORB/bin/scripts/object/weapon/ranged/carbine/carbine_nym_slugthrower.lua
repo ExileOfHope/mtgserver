@@ -72,7 +72,7 @@ object_weapon_ranged_carbine_carbine_nym_slugthrower = object_weapon_ranged_carb
 	damageType = ACID,
 
 	-- NONE, LIGHT, MEDIUM, HEAVY
-	armorPiercing = LIGHT,
+	armorPiercing = HEAVY,
 
 	-- combat_rangedspecialize_bactarifle, combat_rangedspecialize_rifle, combat_rangedspecialize_pistol, combat_rangedspecialize_heavy, combat_rangedspecialize_carbine
 	-- combat_meleespecialize_unarmed, combat_meleespecialize_twohand, combat_meleespecialize_polearm, combat_meleespecialize_onehand, combat_general,
@@ -100,26 +100,26 @@ object_weapon_ranged_carbine_carbine_nym_slugthrower = object_weapon_ranged_carb
 	
 
 	-- The values below are the default values.  To be used for blue frog objects primarily
-	healthAttackCost = 36,
-	actionAttackCost = 62,
-	mindAttackCost = 32,
+	healthAttackCost = 18,
+	actionAttackCost = 28,
+	mindAttackCost = 14,
 	forceCost = 0,
 
-	pointBlankAccuracy = -10,
+	pointBlankAccuracy = -35,
 	pointBlankRange = 0,
 
-	idealRange = 28,
-	idealAccuracy = 0,
+	idealRange = 40,
+	idealAccuracy = 15,
 
 	maxRange = 64,
-	maxRangeAccuracy = -60,
+	maxRangeAccuracy = -50,
 
-	minDamage = 103,
-	maxDamage = 207,
+	minDamage = 150,
+	maxDamage = 375,
 	
 	woundsRatio = 16,
 
-	attackSpeed = 4.0
+	attackSpeed = 3.7
 }
 
 ObjectTemplates:addTemplate(object_weapon_ranged_carbine_carbine_nym_slugthrower, "object/weapon/ranged/carbine/carbine_nym_slugthrower.iff")
