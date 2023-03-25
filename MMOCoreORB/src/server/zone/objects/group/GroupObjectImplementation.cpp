@@ -420,10 +420,10 @@ void GroupObjectImplementation::calcGroupLevel() {
 				ManagedReference<PetControlDevice*> pcd = member->getControlDevice().get().castTo<PetControlDevice*>();
 
 				if (pcd != nullptr && pcd->getPetType() == PetManager::FACTIONPET) {
-					factionPetLevel += member->getLevel() / 5;
+					factionPetLevel += member->getLevel() / 2.5;
 				}
 
-				groupLevel += member->getLevel() / 5;
+				groupLevel += member->getLevel() / 2.5;
 		} else if (member->isPlayerCreature()) {
 			int memberLevel = member->getLevel();
 
@@ -431,7 +431,7 @@ void GroupObjectImplementation::calcGroupLevel() {
 				groupLevel += (memberLevel - highestPlayer + (highestPlayer / 5));
 				highestPlayer = memberLevel;
 			} else {
-				groupLevel += memberLevel / 5;
+				groupLevel += memberLevel / 2.5;
 			}
 		}
 	}
