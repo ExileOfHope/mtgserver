@@ -54,7 +54,7 @@ object_draft_schematic_armor_armor_segment_bone_acklay = object_draft_schematic_
 	factoryCrateType = "object/factory/factory_crate_armor.iff",
 
 	xpType = "crafting_clothing_armor",
-	xp = 190,
+	xp = 1190,
 
 	assemblySkill = "armor_assembly",
 	experimentingSkill = "armor_experimentation",

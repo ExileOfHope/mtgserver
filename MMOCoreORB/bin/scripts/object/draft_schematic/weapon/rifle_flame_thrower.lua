@@ -53,7 +53,7 @@ object_draft_schematic_weapon_rifle_flame_thrower = object_draft_schematic_weapo
    factoryCrateType = "object/factory/factory_crate_weapon.iff",
    
    xpType = "crafting_weapons_general", 
-   xp = 456, 
+   xp = 1456, 
 
    assemblySkill = "weapon_assembly", 
    experimentingSkill = "weapon_experimentation", 

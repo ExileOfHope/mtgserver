@@ -53,7 +53,7 @@ object_draft_schematic_weapon_component_blaster_power_handler = object_draft_sch
    factoryCrateType = "object/factory/factory_crate_weapon.iff",
    
    xpType = "crafting_weapons_general", 
-   xp = 50, 
+   xp = 150, 
 
    assemblySkill = "weapon_assembly", 
    experimentingSkill = "weapon_experimentation", 

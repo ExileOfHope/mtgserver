@@ -53,7 +53,7 @@ object_draft_schematic_weapon_component_reinforcement_core = object_draft_schema
    factoryCrateType = "object/factory/factory_crate_weapon.iff",
    
    xpType = "crafting_weapons_general", 
-   xp = 25, 
+   xp = 125, 
 
    assemblySkill = "weapon_assembly", 
    experimentingSkill = "weapon_experimentation", 

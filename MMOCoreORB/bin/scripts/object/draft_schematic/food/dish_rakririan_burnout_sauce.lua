@@ -53,7 +53,7 @@ object_draft_schematic_food_dish_rakririan_burnout_sauce = object_draft_schemati
    factoryCrateType = "object/factory/factory_crate_food.iff",
    
    xpType = "crafting_food_general", 
-   xp = 280, 
+   xp = 1280, 
 
    assemblySkill = "food_assembly", 
    experimentingSkill = "food_experimentation", 

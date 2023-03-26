@@ -53,7 +53,7 @@ object_draft_schematic_weapon_component_blade_vibro_unit_advanced = object_draft
    factoryCrateType = "object/factory/factory_crate_weapon.iff",
    
    xpType = "crafting_weapons_general", 
-   xp = 70, 
+   xp = 170, 
 
    assemblySkill = "weapon_assembly", 
    experimentingSkill = "weapon_experimentation", 

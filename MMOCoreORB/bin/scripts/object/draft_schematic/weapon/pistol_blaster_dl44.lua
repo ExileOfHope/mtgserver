@@ -53,7 +53,7 @@ object_draft_schematic_weapon_pistol_blaster_dl44 = object_draft_schematic_weapo
    factoryCrateType = "object/factory/factory_crate_weapon.iff",
    
    xpType = "crafting_weapons_general", 
-   xp = 65, 
+   xp = 165, 
 
    assemblySkill = "weapon_assembly", 
    experimentingSkill = "weapon_experimentation", 

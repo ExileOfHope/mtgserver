@@ -53,7 +53,7 @@ object_draft_schematic_weapon_rifle_light_blaster_imperial_scout_carbine = objec
    factoryCrateType = "object/factory/factory_crate_weapon.iff",
    
    xpType = "crafting_weapons_general", 
-   xp = 205, 
+   xp = 1205, 
 
    assemblySkill = "weapon_assembly", 
    experimentingSkill = "weapon_experimentation", 

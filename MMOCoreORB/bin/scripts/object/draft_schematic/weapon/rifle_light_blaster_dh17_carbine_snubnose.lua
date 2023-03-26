@@ -53,7 +53,7 @@ object_draft_schematic_weapon_rifle_light_blaster_dh17_carbine_snubnose = object
    factoryCrateType = "object/factory/factory_crate_weapon.iff",
    
    xpType = "crafting_weapons_general",
-   xp = 105,
+   xp = 1105,
 
    assemblySkill = "weapon_assembly",
    experimentingSkill = "weapon_experimentation",

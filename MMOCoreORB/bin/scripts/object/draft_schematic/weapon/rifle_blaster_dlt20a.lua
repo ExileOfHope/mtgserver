@@ -53,7 +53,7 @@ object_draft_schematic_weapon_rifle_blaster_dlt20a = object_draft_schematic_weap
    factoryCrateType = "object/factory/factory_crate_weapon.iff",
    
    xpType = "crafting_weapons_general", 
-   xp = 120, 
+   xp = 1120, 
 
    assemblySkill = "weapon_assembly", 
    experimentingSkill = "weapon_experimentation", 

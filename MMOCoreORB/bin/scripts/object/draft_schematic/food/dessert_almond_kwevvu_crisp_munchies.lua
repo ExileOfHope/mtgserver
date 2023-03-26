@@ -53,7 +53,7 @@ object_draft_schematic_food_dessert_almond_kwevvu_crisp_munchies = object_draft_
    factoryCrateType = "object/factory/factory_crate_food.iff",
    
    xpType = "crafting_food_general", 
-   xp = 40, 
+   xp = 140, 
 
    assemblySkill = "food_assembly", 
    experimentingSkill = "food_experimentation", 

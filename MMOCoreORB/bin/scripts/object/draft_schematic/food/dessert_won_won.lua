@@ -53,7 +53,7 @@ object_draft_schematic_food_dessert_won_won = object_draft_schematic_food_shared
    factoryCrateType = "object/factory/factory_crate_food.iff",
    
    xpType = "crafting_food_general", 
-   xp = 120, 
+   xp = 1120, 
 
    assemblySkill = "food_assembly", 
    experimentingSkill = "food_experimentation", 

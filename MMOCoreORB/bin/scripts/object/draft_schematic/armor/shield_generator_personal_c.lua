@@ -54,7 +54,7 @@ object_draft_schematic_armor_shield_generator_personal_c = object_draft_schemati
 	factoryCrateType = "object/factory/factory_crate_armor.iff",
 
 	xpType = "crafting_clothing_armor",
-	xp = 280,
+	xp = 1280,
 
 	assemblySkill = "armor_assembly",
 	experimentingSkill = "armor_experimentation",

@@ -53,7 +53,7 @@ object_draft_schematic_food_drink_corellian_brandy = object_draft_schematic_food
    factoryCrateType = "object/factory/factory_crate_food.iff",
    
    xpType = "crafting_food_general", 
-   xp = 160, 
+   xp = 1160, 
 
    assemblySkill = "food_assembly", 
    experimentingSkill = "food_experimentation", 

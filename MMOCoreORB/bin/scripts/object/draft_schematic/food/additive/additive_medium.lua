@@ -53,7 +53,7 @@ object_draft_schematic_food_additive_additive_medium = object_draft_schematic_fo
    factoryCrateType = "object/factory/factory_crate_food.iff",
    
    xpType = "crafting_food_general", 
-   xp = 60, 
+   xp = 160, 
 
    assemblySkill = "food_assembly", 
    experimentingSkill = "food_experimentation", 

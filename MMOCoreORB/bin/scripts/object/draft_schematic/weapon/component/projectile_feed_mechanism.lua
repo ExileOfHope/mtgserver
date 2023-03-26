@@ -53,7 +53,7 @@ object_draft_schematic_weapon_component_projectile_feed_mechanism = object_draft
    factoryCrateType = "object/factory/factory_crate_weapon.iff",
    
    xpType = "crafting_weapons_general", 
-   xp = 35, 
+   xp = 135, 
 
    assemblySkill = "weapon_assembly", 
    experimentingSkill = "weapon_experimentation", 

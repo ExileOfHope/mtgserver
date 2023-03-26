@@ -53,7 +53,7 @@ object_draft_schematic_weapon_pistol_geo_sonic_blaster = object_draft_schematic_
    factoryCrateType = "object/factory/factory_crate_weapon.iff",
    
    xpType = "crafting_weapons_general", 
-   xp = 350, 
+   xp = 1350, 
 
    assemblySkill = "weapon_assembly", 
    experimentingSkill = "weapon_experimentation", 

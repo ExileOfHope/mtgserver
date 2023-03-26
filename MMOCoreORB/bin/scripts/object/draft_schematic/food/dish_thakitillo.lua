@@ -53,7 +53,7 @@ object_draft_schematic_food_dish_thakitillo = object_draft_schematic_food_shared
    factoryCrateType = "object/factory/factory_crate_food.iff",
    
    xpType = "crafting_food_general", 
-   xp = 350, 
+   xp = 1350, 
 
    assemblySkill = "food_assembly", 
    experimentingSkill = "food_experimentation", 

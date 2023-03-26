@@ -53,7 +53,7 @@ object_draft_schematic_weapon_maul = object_draft_schematic_weapon_shared_maul:n
    factoryCrateType = "object/factory/factory_crate_weapon.iff",
    
    xpType = "crafting_weapons_general", 
-   xp = 280, 
+   xp = 1280, 
 
    assemblySkill = "weapon_assembly", 
    experimentingSkill = "weapon_experimentation", 

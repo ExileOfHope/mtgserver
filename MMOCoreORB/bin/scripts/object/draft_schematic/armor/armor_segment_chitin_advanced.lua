@@ -54,7 +54,7 @@ object_draft_schematic_armor_armor_segment_chitin_advanced = object_draft_schema
 	factoryCrateType = "object/factory/factory_crate_armor.iff",
 
 	xpType = "crafting_clothing_armor",
-	xp = 40,
+	xp = 140,
 
 	assemblySkill = "armor_assembly",
 	experimentingSkill = "armor_experimentation",

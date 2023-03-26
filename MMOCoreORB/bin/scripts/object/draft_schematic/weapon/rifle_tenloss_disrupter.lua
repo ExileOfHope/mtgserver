@@ -53,7 +53,7 @@ object_draft_schematic_weapon_rifle_tenloss_disrupter = object_draft_schematic_w
    factoryCrateType = "object/factory/factory_crate_weapon.iff",
    
    xpType = "crafting_weapons_general", 
-   xp = 150, 
+   xp = 1150, 
 
    assemblySkill = "weapon_assembly", 
    experimentingSkill = "weapon_experimentation", 

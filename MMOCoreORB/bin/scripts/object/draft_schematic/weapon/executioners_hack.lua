@@ -53,7 +53,7 @@ object_draft_schematic_weapon_executioners_hack = object_draft_schematic_weapon_
    factoryCrateType = "object/factory/factory_crate_weapon.iff",
    
    xpType = "crafting_weapons_general", 
-   xp = 250, 
+   xp = 1250, 
 
    assemblySkill = "weapon_assembly", 
    experimentingSkill = "weapon_experimentation", 

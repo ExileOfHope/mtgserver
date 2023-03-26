@@ -53,7 +53,7 @@ object_draft_schematic_weapon_rifle_blaster_ionization_jawa = object_draft_schem
    factoryCrateType = "object/factory/factory_crate_weapon.iff",
    
    xpType = "crafting_weapons_general", 
-   xp = 230, 
+   xp = 1230, 
 
    assemblySkill = "weapon_assembly", 
    experimentingSkill = "weapon_experimentation", 

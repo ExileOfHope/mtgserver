@@ -53,7 +53,7 @@ object_draft_schematic_weapon_poleaxe_vibro = object_draft_schematic_weapon_shar
    factoryCrateType = "object/factory/factory_crate_weapon.iff",
    
    xpType = "crafting_weapons_general", 
-   xp = 220, 
+   xp = 1220, 
 
    assemblySkill = "weapon_assembly", 
    experimentingSkill = "weapon_experimentation", 

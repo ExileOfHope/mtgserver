@@ -53,7 +53,7 @@ object_draft_schematic_food_drink_ithorian_mist = object_draft_schematic_food_sh
    factoryCrateType = "object/factory/factory_crate_food.iff",
 
    xpType = "crafting_food_general", 
-   xp = 240, 
+   xp = 1240, 
 
    assemblySkill = "food_assembly", 
    experimentingSkill = "food_experimentation", 

@@ -54,7 +54,7 @@ object_draft_schematic_armor_component_deflector_shield_generator_energy_ray = o
 	factoryCrateType = "object/factory/factory_crate_armor.iff",
 
 	xpType = "crafting_clothing_armor",
-	xp = 80,
+	xp = 180,
 
 	assemblySkill = "armor_assembly",
 	experimentingSkill = "armor_experimentation",

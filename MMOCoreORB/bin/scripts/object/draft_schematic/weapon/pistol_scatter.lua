@@ -53,7 +53,7 @@ object_draft_schematic_weapon_pistol_scatter = object_draft_schematic_weapon_sha
    factoryCrateType = "object/factory/factory_crate_weapon.iff",
    
    xpType = "crafting_weapons_general", 
-   xp = 134, 
+   xp = 1134, 
 
    assemblySkill = "weapon_assembly", 
    experimentingSkill = "weapon_experimentation", 

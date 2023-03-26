@@ -53,7 +53,7 @@ object_draft_schematic_weapon_component_projectile_pistol_barrel = object_draft_
    factoryCrateType = "object/factory/factory_crate_weapon.iff",
    
    xpType = "crafting_weapons_general", 
-   xp = 50, 
+   xp = 150, 
 
    assemblySkill = "weapon_assembly", 
    experimentingSkill = "weapon_experimentation", 

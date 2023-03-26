@@ -53,7 +53,7 @@ object_draft_schematic_weapon_lance_vibro = object_draft_schematic_weapon_shared
    factoryCrateType = "object/factory/factory_crate_weapon.iff",
    
    xpType = "crafting_weapons_general", 
-   xp = 130, 
+   xp = 1130, 
 
    assemblySkill = "weapon_assembly", 
    experimentingSkill = "weapon_experimentation", 

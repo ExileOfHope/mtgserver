@@ -53,7 +53,7 @@ object_draft_schematic_weapon_pistol_republic_blaster = object_draft_schematic_w
    factoryCrateType = "object/factory/factory_crate_weapon.iff",
    
    xpType = "crafting_weapons_general", 
-   xp = 105, 
+   xp = 1105, 
 
    assemblySkill = "weapon_assembly", 
    experimentingSkill = "weapon_experimentation", 

@@ -54,7 +54,7 @@ object_draft_schematic_armor_armor_segment_zam_advanced = object_draft_schematic
 	factoryCrateType = "object/factory/factory_crate_armor.iff",
 
 	xpType = "crafting_clothing_armor",
-	xp = 35,
+	xp = 135,
 
 	assemblySkill = "armor_assembly",
 	experimentingSkill = "armor_experimentation",

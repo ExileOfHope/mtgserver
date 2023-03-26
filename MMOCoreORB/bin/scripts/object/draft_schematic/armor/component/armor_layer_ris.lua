@@ -54,7 +54,7 @@ object_draft_schematic_armor_component_armor_layer_ris = object_draft_schematic_
 	factoryCrateType = "object/factory/factory_crate_armor.iff",
 
 	xpType = "crafting_clothing_armor",
-	xp = 120,
+	xp = 1120,
 
 	assemblySkill = "armor_assembly",
 	experimentingSkill = "armor_experimentation",

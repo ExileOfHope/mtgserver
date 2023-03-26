@@ -53,7 +53,7 @@ object_draft_schematic_food_dessert_kiwik_clusjo_swirl = object_draft_schematic_
    factoryCrateType = "object/factory/factory_crate_food.iff",
    
    xpType = "crafting_food_general", 
-   xp = 260, 
+   xp = 1260, 
 
    assemblySkill = "food_assembly", 
    experimentingSkill = "food_experimentation", 

@@ -53,7 +53,7 @@ object_draft_schematic_food_dish_blood_chowder = object_draft_schematic_food_sha
    factoryCrateType = "object/factory/factory_crate_food.iff",
    
    xpType = "crafting_food_general", 
-   xp = 120, 
+   xp = 1120, 
 
    assemblySkill = "food_assembly", 
    experimentingSkill = "food_experimentation", 

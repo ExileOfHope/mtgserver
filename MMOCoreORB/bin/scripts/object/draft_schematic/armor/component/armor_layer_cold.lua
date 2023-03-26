@@ -54,7 +54,7 @@ object_draft_schematic_armor_component_armor_layer_cold = object_draft_schematic
 	factoryCrateType = "object/factory/factory_crate_generic_items.iff",
 
 	xpType = "crafting_clothing_armor",
-	xp = 110,
+	xp = 1110,
 
 	assemblySkill = "armor_assembly",
 	experimentingSkill = "armor_experimentation",

@@ -53,7 +53,7 @@ object_draft_schematic_weapon_knife_vibroblade = object_draft_schematic_weapon_s
    factoryCrateType = "object/factory/factory_crate_weapon.iff",
    
    xpType = "crafting_weapons_general", 
-   xp = 80, 
+   xp = 180, 
 
    assemblySkill = "weapon_assembly", 
    experimentingSkill = "weapon_experimentation", 

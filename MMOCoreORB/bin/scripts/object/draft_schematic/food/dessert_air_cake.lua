@@ -53,7 +53,7 @@ object_draft_schematic_food_dessert_air_cake = object_draft_schematic_food_share
    factoryCrateType = "object/factory/factory_crate_food.iff",
    
    xpType = "crafting_food_general", 
-   xp = 80, 
+   xp = 180, 
 
    assemblySkill = "food_assembly", 
    experimentingSkill = "food_experimentation", 

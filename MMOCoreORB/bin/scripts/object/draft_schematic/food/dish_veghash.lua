@@ -53,7 +53,7 @@ object_draft_schematic_food_dish_veghash = object_draft_schematic_food_shared_di
    factoryCrateType = "object/factory/factory_crate_food.iff",
    
    xpType = "crafting_food_general", 
-   xp = 100, 
+   xp = 1100, 
 
    assemblySkill = "food_assembly", 
    experimentingSkill = "food_experimentation", 

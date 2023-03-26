@@ -53,7 +53,7 @@ object_draft_schematic_weapon_pistol_disrupter_dx2 = object_draft_schematic_weap
    factoryCrateType = "object/factory/factory_crate_weapon.iff",
    
    xpType = "crafting_weapons_general", 
-   xp = 160, 
+   xp = 1160, 
 
    assemblySkill = "weapon_assembly", 
    experimentingSkill = "weapon_experimentation", 

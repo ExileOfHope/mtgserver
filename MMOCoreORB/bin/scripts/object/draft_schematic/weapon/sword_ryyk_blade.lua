@@ -53,7 +53,7 @@ object_draft_schematic_weapon_sword_ryyk_blade = object_draft_schematic_weapon_s
    factoryCrateType = "object/factory/factory_crate_weapon.iff",
    
    xpType = "crafting_weapons_general", 
-   xp = 110, 
+   xp = 1110, 
 
    assemblySkill = "weapon_assembly", 
    experimentingSkill = "weapon_experimentation", 

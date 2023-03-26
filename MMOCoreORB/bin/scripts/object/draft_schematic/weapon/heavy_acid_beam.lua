@@ -53,7 +53,7 @@ object_draft_schematic_weapon_heavy_acid_beam = object_draft_schematic_weapon_sh
    factoryCrateType = "object/factory/factory_crate_weapon.iff",
    
    xpType = "crafting_weapons_general", 
-   xp = 550, 
+   xp = 1550, 
 
    assemblySkill = "weapon_assembly", 
    experimentingSkill = "weapon_experimentation", 

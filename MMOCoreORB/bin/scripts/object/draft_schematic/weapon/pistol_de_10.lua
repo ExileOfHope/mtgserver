@@ -53,7 +53,7 @@ object_draft_schematic_weapon_pistol_de_10 = object_draft_schematic_weapon_share
    factoryCrateType = "object/factory/factory_crate_weapon.iff",
    
    xpType = "crafting_weapons_general", 
-   xp = 360, 
+   xp = 1360, 
 
    assemblySkill = "weapon_assembly", 
    experimentingSkill = "weapon_experimentation", 

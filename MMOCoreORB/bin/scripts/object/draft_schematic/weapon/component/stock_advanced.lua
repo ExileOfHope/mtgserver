@@ -53,7 +53,7 @@ object_draft_schematic_weapon_component_stock_advanced = object_draft_schematic_
    factoryCrateType = "object/factory/factory_crate_weapon.iff",
    
    xpType = "crafting_weapons_general", 
-   xp = 40, 
+   xp = 140, 
 
    assemblySkill = "weapon_assembly", 
    experimentingSkill = "weapon_experimentation", 

@@ -53,7 +53,7 @@ object_draft_schematic_weapon_rifle_blaster_laser_rifle = object_draft_schematic
    factoryCrateType = "object/factory/factory_crate_weapon.iff",
    
    xpType = "crafting_weapons_general", 
-   xp = 230, 
+   xp = 1230, 
 
    assemblySkill = "weapon_assembly", 
    experimentingSkill = "weapon_experimentation", 

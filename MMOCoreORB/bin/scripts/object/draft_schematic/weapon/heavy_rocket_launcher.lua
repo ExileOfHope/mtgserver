@@ -53,7 +53,7 @@ object_draft_schematic_weapon_heavy_rocket_launcher = object_draft_schematic_wea
    factoryCrateType = "object/factory/factory_crate_weapon.iff",
    
    xpType = "crafting_weapons_general", 
-   xp = 770, 
+   xp = 1770, 
 
    assemblySkill = "weapon_assembly", 
    experimentingSkill = "weapon_experimentation", 

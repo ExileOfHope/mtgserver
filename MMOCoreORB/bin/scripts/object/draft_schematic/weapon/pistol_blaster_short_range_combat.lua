@@ -53,7 +53,7 @@ object_draft_schematic_weapon_pistol_blaster_short_range_combat = object_draft_s
    factoryCrateType = "object/factory/factory_crate_weapon.iff",
    
    xpType = "crafting_weapons_general", 
-   xp = 150, 
+   xp = 1150, 
 
    assemblySkill = "weapon_assembly", 
    experimentingSkill = "weapon_experimentation", 

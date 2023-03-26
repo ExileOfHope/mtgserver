@@ -53,7 +53,7 @@ object_draft_schematic_weapon_pistol_blaster_scout_trooper = object_draft_schema
    factoryCrateType = "object/factory/factory_crate_weapon.iff",
    
    xpType = "crafting_weapons_general", 
-   xp = 60, 
+   xp = 160, 
 
    assemblySkill = "weapon_assembly", 
    experimentingSkill = "weapon_experimentation", 

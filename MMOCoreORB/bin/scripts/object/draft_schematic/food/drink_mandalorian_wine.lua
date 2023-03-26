@@ -53,7 +53,7 @@ object_draft_schematic_food_drink_mandalorian_wine = object_draft_schematic_food
    factoryCrateType = "object/factory/factory_crate_food.iff",
    
    xpType = "crafting_food_general", 
-   xp = 120, 
+   xp = 1120, 
 
    assemblySkill = "food_assembly", 
    experimentingSkill = "food_experimentation", 

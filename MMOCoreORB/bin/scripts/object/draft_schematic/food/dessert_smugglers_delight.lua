@@ -53,7 +53,7 @@ object_draft_schematic_food_dessert_smugglers_delight = object_draft_schematic_f
    factoryCrateType = "object/factory/factory_crate_food.iff",
    
    xpType = "crafting_food_general", 
-   xp = 160, 
+   xp = 1160, 
 
    assemblySkill = "food_assembly", 
    experimentingSkill = "food_experimentation", 

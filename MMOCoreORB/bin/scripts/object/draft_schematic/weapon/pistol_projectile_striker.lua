@@ -53,7 +53,7 @@ object_draft_schematic_weapon_pistol_projectile_striker = object_draft_schematic
    factoryCrateType = "object/factory/factory_crate_weapon.iff",
    
    xpType = "crafting_weapons_general", 
-   xp = 100, 
+   xp = 1100, 
 
    assemblySkill = "weapon_assembly", 
    experimentingSkill = "weapon_experimentation", 

@@ -53,7 +53,7 @@ object_draft_schematic_weapon_component_sword_core = object_draft_schematic_weap
    factoryCrateType = "object/factory/factory_crate_weapon.iff",
    
    xpType = "crafting_weapons_general", 
-   xp = 25, 
+   xp = 125, 
 
    assemblySkill = "weapon_assembly", 
    experimentingSkill = "weapon_experimentation", 

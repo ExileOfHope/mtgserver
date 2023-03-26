@@ -53,7 +53,7 @@ object_draft_schematic_weapon_razor_knuckler = object_draft_schematic_weapon_sha
    factoryCrateType = "object/factory/factory_crate_weapon.iff",
    
    xpType = "crafting_weapons_general", 
-   xp = 250, 
+   xp = 1250, 
 
    assemblySkill = "weapon_assembly", 
    experimentingSkill = "weapon_experimentation", 

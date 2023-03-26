@@ -53,7 +53,7 @@ object_draft_schematic_food_dish_synthsteak = object_draft_schematic_food_shared
    factoryCrateType = "object/factory/factory_crate_food.iff",
    
    xpType = "crafting_food_general", 
-   xp = 180, 
+   xp = 1180, 
 
    assemblySkill = "food_assembly", 
    experimentingSkill = "food_experimentation", 

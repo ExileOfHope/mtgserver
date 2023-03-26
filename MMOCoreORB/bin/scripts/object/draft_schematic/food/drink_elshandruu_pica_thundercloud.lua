@@ -53,7 +53,7 @@ object_draft_schematic_food_drink_elshandruu_pica_thundercloud = object_draft_sc
    factoryCrateType = "object/factory/factory_crate_food.iff",
    
    xpType = "crafting_food_general", 
-   xp = 280, 
+   xp = 1280, 
 
    assemblySkill = "food_assembly", 
    experimentingSkill = "food_experimentation", 

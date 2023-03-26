@@ -53,7 +53,7 @@ object_draft_schematic_food_dessert_chandad = object_draft_schematic_food_shared
    factoryCrateType = "object/factory/factory_crate_food.iff",
    
    xpType = "crafting_food_general", 
-   xp = 140, 
+   xp = 1140, 
 
    assemblySkill = "food_assembly", 
    experimentingSkill = "food_experimentation", 

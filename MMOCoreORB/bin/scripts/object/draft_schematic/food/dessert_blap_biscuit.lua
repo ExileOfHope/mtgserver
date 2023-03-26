@@ -53,7 +53,7 @@ object_draft_schematic_food_dessert_blap_biscuit = object_draft_schematic_food_s
    factoryCrateType = "object/factory/factory_crate_food.iff",
    
    xpType = "crafting_food_general", 
-   xp = 55, 
+   xp = 155, 
 
    assemblySkill = "food_assembly", 
    experimentingSkill = "food_experimentation", 
