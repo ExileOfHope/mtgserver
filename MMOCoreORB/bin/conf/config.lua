@@ -150,6 +150,7 @@ Core3 = {
 	TrePath = "/home/swgemu/workspace/tre",
 
 	TreFiles = {
+		"speeder_skills.tre",
 		"mtg_patch_023.tre",
 		"mtg_patch_022.tre",
 		"mtg_planets.tre",
