@@ -89,7 +89,8 @@ class CraftingStation extends ToolTangibleObject {
 	@preLocked
 	public native void createChildObjects();
 
-	public void setEffectiveness(float newValue) {
-		effectiveness = newValue;
+	@dirty
+	public float getEffectiveness() {
+		return effectiveness;
 	}
 }

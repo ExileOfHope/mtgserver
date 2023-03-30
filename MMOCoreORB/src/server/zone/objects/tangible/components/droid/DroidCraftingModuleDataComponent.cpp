@@ -134,7 +134,7 @@ void DroidCraftingModuleDataComponent::onCall() {
 	if (craftingStation == nullptr) {
 		String stationTemplate = moduleTemplate->getCraftingStationTemplate();
 		craftingStation = (craftedModule->getZoneServer()->createObject(stationTemplate.hashCode(), 0)).castTo<CraftingStation*>();
-		craftingStation->setEffectiveness(25);
+		craftingStation->getEffectiveness();
 	}
 }
 

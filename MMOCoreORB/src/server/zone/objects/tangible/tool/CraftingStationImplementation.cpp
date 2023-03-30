@@ -133,7 +133,7 @@ int CraftingStationImplementation::handleObjectMenuSelect(CreatureObject* player
 void CraftingStationImplementation::fillAttributeList(AttributeListMessage* alm, CreatureObject* object) {
 	TangibleObjectImplementation::fillAttributeList(alm, object);
 
-	alm->insertAttribute("stationmod", Math::getPrecision(effectiveness, 2));
+	alm->insertAttribute("craft_tool_effectiveness", Math::getPrecision(effectiveness, 2));
 }
 
 void CraftingStationImplementation::sendInputHopper(CreatureObject* player) {
@@ -181,4 +181,6 @@ void CraftingStationImplementation::updateCraftingValues(CraftingValues* values,
 	/// useModifer is the effectiveness
 
 	effectiveness = values->getCurrentValue("usemodifier");
+
+	//craftingValues->toString();
 }
