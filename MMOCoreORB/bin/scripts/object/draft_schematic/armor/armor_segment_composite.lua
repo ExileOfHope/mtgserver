@@ -54,7 +54,7 @@ object_draft_schematic_armor_armor_segment_composite = object_draft_schematic_ar
 	factoryCrateType = "object/factory/factory_crate_armor.iff",
 
 	xpType = "crafting_clothing_armor",
-	xp = 135,
+	xp = 220,
 
 	assemblySkill = "armor_assembly",
 	experimentingSkill = "armor_experimentation",
