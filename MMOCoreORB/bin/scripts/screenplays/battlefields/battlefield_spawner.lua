@@ -5,7 +5,7 @@ BattlefieldSpawner = ScreenPlay:new {
 
 	planets = {"corellia", "naboo", "tatooine", "dathomir", "yavin4", "talus", "rori", "endor"},
 
-	noBuildRadius = 768,
+	noBuildRadius = 128,
 
 	battlefields = {
 		--{objecTemplate, x, z, y, size}
