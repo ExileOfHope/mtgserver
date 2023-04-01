@@ -53,7 +53,7 @@ object_draft_schematic_bio_engineer_bio_component_bio_component_food_heavy_filli
    factoryCrateTypeateTypeateTypeateTypeateTypeateType = "object/factory/factory_crate_chemicals.iff",
 
    xpType = "crafting_bio_engineer_creature", 
-   xp = 240, 
+   xp = 1240, 
 
    assemblySkill = "bio_engineer_assembly", 
    experimentingSkill = "bio_engineer_experimentation", 

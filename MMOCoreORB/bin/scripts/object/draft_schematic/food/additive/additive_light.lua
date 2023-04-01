@@ -63,12 +63,12 @@ object_draft_schematic_food_additive_additive_light = object_draft_schematic_foo
    customizationStringNames = {},
    customizationDefaults = {},
 
-   ingredientTemplateNames = {"craft_food_ingredients_n", "craft_food_ingredients_n"},
-   ingredientTitleNames = {"suspension_agent", "bio_component"},
-   ingredientSlotType = {0, 1},
-   resourceTypes = {"water", "object/tangible/component/bio/shared_bio_component_food_light.iff"},
-   resourceQuantities = {10, 1},
-   contribution = {100, 100},
+   ingredientTemplateNames = {"craft_food_ingredients_n", "craft_food_ingredients_n", "craft_food_ingredients_n", "craft_food_ingredients_n"},
+   ingredientTitleNames = {"suspension_agent", "bio_component", "bio_component", "bio_component"},
+   ingredientSlotType = {0, 1, 1 ,1},
+   resourceTypes = {"water", "object/tangible/component/bio/shared_bio_component_food_light.iff", "object/tangible/component/bio/shared_bio_component_food_light.iff", "object/tangible/component/bio/shared_bio_component_food_light.iff"},
+   resourceQuantities = {10, 1, 1, 1},
+   contribution = {100, 100, 100, 100,},
 
 
    targetTemplate = "object/tangible/food/crafted/additive/additive_light.iff",

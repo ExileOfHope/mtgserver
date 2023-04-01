@@ -53,7 +53,7 @@ object_draft_schematic_bio_engineer_bio_component_bio_component_clothing_field_d
    factoryCrateTypeateTypeateTypeateType = "object/factory/factory_crate_chemicals.iff",
 
    xpType = "crafting_bio_engineer_creature", 
-   xp = 140, 
+   xp = 1140, 
 
    assemblySkill = "bio_engineer_assembly", 
    experimentingSkill = "bio_engineer_experimentation", 

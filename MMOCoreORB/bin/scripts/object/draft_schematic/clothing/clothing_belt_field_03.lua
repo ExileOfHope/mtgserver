@@ -53,7 +53,7 @@ object_draft_schematic_clothing_clothing_belt_field_03 = object_draft_schematic_
    factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_general", 
-   xp = 285, 
+   xp = 700, 
 
    assemblySkill = "clothing_assembly", 
    experimentingSkill = "clothing_experimentation", 

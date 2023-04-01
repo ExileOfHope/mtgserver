@@ -54,7 +54,7 @@ object_draft_schematic_clothing_clothing_robe_casual_05b = object_draft_schemati
 
 
    xpType = "crafting_clothing_general", 
-   xp = 275, 
+   xp = 1275, 
 
    assemblySkill = "clothing_assembly", 
    experimentingSkill = "clothing_experimentation", 

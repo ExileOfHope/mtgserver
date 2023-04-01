@@ -53,7 +53,7 @@ object_draft_schematic_clothing_clothing_robe_casual_05 = object_draft_schematic
    factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
    xpType = "crafting_clothing_general", 
-   xp = 275, 
+   xp = 1275, 
 
    assemblySkill = "clothing_assembly", 
    experimentingSkill = "clothing_experimentation", 
