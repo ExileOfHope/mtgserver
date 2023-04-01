@@ -15,10 +15,10 @@ require("scripts.managers.planet.regions")
 
 corellia_regions = {
 	-- No Build Zones
-	{"northedge_corellia_nobuild", -8000, 7640, {RECTANGLE, 8000, 8000}, NOBUILDZONEAREA},
-	{"westegde_corellia_nobuild", -8000, -7640, {RECTANGLE, -7640, 7640}, NOBUILDZONEAREA},
-	{"southedge_corellia_nobuild", -7995, -8000, {RECTANGLE, 8000, -7640}, NOBUILDZONEAREA},
-	{"eastedge_corellia_nobuild", 7640, -7640, {RECTANGLE, 8000, 7640}, NOBUILDZONEAREA},
+	--{"northedge_corellia_nobuild", -8000, 7640, {RECTANGLE, 8000, 8000}, NOBUILDZONEAREA},
+	--{"westegde_corellia_nobuild", -8000, -7640, {RECTANGLE, -7640, 7640}, NOBUILDZONEAREA},
+	--{"southedge_corellia_nobuild", -7995, -8000, {RECTANGLE, 8000, -7640}, NOBUILDZONEAREA},
+	--{"eastedge_corellia_nobuild", 7640, -7640, {RECTANGLE, 8000, 7640}, NOBUILDZONEAREA},
 
 	-- Named Regions, POIs and Decor
 	{"sdungeon_rogue_corsec_bunker", 5225, 1567, {CIRCLE, 128}, NOSPAWNAREA + NOBUILDZONEAREA},
