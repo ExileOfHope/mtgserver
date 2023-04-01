@@ -306,6 +306,7 @@
 #include "server/zone/objects/creature/commands/SplitCreditsWithGroupCommand.h"
 #include "server/zone/objects/creature/commands/SpotlightCommand.h"
 #include "server/zone/objects/creature/commands/SprayShotCommand.h"
+#include "server/zone/objects/creature/commands/SprayShot_1Command.h"
 #include "server/zone/objects/creature/commands/StandCommand.h"
 #include "server/zone/objects/creature/commands/StartBandCommand.h"
 #include "server/zone/objects/creature/commands/StartCitySpawnerCommand.h"
@@ -606,6 +607,7 @@ void CommandConfigManager::registerCommands3() {
 	commandFactory.registerCommand<SplitCreditsWithGroupCommand>(String("splitCreditsWithGroup").toLowerCase());
 	commandFactory.registerCommand<SpotlightCommand>(String("spotlight").toLowerCase());
 	commandFactory.registerCommand<SprayShotCommand>(String("sprayShot").toLowerCase());
+	commandFactory.registerCommand<SprayShot_1Command>(String("sprayShot_1").toLowerCase());
 	commandFactory.registerCommand<StandCommand>(String("stand").toLowerCase());
 	commandFactory.registerCommand<StartBandCommand>(String("startBand").toLowerCase());
 	commandFactory.registerCommand<StartCitySpawnerCommand>(String("startCitySpawner").toLowerCase());

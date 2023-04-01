@@ -58,9 +58,9 @@ EyeShotCommand = {
 		{}, 
 		{ "blind_defense" }, 
 		{ "jedi_state_defense", "resistance_states" },
-		100, 
+		85, 
 		0, 
-		40 
+		10 
 	  )
 	},
 
@@ -69,7 +69,7 @@ EyeShotCommand = {
 
 	combatSpam = "eyeshot",
 	
-	weaponType = PISTOLWEAPON,
+	weaponType = RANGEDWEAPON,
 
 	range = -1
 }

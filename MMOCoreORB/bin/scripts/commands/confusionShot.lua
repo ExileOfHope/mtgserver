@@ -56,7 +56,7 @@ ConfusionShotCommand = {
 		{}, 
 		{ "dizzy_defense" }, 
 		{ "jedi_state_defense", "resistance_states" },
-		100, 
+		85, 
 		0, 
 		10 
 	  ),
@@ -65,7 +65,7 @@ ConfusionShotCommand = {
 		{}, 
 		{ "stun_defense" }, 
 		{ "jedi_state_defense", "resistance_states" },
-		100, 
+		85, 
 		0, 
 		10 
 	  )
@@ -76,7 +76,7 @@ ConfusionShotCommand = {
 
 	combatSpam = "confusionshot",
 	
-	weaponType = CARBINEWEAPON,
+	weaponType = RANGEDWEAPON,
 
 	range = -1
 }

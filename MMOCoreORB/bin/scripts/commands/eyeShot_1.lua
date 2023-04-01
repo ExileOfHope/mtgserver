@@ -41,41 +41,38 @@
 --which carries forward this exception.
 --true = 1, false = 0
 
-TorsoShotCommand = {
-        name = "torsoshot",
+EyeShot_1Command = {
+        name = "eyeshot_1",
 
 	damageMultiplier = 3.0,
-	speedMultiplier = 2.3,
+	speedMultiplier = 2.0,
 	healthCostMultiplier = 1,
 	actionCostMultiplier = 1,
 	mindCostMultiplier = 1,
 
-	poolsToDamage = HEALTH_ATTRIBUTE,
+	poolsToDamage = MIND_ATTRIBUTE,
+
+	stateEffects = {
+	  StateEffect( 
+		BLIND_EFFECT, 
+		{}, 
+		{ "blind_defense" }, 
+		{ "jedi_state_defense", "resistance_states" },
+		100, 
+		0, 
+		10 
+	  )
+	},
 
 	animation = "fire_3_special_single", 
 	animType = GENERATE_RANGED,
 
-	combatSpam = "torsoshot",
-
-	dotEffects = {
-	  DotEffect( 
-		ONFIRE, 
-		{ "resistance_fire", "fire_resist" },
-		HEALTH,
-		true,
-		0,
-		100,
-		30, 
-		30,
-		50,
-		10
-	  )
-	},
+	combatSpam = "eyeshot_1",
 	
 	weaponType = RANGEDWEAPON,
 
 	range = -1
 }
 
-AddCommand(TorsoShotCommand)
+AddCommand(EyeShot_1Command)
 

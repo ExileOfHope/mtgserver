@@ -838,7 +838,14 @@
 #include "InspacerrCommand.h"
 #include "RequestSpaceTrainerCommand.h"
 
-
+//New Bounty Hunter Abilties
+#include "CriticalShotCommand.h"
+#include "CriticalShot_1Command.h"
+#include "CriticalShot_2Command.h"
+#include "ConfusionShot_1Command.h"
+#include "EyeShot_1Command.h"
+#include "SprayShot_1Command.h"
+#include "UnderHandShot_1Command.h"
 
 
 #endif /* COMMANDSNEW_H_ */

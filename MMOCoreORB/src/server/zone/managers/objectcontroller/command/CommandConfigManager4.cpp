@@ -104,6 +104,7 @@
 #include "server/zone/objects/creature/commands/UnCityBanCommand.h"
 #include "server/zone/objects/creature/commands/UnconsentCommand.h"
 #include "server/zone/objects/creature/commands/UnderHandShotCommand.h"
+#include "server/zone/objects/creature/commands/UnderHandShot_1Command.h"
 #include "server/zone/objects/creature/commands/UnfreezePlayerCommand.h"
 #include "server/zone/objects/creature/commands/UninstallShipComponentCommand.h"
 #include "server/zone/objects/creature/commands/UninviteCommand.h"
@@ -247,6 +248,7 @@ void CommandConfigManager::registerCommands4() {
 	commandFactory.registerCommand<UnCityBanCommand>(String("unCityBan").toLowerCase());
 	commandFactory.registerCommand<UnconsentCommand>(String("unconsent").toLowerCase());
 	commandFactory.registerCommand<UnderHandShotCommand>(String("underHandShot").toLowerCase());
+	commandFactory.registerCommand<UnderHandShot_1Command>(String("underHandShot_1").toLowerCase());
 	commandFactory.registerCommand<UnfreezePlayerCommand>(String("unfreezePlayer").toLowerCase());
 	commandFactory.registerCommand<UninstallShipComponentCommand>(String("uninstallShipComponent").toLowerCase());
 	commandFactory.registerCommand<UninviteCommand>(String("uninvite").toLowerCase());

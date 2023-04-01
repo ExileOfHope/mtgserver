@@ -41,41 +41,26 @@
 --which carries forward this exception.
 --true = 1, false = 0
 
-TorsoShotCommand = {
-        name = "torsoshot",
+CriticalShot_1Command = {
+        name = "criticalshot_1",
 
-	damageMultiplier = 3.0,
-	speedMultiplier = 2.3,
-	healthCostMultiplier = 1,
-	actionCostMultiplier = 1,
-	mindCostMultiplier = 1,
+	damageMultiplier = 5,
+	speedMultiplier = 3.05,
+	healthCostMultiplier = 1.5,
+	actionCostMultiplier = 1.5,
+	mindCostMultiplier = 1.5,
+	accuracyBonus = 85,
 
-	poolsToDamage = HEALTH_ATTRIBUTE,
+	poolsToDamage = HEALTH_ATTRIBUTE + ACTION_ATTRIBUTE + MIND_ATTRIBUTE,
 
-	animation = "fire_3_special_single", 
+	animation = "fire_5_special_single", 
 	animType = GENERATE_RANGED,
 
-	combatSpam = "torsoshot",
-
-	dotEffects = {
-	  DotEffect( 
-		ONFIRE, 
-		{ "resistance_fire", "fire_resist" },
-		HEALTH,
-		true,
-		0,
-		100,
-		30, 
-		30,
-		50,
-		10
-	  )
-	},
-	
+	combatSpam = "fastblast",
 	weaponType = RANGEDWEAPON,
 
 	range = -1
 }
 
-AddCommand(TorsoShotCommand)
+AddCommand(CriticalShot_1Command)
 

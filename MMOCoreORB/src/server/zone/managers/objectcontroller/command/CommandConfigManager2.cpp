@@ -109,6 +109,7 @@
 #include "server/zone/objects/creature/commands/ConcealCommand.h"
 #include "server/zone/objects/creature/commands/ConcealShotCommand.h"
 #include "server/zone/objects/creature/commands/ConfusionShotCommand.h"
+#include "server/zone/objects/creature/commands/ConfusionShot_1Command.h"
 #include "server/zone/objects/creature/commands/ConsentCommand.h"
 #include "server/zone/objects/creature/commands/CorpseCommand.h"
 #include "server/zone/objects/creature/commands/CounterAttackCommand.h"
@@ -130,6 +131,9 @@
 #include "server/zone/objects/creature/commands/CreatureRangedAttackCommand.h"
 #include "server/zone/objects/creature/commands/CreditsCommand.h"
 #include "server/zone/objects/creature/commands/CripplingShotCommand.h"
+#include "server/zone/objects/creature/commands/CriticalShotCommand.h"
+#include "server/zone/objects/creature/commands/CriticalShot_1Command.h"
+#include "server/zone/objects/creature/commands/CriticalShot_2Command.h"
 #include "server/zone/objects/creature/commands/CsAppendCommentCommand.h"
 #include "server/zone/objects/creature/commands/CsCancelTicketCommand.h"
 #include "server/zone/objects/creature/commands/CsConnectPlayerCommand.h"
@@ -192,6 +196,7 @@
 #include "server/zone/objects/creature/commands/ExtinguishFireCommand.h"
 #include "server/zone/objects/creature/commands/ExtractObjectCommand.h"
 #include "server/zone/objects/creature/commands/EyeShotCommand.h"
+#include "server/zone/objects/creature/commands/EyeShot_1Command.h"
 #include "server/zone/objects/creature/commands/FactoryCrateSplitCommand.h"
 #include "server/zone/objects/creature/commands/FanShotCommand.h"
 #include "server/zone/objects/creature/commands/FastBlastCommand.h"
@@ -510,6 +515,7 @@ void CommandConfigManager::registerCommands2() {
 	commandFactory.registerCommand<ConcealCommand>(String("conceal").toLowerCase());
 	commandFactory.registerCommand<ConcealShotCommand>(String("concealShot").toLowerCase());
 	commandFactory.registerCommand<ConfusionShotCommand>(String("confusionShot").toLowerCase());
+	commandFactory.registerCommand<ConfusionShot_1Command>(String("confusionShot_1").toLowerCase());	
 	commandFactory.registerCommand<ConsentCommand>(String("consent").toLowerCase());
 	commandFactory.registerCommand<CorpseCommand>(String("corpse").toLowerCase());
 	commandFactory.registerCommand<CoupDeGraceCommand>(String("coupDeGrace").toLowerCase());
@@ -530,6 +536,9 @@ void CommandConfigManager::registerCommands2() {
 	commandFactory.registerCommand<CreatureAreaPoisonCommand>(String("creatureAreaPoison").toLowerCase());
 	commandFactory.registerCommand<CreditsCommand>(String("credits").toLowerCase());
 	commandFactory.registerCommand<CripplingShotCommand>(String("cripplingShot").toLowerCase());
+	commandFactory.registerCommand<CriticalShotCommand>(String("criticalShot").toLowerCase());
+	commandFactory.registerCommand<CriticalShot_1Command>(String("criticalShot_1").toLowerCase());
+	commandFactory.registerCommand<CriticalShot_2Command>(String("criticalShot_2").toLowerCase());
 	commandFactory.registerCommand<CsAppendCommentCommand>(String("csAppendComment").toLowerCase());
 	commandFactory.registerCommand<CsCancelTicketCommand>(String("csCancelTicket").toLowerCase());
 	commandFactory.registerCommand<CsConnectPlayerCommand>(String("csConnectPlayer").toLowerCase());
@@ -592,6 +601,7 @@ void CommandConfigManager::registerCommands2() {
 	commandFactory.registerCommand<ExtinguishFireCommand>(String("extinguishFire").toLowerCase());
 	commandFactory.registerCommand<ExtractObjectCommand>(String("extractObject").toLowerCase());
 	commandFactory.registerCommand<EyeShotCommand>(String("eyeShot").toLowerCase());
+	commandFactory.registerCommand<EyeShot_1Command>(String("eyeShot_1").toLowerCase());
 	commandFactory.registerCommand<FactoryCrateSplitCommand>(String("factoryCrateSplit").toLowerCase());
 	commandFactory.registerCommand<FanShotCommand>(String("fanShot").toLowerCase());
 	commandFactory.registerCommand<FastBlastCommand>(String("fastBlast").toLowerCase());

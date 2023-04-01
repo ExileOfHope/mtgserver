@@ -59,7 +59,7 @@ BleedingShotCommand = {
 	  DotEffect( 
 		BLEEDING, 
 		{ "resistance_bleeding", "bleed_resist" },
-		MIND,
+		ACTION,
 		true,
 		0,
 		100,
@@ -68,7 +68,7 @@ BleedingShotCommand = {
 	  )
 	},
 	
-	weaponType = PISTOLWEAPON,
+	weaponType = RANGEDWEAPON,
 
 	range = -1
 }

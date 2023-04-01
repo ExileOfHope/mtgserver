@@ -41,41 +41,36 @@
 --which carries forward this exception.
 --true = 1, false = 0
 
-TorsoShotCommand = {
-        name = "torsoshot",
+UnderHandShot_1Command = {
+        name = "underhandshot_1",
 
 	damageMultiplier = 3.0,
-	speedMultiplier = 2.3,
+	speedMultiplier = 1.5,
 	healthCostMultiplier = 1,
 	actionCostMultiplier = 1,
 	mindCostMultiplier = 1,
 
-	poolsToDamage = HEALTH_ATTRIBUTE,
-
-	animation = "fire_3_special_single", 
-	animType = GENERATE_RANGED,
-
-	combatSpam = "torsoshot",
-
-	dotEffects = {
-	  DotEffect( 
-		ONFIRE, 
-		{ "resistance_fire", "fire_resist" },
-		HEALTH,
-		true,
-		0,
-		100,
-		30, 
-		30,
-		50,
-		10
+	stateEffects = {
+	  StateEffect( 
+		KNOCKDOWN_EFFECT, 
+		{ "knockdownRecovery", "lastKnockdown" }, 
+		{ "knockdown_defense" }, 
+		{},
+		100, 
+		0, 
+		0 
 	  )
 	},
+
+	animation = "fire_7_single", 
+	animType = GENERATE_RANGED,
+
+	combatSpam = "underhandshot",
 	
 	weaponType = RANGEDWEAPON,
 
 	range = -1
 }
 
-AddCommand(TorsoShotCommand)
+AddCommand(UnderHandShot_1Command)
 

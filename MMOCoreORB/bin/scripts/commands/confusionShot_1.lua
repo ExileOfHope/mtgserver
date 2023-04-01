@@ -41,8 +41,8 @@
 --which carries forward this exception.
 --true = 1, false = 0
 
-TorsoShotCommand = {
-        name = "torsoshot",
+ConfusionShot_1Command = {
+        name = "confusionshot_1",
 
 	damageMultiplier = 3.0,
 	speedMultiplier = 2.3,
@@ -50,32 +50,36 @@ TorsoShotCommand = {
 	actionCostMultiplier = 1,
 	mindCostMultiplier = 1,
 
-	poolsToDamage = HEALTH_ATTRIBUTE,
-
-	animation = "fire_3_special_single", 
-	animType = GENERATE_RANGED,
-
-	combatSpam = "torsoshot",
-
-	dotEffects = {
-	  DotEffect( 
-		ONFIRE, 
-		{ "resistance_fire", "fire_resist" },
-		HEALTH,
-		true,
-		0,
-		100,
-		30, 
-		30,
-		50,
-		10
+	stateEffects = {
+	  StateEffect( 
+		DIZZY_EFFECT, 
+		{}, 
+		{ "dizzy_defense" }, 
+		{ "jedi_state_defense", "resistance_states" },
+		100, 
+		0, 
+		10 
+	  ),
+	  StateEffect( 
+		STUN_EFFECT, 
+		{}, 
+		{ "stun_defense" }, 
+		{ "jedi_state_defense", "resistance_states" },
+		100, 
+		0, 
+		10 
 	  )
 	},
+
+	animation = "fire_5_special_single", 
+	animType = GENERATE_RANGED,
+
+	combatSpam = "confusionshot_1",
 	
 	weaponType = RANGEDWEAPON,
 
 	range = -1
 }
 
-AddCommand(TorsoShotCommand)
+AddCommand(ConfusionShotCommand)
 
