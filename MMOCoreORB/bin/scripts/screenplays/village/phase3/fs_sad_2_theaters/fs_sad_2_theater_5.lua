@@ -74,7 +74,7 @@ function FsSad2Theater5:notifyKilledMobile(pVictim, pAttacker)
 	if (numEnemies <= 0) then
 		QuestManager.completeQuest(pOwner, QuestManager.quests.FS_QUESTS_SAD2_TASK5)
 		QuestManager.activateQuest(pOwner, QuestManager.quests.FS_QUESTS_SAD2_RETURN5)
-		deleteData(ownerID .. self.taskName .. ":killableCount", numEnemies)
+		deleteData(ownerID .. self.taskName .. ":killableCount")
 
 		local pGhost = CreatureObject(pOwner):getPlayerObject()
 

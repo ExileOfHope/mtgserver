@@ -46,9 +46,9 @@ function rebelCommanderConvoHandler:runScreenHandlers(pConvTemplate, pPlayer, pN
 		Coa2Screenplay:startMissionFive(pPlayer, pNpc, "rebel")
 	elseif screenID == "m5_active_abort" then
 		writeScreenPlayData(pPlayer, "rebel_coa2", "state", Coa2Screenplay.M5_REFUSED)
-		Coa2Screenplay:cleanupMission(pPlayer, "rebel")
+		Coa2Screenplay:cleanupMission(pPlayer)
 	elseif screenID == "m5_active_restart" then
-		Coa2Screenplay:cleanupMission(pPlayer, "rebel")
+		Coa2Screenplay:cleanupMission(pPlayer)
 		Coa2Screenplay:startMissionFive(pPlayer, pNpc, "rebel")
 	end
 

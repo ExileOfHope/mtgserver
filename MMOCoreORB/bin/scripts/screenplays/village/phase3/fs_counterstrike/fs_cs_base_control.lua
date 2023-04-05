@@ -91,7 +91,7 @@ function FsCsBaseControl:notifyEnteredCampShieldArea(pArea, pObj)
 	local diffY = playerY - campY;
 	local diffX = playerX - campX;
 
-	local angle = math.atan2(diffY, diffX);
+	local angle = atan2(diffY, diffX);
 	local rad = self.shieldRadius + self.shieldExpelDistance
 
 	local newX = campX + (math.cos(angle) * rad);
