@@ -45,8 +45,8 @@ object_installation_mining_organic_mining_organic_creature_farm = object_install
 	lotSize = 1,
 	baseMaintenanceRate = 0,
 	basePowerRate = 25,
-	width = 3,
-	length = 3,
+	width = 2,
+	length = 2,
 	objectMenuComponent = "InstallationObjectMenuComponent",
 	installationType = -1
 }
