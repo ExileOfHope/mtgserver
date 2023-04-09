@@ -56,7 +56,7 @@ object_tangible_medicine_crafted_crafted_stimpack_sm_s1_a = object_tangible_medi
 	experimentalGroupTitles = {"null", "null", "exp_effectiveness", "exp_charges", "null", "null"},
 	experimentalSubGroupTitles = {"null", "null", "power", "charges", "skillmodmin", "hitpoints"},
 	experimentalMin = {0, 0, 75, 10, 5, 1000},
-	experimentalMax = {0, 0, 100, 20, 5, 1000},
+	experimentalMax = {0, 0, 100, 20, 0, 1000},
 	experimentalPrecision = {0, 0, 0, 0, 0, 0},
 	experimentalCombineType = {0, 0, 1, 1, 1, 4},
 }
