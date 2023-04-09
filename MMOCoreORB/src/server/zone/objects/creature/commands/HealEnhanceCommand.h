@@ -43,7 +43,7 @@ public:
 		}
 
 		//Force the delay to be at least 3 seconds.
-		delay = (delay < 3) ? 3 : delay;
+		delay = (delay < 2) ? 2 : delay;
 
 		StringIdChatParameter message("healing_response", "healing_response_59"); //You are now ready to heal more wounds or apply more enhancements.
 		Reference<InjuryTreatmentTask*> task = new InjuryTreatmentTask(creature, message, "woundTreatment");
@@ -232,8 +232,8 @@ public:
 	}
 
 	void awardXp(CreatureObject* creature, const String& type, int power) const {
-		if (!creature->isPlayerCreature())
-			return;
+		//if (!creature->isPlayerCreature())
+		//	return;
 
 		CreatureObject* player = cast<CreatureObject*>(creature);
 
@@ -426,7 +426,7 @@ public:
 			enhancePack->decreaseUseCount();
 		}
 
-		if (patient != enhancer)
+		//if (patient != enhancer | patient = enhancer)
 			awardXp(enhancer, "medical", amountEnhanced); //No experience for healing yourself.
 
 		doAnimations(enhancer, patient);

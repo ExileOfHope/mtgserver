@@ -5,9 +5,11 @@
 #ifndef QUICKHEALCOMMAND_H_
 #define QUICKHEALCOMMAND_H_
 
+#include "server/zone/objects/creature/commands/QueueCommand.h"
 #include "server/zone/objects/scene/SceneObject.h"
 #include "server/zone/ZoneServer.h"
 #include "server/zone/managers/player/PlayerManager.h"
+#include "templates/params/creature/CreatureAttribute.h"
 
 class QuickHealCommand : public QueueCommand {
 	int mindCost;
@@ -28,7 +30,7 @@ public:
 		actionHealed = 0;
 		mindHealed = 0;
 
-		mindCost = 1000;
+		mindCost = 500;
 		mindWoundCost = 10;
 
 		speed = 1;

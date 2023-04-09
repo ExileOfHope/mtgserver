@@ -146,8 +146,8 @@ public:
 	}
 
 	void awardXp(CreatureObject* creature, const String& type, int power) const {
-		if (!creature->isPlayerCreature())
-			return;
+		//if (!creature->isPlayerCreature())
+		//	return;
 
 		CreatureObject* player = cast<CreatureObject*>(creature);
 
@@ -374,7 +374,7 @@ public:
 		}
 
 		// If the delay is less that 4 seconds, use the default time
-		delay = (delay < 4) ? defaultTime : delay;
+		delay = (delay < 2) ? defaultTime : delay;
 
 		creature->addCooldown(skillName, delay * 1000);
 
