@@ -51,7 +51,7 @@ void LightsaberCrystalComponentImplementation::notifyLoadFromDatabase() {
 		sacMind = 0;
 		woundChance = 0;
 		forceCost = 0;
-		floatForceCost = 0.0;
+		floatForceCost = 0;
 
 		generateCrystalStats();
 	}
