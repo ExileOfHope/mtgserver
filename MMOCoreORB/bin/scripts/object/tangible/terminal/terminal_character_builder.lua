@@ -3,42 +3,42 @@
 
 --This File is part of Core3.
 
---This program is free software; you can redistribute
---it and/or modify it under the terms of the GNU Lesser
+--This program is free software; you can redistribute 
+--it and/or modify it under the terms of the GNU Lesser 
 --General Public License as published by the Free Software
---Foundation; either version 2 of the License,
+--Foundation; either version 2 of the License, 
 --or (at your option) any later version.
 
---This program is distributed in the hope that it will be useful,
---but WITHOUT ANY WARRANTY; without even the implied warranty of
---MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+--This program is distributed in the hope that it will be useful, 
+--but WITHOUT ANY WARRANTY; without even the implied warranty of 
+--MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
 --See the GNU Lesser General Public License for
 --more details.
 
---You should have received a copy of the GNU Lesser General
+--You should have received a copy of the GNU Lesser General 
 --Public License along with this program; if not, write to
 --the Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
 
---Linking Engine3 statically or dynamically with other modules
---is making a combined work based on Engine3.
---Thus, the terms and conditions of the GNU Lesser General Public License
+--Linking Engine3 statically or dynamically with other modules 
+--is making a combined work based on Engine3. 
+--Thus, the terms and conditions of the GNU Lesser General Public License 
 --cover the whole combination.
 
---In addition, as a special exception, the copyright holders of Engine3
---give you permission to combine Engine3 program with free software
---programs or libraries that are released under the GNU LGPL and with
---code included in the standard release of Core3 under the GNU LGPL
---license (or modified versions of such code, with unchanged license).
---You may copy and distribute such a system following the terms of the
---GNU LGPL for Engine3 and the licenses of the other code concerned,
---provided that you include the source code of that other code when
+--In addition, as a special exception, the copyright holders of Engine3 
+--give you permission to combine Engine3 program with free software 
+--programs or libraries that are released under the GNU LGPL and with 
+--code included in the standard release of Core3 under the GNU LGPL 
+--license (or modified versions of such code, with unchanged license). 
+--You may copy and distribute such a system following the terms of the 
+--GNU LGPL for Engine3 and the licenses of the other code concerned, 
+--provided that you include the source code of that other code when 
 --and as the GNU LGPL requires distribution of source code.
 
---Note that people who make modified versions of Engine3 are not obligated
---to grant this special exception for their modified versions;
---it is their choice whether to do so. The GNU Lesser General Public License
---gives permission to release a modified version without this exception;
---this exception also makes it possible to release a modified version
+--Note that people who make modified versions of Engine3 are not obligated 
+--to grant this special exception for their modified versions; 
+--it is their choice whether to do so. The GNU Lesser General Public License 
+--gives permission to release a modified version without this exception; 
+--this exception also makes it possible to release a modified version 
 --
 --NOTES ABOUT CHARACTER BUILDER TERMINAL ITEM LIST FORMAT
 ---------------------------------------------------------
@@ -51,21 +51,12 @@
 
 object_tangible_terminal_terminal_character_builder = object_tangible_terminal_shared_terminal_character_builder:new {
 	gameObjectType = 16400,
-
+			
 	maxCondition = 0,
 
 	templateType = CHARACTERBUILDERTERMINAL,
 
 	glowyBadgeIds = {12, 14, 15, 16, 17, 19, 20, 21, 23, 30, 38, 39, 71, 105, 106, 107},
-
-	villageBranchUnlocks = {
-		"force_sensitive_combat_prowess_ranged_accuracy",
-		"force_sensitive_combat_prowess_ranged_speed",
-		"force_sensitive_combat_prowess_melee_accuracy",
-		"force_sensitive_combat_prowess_melee_speed",
-		"force_sensitive_enhanced_reflexes_ranged_defense",
-		"force_sensitive_enhanced_reflexes_melee_defense"
-	},
 
 	itemList = {
 		"Character Options",
@@ -180,7 +171,7 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 						"Clone Engineering II", "outdoors_bio_engineer_creature_02",
 						"Clone Engineering III", "outdoors_bio_engineer_creature_03",
 						"Clone Engineering IV", "outdoors_bio_engineer_creature_04"
-					},
+					}, 
 					"Tissue Engineering",
 					{
 						"Tissue Engineering I", "outdoors_bio_engineer_tissue_01",
@@ -213,7 +204,7 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 						"Investigation II", "combat_bountyhunter_investigation_02",
 						"Investigation III", "combat_bountyhunter_investigation_03",
 						"Investigation IV", "combat_bountyhunter_investigation_04"
-					},
+					},	
 					"Bounty Carbine",
 					{
 						"Bounty Carbine Specialization I", "combat_bountyhunter_droidcontrol_01",
@@ -246,7 +237,7 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 						"Unarmed II", "combat_brawler_unarmed_02",
 						"Unarmed III", "combat_brawler_unarmed_03",
 						"Unarmed IV", "combat_brawler_unarmed_04"
-					},
+					},	
 					"Fencer",
 					{
 						"One Handed I", "combat_brawler_1handmelee_01",
@@ -602,138 +593,104 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 				},
 				--"Force Sensitive",
 				--{
-				--	"Combat Prowess",
-				--	{
-				--		"Novice", "force_sensitive_combat_prowess_novice",
-				--		"Ranged Accuracy",
-				--		{
-				--			"Ranged Accuracy I", "force_sensitive_combat_prowess_ranged_accuracy_01",
-				--			"Ranged Accuracy II", "force_sensitive_combat_prowess_ranged_accuracy_02",
-				--			"Ranged Accuracy III", "force_sensitive_combat_prowess_ranged_accuracy_03",
-				--			"Ranged Accuracy IV", "force_sensitive_combat_prowess_ranged_accuracy_04"
-				--		},
-				--		"Ranged Speed",
-				--		{
-				--			"Ranged Speed I", "force_sensitive_combat_prowess_ranged_speed_01",
-				--			"Ranged Speed II", "force_sensitive_combat_prowess_ranged_speed_02",
-				--			"Ranged Speed III", "force_sensitive_combat_prowess_ranged_speed_03",
-				--			"Ranged Speed IV", "force_sensitive_combat_prowess_ranged_speed_04"
-				--		},
-				--		"Melee Accuracy",
-				--		{
-				--			"Melee Accuracy I", "force_sensitive_combat_prowess_melee_accuracy_01",
-				--			"Melee Accuracy II", "force_sensitive_combat_prowess_melee_accuracy_02",
-				--			"Melee Accuracy III", "force_sensitive_combat_prowess_melee_accuracy_03",
-				--			"Melee Accuracy IV", "force_sensitive_combat_prowess_melee_accuracy_04"
-				--		},
-				--		"Melee Speed",
-				--		{
-				--			"Melee Speed I", "force_sensitive_combat_prowess_melee_speed_01",
-				--			"Melee Speed II", "force_sensitive_combat_prowess_melee_speed_02",
-				--			"Melee Speed III", "force_sensitive_combat_prowess_melee_speed_03",
-				--			"Melee Speed IV", "force_sensitive_combat_prowess_melee_speed_04"
-				--		},
-				--		"Master", "force_sensitive_combat_prowess_master"
-				--	},
 				--	"Crafting Mastery",
+				--{
+				--	"Novice", "force_sensitive_crafting_mastery_novice",
+				--	"Experimentation",
 				--	{
-				--		"Novice", "force_sensitive_crafting_mastery_novice",
-				--		"Experimentation",
-				--		{
-				--			"Experimentation I", "force_sensitive_crafting_mastery_experimentation_01",
-				--			"Experimentation II", "force_sensitive_crafting_mastery_experimentation_02",
-				--			"Experimentation III", "force_sensitive_crafting_mastery_experimentation_03",
-				--			"Experimentation IV", "force_sensitive_crafting_mastery_experimentation_04"
-				--		},
-				--		"Assembly",
-				--		{
-				--			"Assembly I", "force_sensitive_crafting_mastery_assembly_01",
-				--			"Assembly II", "force_sensitive_crafting_mastery_assembly_02",
-				--			"Assembly III", "force_sensitive_crafting_mastery_assembly_03",
-				--			"Assembly IV", "force_sensitive_crafting_mastery_assembly_04"
-				--		},
-				--		"Repair",
-				--		{
-				--			"Repair I", "force_sensitive_crafting_mastery_repair_01",
-				--			"Repair II", "force_sensitive_crafting_mastery_repair_02",
-				--			"Repair III", "force_sensitive_crafting_mastery_repair_03",
-				--			"Repair IV", "force_sensitive_crafting_mastery_repair_04"
-				--		},
-				--		"Technique",
-				--		{
-				--			"Technique I", "force_sensitive_crafting_mastery_technique_01",
-				--			"Technique II", "force_sensitive_crafting_mastery_technique_02",
-				--			"Technique III", "force_sensitive_crafting_mastery_technique_03",
-				--			"Technique IV", "force_sensitive_crafting_mastery_technique_04"
-				--		},
-				--		"Master", "force_sensitive_crafting_mastery_master"
+				--		"Experimentation I", "force_sensitive_crafting_mastery_experimentation_01",
+				--		"Experimentation II", "force_sensitive_crafting_mastery_experimentation_02",
+				--		"Experimentation III", "force_sensitive_crafting_mastery_experimentation_03",
+				--		"Experimentation IV", "force_sensitive_crafting_mastery_experimentation_04"
 				--	},
-				--	"Enhanced Reflexes",
+				--	"Assembly",
 				--	{
-				--		"Novice", "force_sensitive_enhanced_reflexes_novice",
-				--		"Ranged Defense",
-				--		{
-				--			"Ranged Defense I", "force_sensitive_enhanced_reflexes_ranged_defense_01",
-				--			"Ranged Defense II", "force_sensitive_enhanced_reflexes_ranged_defense_02",
-				--			"Ranged Defense III", "force_sensitive_enhanced_reflexes_ranged_defense_03",
-				--			"Ranged Defense IV", "force_sensitive_enhanced_reflexes_ranged_defense_04"
-				--		},
-				--		"Melee Defense",
-				--		{
-				--			"Melee Defense I", "force_sensitive_enhanced_reflexes_melee_defense_01",
-				--			"Melee Defense II", "force_sensitive_enhanced_reflexes_melee_defense_02",
-				--			"Melee Defense III", "force_sensitive_enhanced_reflexes_melee_defense_03",
-				--			"Melee Defense IV", "force_sensitive_enhanced_reflexes_melee_defense_04"
-				--		},
-				--		"Vehicle Control",
-				--		{
-				--			"Vehicle Control I", "force_sensitive_enhanced_reflexes_vehicle_control_01",
-				--			"Vehicle Control II", "force_sensitive_enhanced_reflexes_vehicle_control_02",
-				--			"Vehicle Control III", "force_sensitive_enhanced_reflexes_vehicle_control_03",
-				--			"Vehicle Control IV", "force_sensitive_enhanced_reflexes_vehicle_control_04"
-				--		},
-				--		"Survival",
-				--		{
-				--			"Survival I", "force_sensitive_enhanced_reflexes_survival_01",
-				--			"Survival II", "force_sensitive_enhanced_reflexes_survival_02",
-				--			"Survival III", "force_sensitive_enhanced_reflexes_survival_03",
-				--			"Survival IV", "force_sensitive_enhanced_reflexes_survival_04"
-				--		},
-				--		"Master", "force_sensitive_enhanced_reflexes_master"
+				--		"Assembly I", "force_sensitive_crafting_mastery_assembly_01",
+				--		"Assembly II", "force_sensitive_crafting_mastery_assembly_02",
+				--		"Assembly III", "force_sensitive_crafting_mastery_assembly_03",
+				--		"Assembly IV", "force_sensitive_crafting_mastery_assembly_04"
 				--	},
-				--	"Heightened Senses",
+				--	"Repair",
 				--	{
-				--		"Novice", "force_sensitive_heightened_senses_novice",
-				--		"Healing",
-				--		{
-				--			"Healing I", "force_sensitive_heightened_senses_healing_01",
-				--			"Healing II", "force_sensitive_heightened_senses_healing_02",
-				--			"Healing III", "force_sensitive_heightened_senses_healing_03",
-				--			"Healing IV", "force_sensitive_heightened_senses_healing_04"
-				--		},
-				--		"Surveying",
-				--		{
-				--			"Surveying I", "force_sensitive_heightened_senses_surveying_01",
-				--			"Surveying II", "force_sensitive_heightened_senses_surveying_02",
-				--			"Surveying III", "force_sensitive_heightened_senses_surveying_03",
-				--			"Surveying IV", "force_sensitive_heightened_senses_surveying_04"
-				--		},
-				--		"Persuasion",
-				--		{
-				--			"Persuasion I", "force_sensitive_heightened_senses_persuasion_01",
-				--			"Persuasion II", "force_sensitive_heightened_senses_persuasion_02",
-				--			"Persuasion III", "force_sensitive_heightened_senses_persuasion_03",
-				--			"Persuasion IV", "force_sensitive_heightened_senses_persuasion_04"
-				--		},
-				--		"Luck",
-				--		{
-				--			"Luck I", "force_sensitive_heightened_senses_luck_01",
-				--			"Luck II", "force_sensitive_heightened_senses_luck_02",
-				--			"Luck III", "force_sensitive_heightened_senses_luck_03",
-				--			"Luck IV", "force_sensitive_heightened_senses_luck_04"
-				--		},
-				--		"Master", "force_sensitive_heightened_senses_master"
+				--		"Repair I", "force_sensitive_crafting_mastery_repair_01",
+				--		"Repair II", "force_sensitive_crafting_mastery_repair_02",
+				--		"Repair III", "force_sensitive_crafting_mastery_repair_03",
+				--		"Repair IV", "force_sensitive_crafting_mastery_repair_04"
 				--	},
+				--	"Technique",
+				--	{
+				--		"Technique I", "force_sensitive_crafting_mastery_technique_01",
+				--		"Technique II", "force_sensitive_crafting_mastery_technique_02",
+				--		"Technique III", "force_sensitive_crafting_mastery_technique_03",
+				--		"Technique IV", "force_sensitive_crafting_mastery_technique_04"
+				--	},
+				--	"Master", "force_sensitive_crafting_mastery_master"
+				--},
+				--"Enhanced Reflexes",
+				--{
+				--	"Novice", "force_sensitive_enhanced_reflexes_novice",
+				--	"Ranged Defense",
+				--	{
+				--		"Ranged Defense I", "force_sensitive_enhanced_reflexes_ranged_defense_01",
+				--		"Ranged Defense II", "force_sensitive_enhanced_reflexes_ranged_defense_02",
+				--		"Ranged Defense III", "force_sensitive_enhanced_reflexes_ranged_defense_03",
+				--		"Ranged Defense IV", "force_sensitive_enhanced_reflexes_ranged_defense_04"
+				--	},
+				--	"Melee Defense",
+				--	{
+				--		"Melee Defense I", "force_sensitive_enhanced_reflexes_melee_defense_01",
+				--		"Melee Defense II", "force_sensitive_enhanced_reflexes_melee_defense_02",
+				--		"Melee Defense III", "force_sensitive_enhanced_reflexes_melee_defense_03",
+				--		"Melee Defense IV", "force_sensitive_enhanced_reflexes_melee_defense_04"
+				--	},
+				--	"Vehicle Control",
+				--	{
+				--		"Vehicle Control I", "force_sensitive_enhanced_reflexes_vehicle_control_01",
+				--		"Vehicle Control II", "force_sensitive_enhanced_reflexes_vehicle_control_02",
+				--		"Vehicle Control III", "force_sensitive_enhanced_reflexes_vehicle_control_03",
+				--		"Vehicle Control Iv", "force_sensitive_enhanced_reflexes_vehicle_control_04"
+				--	},
+				--	"Survival",
+				--	{
+				--		"Survival I", "force_sensitive_enhanced_reflexes_survival_01",
+				--		"Survival II", "force_sensitive_enhanced_reflexes_survival_02",
+				--		"Survival III", "force_sensitive_enhanced_reflexes_survival_03",
+				--		"Survival IV", "force_sensitive_enhanced_reflexes_survival_04"
+				--	},
+				--	"Master", "force_sensitive_enhanced_reflexes_master"
+				--},
+				--"Heightened Senses",
+				--{
+				--	"Novice", "force_sensitive_heightened_senses_novice",
+				--	"Healing",
+				--	{
+				--		"Healing I", "force_sensitive_heightened_senses_healing_01",
+				--		"Healing II", "force_sensitive_heightened_senses_healing_02",
+				--		"Healing III", "force_sensitive_heightened_senses_healing_03",
+				--		"Healing IV", "force_sensitive_heightened_senses_healing_04"
+				--	},
+				--	"Surveying",
+				--	{
+				--		"Surveying I", "force_sensitive_heightened_senses_surveying_01",
+				--		"Surveying II", "force_sensitive_heightened_senses_surveying_02",
+				--		"Surveying III", "force_sensitive_heightened_senses_surveying_03",
+				--		"Surveying IV", "force_sensitive_heightened_senses_surveying_04"
+				--	},
+				--	"Persuasion",
+				--	{
+				--		"Persuasion I", "force_sensitive_heightened_senses_persuasion_01",
+				--		"Persuasion II", "force_sensitive_heightened_senses_persuasion_02",
+				--		"Persuasion III", "force_sensitive_heightened_senses_persuasion_03",
+				--		"Persuasion Iv", "force_sensitive_heightened_senses_persuasion_04"
+				--	},
+				--	"Luck",
+				--	{
+				--		"Luck I", "force_sensitive_heightened_senses_luck_01",
+				--		"Luck II", "force_sensitive_heightened_senses_luck_02",
+				--		"Luck III", "force_sensitive_heightened_senses_luck_03",
+				--		"Luck IV", "force_sensitive_heightened_senses_luck_04"
+				--	},
+				--	"Master", "force_sensitive_heightened_senses_master"
 				--},
 				"Image Designer",
 				{
@@ -794,7 +751,7 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 				--			"Oppressor II", "force_rank_dark_rank_09"
 				--		},
 				--	},
-				--
+				--	
 				--	"Jedi Light Rank",
 				--	{
 				--		"Rank Member", "force_rank_dark_novice",
@@ -982,8 +939,7 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 				--		"Preternatural Defense IV", "force_discipline_defender_preternatural_defense_04"
 				--	},
 				--	"Master", "force_discipline_defender_master"
-				--},
-				--},
+				--},				
 				"Marksman",
 				{
 					"Novice", "combat_marksman_novice",
@@ -1039,14 +995,14 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 						"Pharmacology I", "science_medic_ability_01",
 						"Pharmacology II", "science_medic_ability_02",
 						"Pharmacology III", "science_medic_ability_03",
-						"Pharmacology IV", "science_medic_ability_04"
+						"Pharmacology IV", "science_medic_ability_04"	
 					},
 					"Organic Chemistry",
 					{
 						"Organic Chemistry I", "science_medic_crafting_01",
 						"Organic Chemistry II", "science_medic_crafting_02",
 						"Organic Chemistry III", "science_medic_crafting_03",
-						"Organic Chemistry IV", "science_medic_crafting_04"
+						"Organic Chemistry IV", "science_medic_crafting_04"				
 					},
 					"Master", "science_medic_master"
 				},
@@ -1552,13 +1508,6 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 			"Unlearn All Skills", "unlearn_all_skills",
 			"Cleanse Character", "cleanse_character",
 			"Enhance Character", "enhance_character",
-			"Jedi",
-			{
-				--"Unlock Jedi Initiate", "unlock_jedi_initiate",
-				"Unlock FRS Light Side", "frs_light_side",
-				"Unlock FRS Dark Side", "frs_dark_side"
-			},
-			"Fill Force Bar", "fill_force_bar",
 			"Reset Buffs", "reset_buffs",
 			"Learn Languages", "language",
 			"Credits", "credits",
@@ -1578,102 +1527,158 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 		},
 		"Items",
 		{
-			"Jedi Items",
-			{
-				"Color Crystal", "color_crystals",
-				"Krayt Pearl", "krayt_pearls"
-			},
 			--"Attachments",
 			--{
 			--	"Armor Attachment", "object/tangible/gem/armor.iff",
-			--	"Clothing Attachment", "object/tangible/gem/clothing.iff",
+			--	"Clothing Attachment", "object/tangible/gem/clothing.iff",	
 			--},
 			"Armor",
 			{
-				"Components",
+			    "Shock Trooper",
 				{
-					"Personal Shield Generator", "object/tangible/component/armor/shield_generator_personal.iff",
+					"Assault Trooper Left Bicep", "object/tangible/wearables/armor/assault_trooper/armor_assault_trooper_bicep_l.iff",
+					"Assault Trooper Right Bicep", "object/tangible/wearables/armor/assault_trooper/armor_assault_trooper_bicep_r.iff",
+					"Assault Trooper Boots", "object/tangible/wearables/armor/assault_trooper/armor_assault_trooper_boots.iff",
+					"Assault Trooper Left Bracer", "object/tangible/wearables/armor/assault_trooper/armor_assault_trooper_bracer_l.iff",
+					"Assault Trooper Right Bracer", "object/tangible/wearables/armor/assault_trooper/armor_assault_trooper_bracer_r.iff",
+					"Assault Trooper Chest Plate", "object/tangible/wearables/armor/assault_trooper/armor_assault_trooper_chest_plate.iff",
+					"Assault Trooper Gloves", "object/tangible/wearables/armor/assault_trooper/armor_assault_trooper_gloves.iff",
+					"Assault Trooper Helmet", "object/tangible/wearables/armor/assault_trooper/armor_assault_trooper_helmet.iff",
+					"Assault Trooper Leggings", "object/tangible/wearables/armor/assault_trooper/armor_assault_trooper_leggings.iff",
+					"Assault Trooper Utility Belt", "object/tangible/wearables/armor/assault_trooper/armor_assault_trooper_utility_belt.iff",
 				},
-				--	"Bone Armor",
-				--	{
-				--		"Bone Left Bicep", "object/tangible/wearables/armor/bone/armor_bone_s01_bicep_l.iff",
-				--		"Bone Right Bicep", "object/tangible/wearables/armor/bone/armor_bone_s01_bicep_r.iff",
-				--		"Bone Boots", "object/tangible/wearables/armor/bone/armor_bone_s01_boots.iff",
-				--		"Bone Left Bracer", "object/tangible/wearables/armor/bone/armor_bone_s01_bracer_l.iff",
-				--		"Bone Right Bracer", "object/tangible/wearables/armor/bone/armor_bone_s01_bracer_r.iff",
-				--		"Bone Chest Plate", "object/tangible/wearables/armor/bone/armor_bone_s01_chest_plate.iff",
-				--		"Bone Gloves", "object/tangible/wearables/armor/bone/armor_bone_s01_gloves.iff",
-				--		"Bone Helmet", "object/tangible/wearables/armor/bone/armor_bone_s01_helmet.iff",
-				--		"Bone Leggings", "object/tangible/wearables/armor/bone/armor_bone_s01_leggings.iff"
-				--	},
-				--	"Chitin Armor",
-				--	{
-				--		"Chitin Left Bicep", "object/tangible/wearables/armor/chitin/armor_chitin_s01_bicep_l.iff",
-				--		"Chitin Right Bicep", "object/tangible/wearables/armor/chitin/armor_chitin_s01_bicep_r.iff",
-				--		"Chitin Boots", "object/tangible/wearables/armor/chitin/armor_chitin_s01_boots.iff",
-				--		"Chitin Left Bracer", "object/tangible/wearables/armor/chitin/armor_chitin_s01_bracer_l.iff",
-				--		"Chitin Right Bracer", "object/tangible/wearables/armor/chitin/armor_chitin_s01_bracer_r.iff",
-				--		"Chitin Chest Plate", "object/tangible/wearables/armor/chitin/armor_chitin_s01_chest_plate.iff",
-				--		"Chitin Gloves", "object/tangible/wearables/armor/chitin/armor_chitin_s01_gloves.iff",
-				--		"Chitin Helmet", "object/tangible/wearables/armor/chitin/armor_chitin_s01_helmet.iff",
-				--		"Chitin Leggings", "object/tangible/wearables/armor/chitin/armor_chitin_s01_leggings.iff"
-				--	},
-				"Composite Armor",
+				 "Scout Trooper",
 				{
-					"Composite Left Bicep", "object/tangible/wearables/armor/composite/armor_composite_bicep_l.iff",
-					"Composite Right Bicep", "object/tangible/wearables/armor/composite/armor_composite_bicep_r.iff",
-					"Composite Boots", "object/tangible/wearables/armor/composite/armor_composite_boots.iff",
-					"Composite Left Bracer", "object/tangible/wearables/armor/composite/armor_composite_bracer_l.iff",
-					"Composite Right Bracer", "object/tangible/wearables/armor/composite/armor_composite_bracer_r.iff",
-					"Composite Chest Plate", "object/tangible/wearables/armor/composite/armor_composite_chest_plate.iff",
-					"Composite Gloves", "object/tangible/wearables/armor/composite/armor_composite_gloves.iff",
-					"Composite Helmet", "object/tangible/wearables/armor/composite/armor_composite_helmet.iff",
-					"Composite Leggings", "object/tangible/wearables/armor/composite/armor_composite_leggings.iff"
+					"Scout Trooper Left Bicep", "object/tangible/wearables/armor/scout_trooper/armor_scout_trooper_bicep_l.iff",
+					"Scout Trooper Right Bicep", "object/tangible/wearables/armor/scout_trooper/armor_scout_trooper_bicep_r.iff",
+					"Scout Trooper Boots", "object/tangible/wearables/armor/scout_trooper/armor_scout_trooper_boots.iff",
+					"Scout Trooper Left Bracer", "object/tangible/wearables/armor/scout_trooper/armor_scout_trooper_bracer_l.iff",
+					"Scout Trooper Right Bracer", "object/tangible/wearables/armor/scout_trooper/armor_scout_trooper_bracer_r.iff",
+					"Scout Trooper Chest Plate", "object/tangible/wearables/armor/scout_trooper/armor_scout_trooper_chest_plate.iff",
+					"Scout Trooper Gloves", "object/tangible/wearables/armor/scout_trooper/armor_scout_trooper_gloves.iff",
+					"Scout Trooper Helmet", "object/tangible/wearables/armor/scout_trooper/armor_scout_trooper_helmet.iff",
+					"Scout Trooper Leggings", "object/tangible/wearables/armor/scout_trooper/armor_scout_trooper_leggings.iff",
+					"Scout Trooper Utility Belt", "object/tangible/wearables/armor/scout_trooper/armor_scout_trooper_utility_belt.iff",
 				},
-				"Ithorian Armor",
+				"Clone Trooper Imperial Armor",
 				{
-					"Ithorian Sentinel",
-					{
-						"Ithorian Sentinel Left Bicep", "object/tangible/wearables/armor/ithorian_sentinel/ith_armor_s03_bicep_l.iff",
-						"Ithorian Sentinel Right Bicep", "object/tangible/wearables/armor/ithorian_sentinel/ith_armor_s03_bicep_r.iff",
-						"Ithorian Sentinel Boots", "object/tangible/wearables/armor/ithorian_sentinel/ith_armor_s03_boots.iff",
-						"Ithorian Sentinel Left Bracer", "object/tangible/wearables/armor/ithorian_sentinel/ith_armor_s03_bracer_l.iff",
-						"Ithorian Sentinel Right Bracer", "object/tangible/wearables/armor/ithorian_sentinel/ith_armor_s03_bracer_r.iff",
-						"Ithorian Sentinel Chest Plate", "object/tangible/wearables/armor/ithorian_sentinel/ith_armor_s03_chest_plate.iff",
-						"Ithorian Sentinel Gloves", "object/tangible/wearables/armor/ithorian_sentinel/ith_armor_s03_gloves.iff",
-						"Ithorian Sentinel Helmet", "object/tangible/wearables/armor/ithorian_sentinel/ith_armor_s03_helmet.iff",
-						"Ithorian Sentinel Leggings", "object/tangible/wearables/armor/ithorian_sentinel/ith_armor_s03_leggings.iff"
-					}
+					"Clone Trooper Belt", "object/tangible/wearables/armor/clone_trooper/armor_clone_trooper_imperial_s01_belt.iff",
+					"Clone Trooper Left Bicep", "object/tangible/wearables/armor/clone_trooper/armor_clone_trooper_imperial_s01_bicep_l.iff",
+					"Clone Trooper Right Bicep", "object/tangible/wearables/armor/clone_trooper/armor_clone_trooper_imperial_s01_bicep_r.iff",
+					"Clone Trooper Boots", "object/tangible/wearables/armor/clone_trooper/armor_clone_trooper_imperial_s01_boots.iff",
+					"Clone Trooper Left Bracer", "object/tangible/wearables/armor/clone_trooper/armor_clone_trooper_imperial_s01_bracer_l.iff",
+					"Clone Trooper Right Bracer", "object/tangible/wearables/armor/clone_trooper/armor_clone_trooper_imperial_s01_bracer_r.iff",
+					"Clone Trooper Chest Plate", "object/tangible/wearables/armor/clone_trooper/armor_clone_trooper_imperial_s01_chest_plate.iff",
+					"Clone Trooper Gloves", "object/tangible/wearables/armor/clone_trooper/armor_clone_trooper_imperial_s01_gloves.iff",
+					"Clone Trooper Helmet", "object/tangible/wearables/armor/clone_trooper/armor_clone_trooper_imperial_s01_helmet.iff",
+					"Clone Trooper Leggings", "object/tangible/wearables/armor/clone_trooper/armor_clone_trooper_imperial_s01_leggings.iff"
 				},
-				"Kashyyykian Armor",
+				"Clone Trooper Neutral Armor",
 				{
-					--		"Kashyyykian Black Mountain",
-					--		{
-					--			"Kashyyykian Black Mountain Left Bracer", "object/tangible/wearables/armor/kashyyykian_black_mtn/armor_kashyyykian_black_mtn_bracer_l.iff",
-					--			"Kashyyykian Black Mountain Right Bracer", "object/tangible/wearables/armor/kashyyykian_black_mtn/armor_kashyyykian_black_mtn_bracer_r.iff",
-					--			"Kashyyykian Black Mountain Chest Plate", "object/tangible/wearables/armor/kashyyykian_black_mtn/armor_kashyyykian_black_mtn_chest_plate.iff",
-					--			"Kashyyykian Black Mountain Leggings", "object/tangible/wearables/armor/kashyyykian_black_mtn/armor_kashyyykian_black_mtn_leggings.iff"
-					--		},
-					--
-					--		"Kashyyykian Ceremonial",
-					--		{
-					--			"Kashyyykian Ceremonial Left Bracer", "object/tangible/wearables/armor/kashyyykian_ceremonial/armor_kashyyykian_ceremonial_bracer_l.iff",
-					--			"Kashyyykian Ceremonial Right Bracer", "object/tangible/wearables/armor/kashyyykian_ceremonial/armor_kashyyykian_ceremonial_bracer_r.iff",
-					--			"Kashyyykian Ceremonial Chest Plate", "object/tangible/wearables/armor/kashyyykian_ceremonial/armor_kashyyykian_ceremonial_chest_plate.iff",
-					--			"Kashyyykian Ceremonial Leggings", "object/tangible/wearables/armor/kashyyykian_ceremonial/armor_kashyyykian_ceremonial_leggings.iff"
-					--		},
-					"Kashyyykian Hunting",
-					{
-						"Kashyyykian Hunting Left Bracer", "object/tangible/wearables/armor/kashyyykian_hunting/armor_kashyyykian_hunting_bracer_l.iff",
-						"Kashyyykian Hunting Right Bracer", "object/tangible/wearables/armor/kashyyykian_hunting/armor_kashyyykian_hunting_bracer_r.iff",
-						"Kashyyykian Hunting Chest Plate", "object/tangible/wearables/armor/kashyyykian_hunting/armor_kashyyykian_hunting_chest_plate.iff",
-						"Kashyyykian Hunting Leggings", "object/tangible/wearables/armor/kashyyykian_hunting/armor_kashyyykian_hunting_leggings.iff"
-					}
+					"Clone Trooper Belt", "object/tangible/wearables/armor/clone_trooper/armor_clone_trooper_neutral_s01_belt.iff",
+					"Clone Trooper Left Bicep", "object/tangible/wearables/armor/clone_trooper/armor_clone_trooper_neutral_s01_bicep_l.iff",
+					"Clone Trooper Right Bicep", "object/tangible/wearables/armor/clone_trooper/armor_clone_trooper_neutral_s01_bicep_r.iff",
+					"Clone Trooper Boots", "object/tangible/wearables/armor/clone_trooper/armor_clone_trooper_neutral_s01_boots.iff",
+					"Clone Trooper Left Bracer", "object/tangible/wearables/armor/clone_trooper/armor_clone_trooper_neutral_s01_bracer_l.iff",
+					"Clone Trooper Right Bracer", "object/tangible/wearables/armor/clone_trooper/armor_clone_trooper_neutral_s01_bracer_r.iff",
+					"Clone Trooper Chest Plate", "object/tangible/wearables/armor/clone_trooper/armor_clone_trooper_neutral_s01_chest_plate.iff",
+					"Clone Trooper Gloves", "object/tangible/wearables/armor/clone_trooper/armor_clone_trooper_neutral_s01_gloves.iff",
+					"Clone Trooper Helmet", "object/tangible/wearables/armor/clone_trooper/armor_clone_trooper_neutral_s01_helmet.iff",
+					"Clone Trooper Leggings", "object/tangible/wearables/armor/clone_trooper/armor_clone_trooper_neutral_s01_leggings.iff"
 				},
-			--	"Singing Mountain Clan Armor",
-			--	{
-			--		"Singing Mountain Clan Bicep", "object/tangible/wearables/armor/bone/armor_smc_s01_bicep_l.iff"
-			--	}
+				"Clone Trooper Rebel Armor",
+				{
+					"Clone Trooper Belt", "object/tangible/wearables/armor/clone_trooper/armor_clone_trooper_rebel_s01_belt.iff",
+					"Clone Trooper Left Bicep", "object/tangible/wearables/armor/clone_trooper/armor_clone_trooper_rebel_s01_bicep_l.iff",
+					"Clone Trooper Right Bicep", "object/tangible/wearables/armor/clone_trooper/armor_clone_trooper_rebel_s01_bicep_r.iff",
+					"Clone Trooper Boots", "object/tangible/wearables/armor/clone_trooper/armor_clone_trooper_rebel_s01_boots.iff",
+					"Clone Trooper Left Bracer", "object/tangible/wearables/armor/clone_trooper/armor_clone_trooper_rebel_s01_bracer_l.iff",
+					"Clone Trooper Right Bracer", "object/tangible/wearables/armor/clone_trooper/armor_clone_trooper_rebel_s01_bracer_r.iff",
+					"Clone Trooper Chest Plate", "object/tangible/wearables/armor/clone_trooper/armor_clone_trooper_rebel_s01_chest_plate.iff",
+					"Clone Trooper Gloves", "object/tangible/wearables/armor/clone_trooper/armor_clone_trooper_rebel_s01_gloves.iff",
+					"Clone Trooper Helmet", "object/tangible/wearables/armor/clone_trooper/armor_clone_trooper_rebel_s01_helmet.iff",
+					"Clone Trooper Leggings", "object/tangible/wearables/armor/clone_trooper/armor_clone_trooper_rebel_s01_leggings.iff"
+				},	
+				"Bone Armor",
+				{
+					"Bone Left Bicep", "object/tangible/wearables/armor/bone/armor_bone_s01_bicep_l.iff",
+					"Bone Right Bicep", "object/tangible/wearables/armor/bone/armor_bone_s01_bicep_r.iff",
+					"Bone Boots", "object/tangible/wearables/armor/bone/armor_bone_s01_boots.iff",
+					"Bone Left Bracer", "object/tangible/wearables/armor/bone/armor_bone_s01_bracer_l.iff",
+					"Bone Right Bracer", "object/tangible/wearables/armor/bone/armor_bone_s01_bracer_r.iff",
+					"Bone Chest Plate", "object/tangible/wearables/armor/bone/armor_bone_s01_chest_plate.iff",
+					"Bone Gloves", "object/tangible/wearables/armor/bone/armor_bone_s01_gloves.iff",
+					"Bone Helmet", "object/tangible/wearables/armor/bone/armor_bone_s01_helmet.iff",
+					"Bone Leggings", "object/tangible/wearables/armor/bone/armor_bone_s01_leggings.iff"
+				},
+			"Ithorian Armor",
+			{
+				"Ithorian Sentinel",
+				{
+					"Ithorian Sentinel Left Bicep", "object/tangible/wearables/armor/ithorian_sentinel/ith_armor_s03_bicep_l.iff",
+					"Ithorian Sentinel Right Bicep", "object/tangible/wearables/armor/ithorian_sentinel/ith_armor_s03_bicep_r.iff",
+					"Ithorian Sentinel Boots", "object/tangible/wearables/armor/ithorian_sentinel/ith_armor_s03_boots.iff",
+					"Ithorian Sentinel Left Bracer", "object/tangible/wearables/armor/ithorian_sentinel/ith_armor_s03_bracer_l.iff",
+					"Ithorian Sentinel Right Bracer", "object/tangible/wearables/armor/ithorian_sentinel/ith_armor_s03_bracer_r.iff",
+					"Ithorian Sentinel Chest Plate", "object/tangible/wearables/armor/ithorian_sentinel/ith_armor_s03_chest_plate.iff",
+					"Ithorian Sentinel Gloves", "object/tangible/wearables/armor/ithorian_sentinel/ith_armor_s03_gloves.iff",
+					"Ithorian Sentinel Helmet", "object/tangible/wearables/armor/ithorian_sentinel/ith_armor_s03_helmet.iff",
+					"Ithorian Sentinel Leggings", "object/tangible/wearables/armor/ithorian_sentinel/ith_armor_s03_leggings.iff"
+				},
+			},
+			"Kashyyykian Armor",
+			{
+				"Kashyyykian Black Mountain",
+				{
+					"Kashyyykian Black Mountain Left Bracer", "object/tangible/wearables/armor/kashyyykian_black_mtn/armor_kashyyykian_black_mtn_bracer_l.iff",
+					"Kashyyykian Black Mountain Right Bracer", "object/tangible/wearables/armor/kashyyykian_black_mtn/armor_kashyyykian_black_mtn_bracer_r.iff",
+					"Kashyyykian Black Mountain Chest Plate", "object/tangible/wearables/armor/kashyyykian_black_mtn/armor_kashyyykian_black_mtn_chest_plate.iff",
+					"Kashyyykian Black Mountain Leggings", "object/tangible/wearables/armor/kashyyykian_black_mtn/armor_kashyyykian_black_mtn_leggings.iff"
+				},
+				
+				"Kashyyykian Ceremonial",
+				{
+					"Kashyyykian Ceremonial Left Bracer", "object/tangible/wearables/armor/kashyyykian_ceremonial/armor_kashyyykian_ceremonial_bracer_l.iff",
+					"Kashyyykian Ceremonial Right Bracer", "object/tangible/wearables/armor/kashyyykian_ceremonial/armor_kashyyykian_ceremonial_bracer_r.iff",
+					"Kashyyykian Ceremonial Chest Plate", "object/tangible/wearables/armor/kashyyykian_ceremonial/armor_kashyyykian_ceremonial_chest_plate.iff",
+					"Kashyyykian Ceremonial Leggings", "object/tangible/wearables/armor/kashyyykian_ceremonial/armor_kashyyykian_ceremonial_leggings.iff"
+				},
+				"Kashyyykian Hunting",
+				{
+					"Kashyyykian Hunting Left Bracer", "object/tangible/wearables/armor/kashyyykian_hunting/armor_kashyyykian_hunting_bracer_l.iff",
+					"Kashyyykian Hunting Right Bracer", "object/tangible/wearables/armor/kashyyykian_hunting/armor_kashyyykian_hunting_bracer_r.iff",
+					"Kashyyykian Hunting Chest Plate", "object/tangible/wearables/armor/kashyyykian_hunting/armor_kashyyykian_hunting_chest_plate.iff",
+					"Kashyyykian Hunting Leggings", "object/tangible/wearables/armor/kashyyykian_hunting/armor_kashyyykian_hunting_leggings.iff"
+				},
+			},
+			"Chitin Armor",
+			{
+				"Chitin Left Bicep", "object/tangible/wearables/armor/chitin/armor_chitin_s01_bicep_l.iff",
+				"Chitin Right Bicep", "object/tangible/wearables/armor/chitin/armor_chitin_s01_bicep_r.iff",
+				"Chitin Boots", "object/tangible/wearables/armor/chitin/armor_chitin_s01_boots.iff",
+				"Chitin Left Bracer", "object/tangible/wearables/armor/chitin/armor_chitin_s01_bracer_l.iff",
+				"Chitin Right Bracer", "object/tangible/wearables/armor/chitin/armor_chitin_s01_bracer_r.iff",
+				"Chitin Chest Plate", "object/tangible/wearables/armor/chitin/armor_chitin_s01_chest_plate.iff",
+				"Chitin Gloves", "object/tangible/wearables/armor/chitin/armor_chitin_s01_gloves.iff",
+				"Chitin Helmet", "object/tangible/wearables/armor/chitin/armor_chitin_s01_helmet.iff",
+				"Chitin Leggings", "object/tangible/wearables/armor/chitin/armor_chitin_s01_leggings.iff"
+			},
+			"Composite Armor",
+			{
+				"Composite Left Bicep", "object/tangible/wearables/armor/composite/armor_composite_bicep_l.iff",
+				"Composite Right Bicep", "object/tangible/wearables/armor/composite/armor_composite_bicep_r.iff",
+				"Composite Boots", "object/tangible/wearables/armor/composite/armor_composite_boots.iff",
+				"Composite Left Bracer", "object/tangible/wearables/armor/composite/armor_composite_bracer_l.iff",
+				"Composite Right Bracer", "object/tangible/wearables/armor/composite/armor_composite_bracer_r.iff",
+				"Composite Chest Plate", "object/tangible/wearables/armor/composite/armor_composite_chest_plate.iff",
+				"Composite Gloves", "object/tangible/wearables/armor/composite/armor_composite_gloves.iff",
+				"Composite Helmet", "object/tangible/wearables/armor/composite/armor_composite_helmet.iff",
+				"Composite Leggings", "object/tangible/wearables/armor/composite/armor_composite_leggings.iff"
+			},
+			"Singing Mountain Clan Armor",
+			{
+				"Singing Mountain Clan Bicep", "object/tangible/wearables/armor/bone/armor_smc_s01_bicep_l.iff"
+			}
 		},
 			"Clothes",
 			{
@@ -1690,220 +1695,258 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 				},
 				"Backpacks",
 				{
-					"Backpack 01", "object/tangible/wearables/backpack/backpack_s01.iff"
+					"Travel Pack", "object/tangible/wearables/backpack/backpack_s01.iff",
+					"Military Travel Pack", "object/tangible/wearables/backpack/backpack_s03.iff",
+					"Lightweight Military Pack", "object/tangible/wearables/backpack/backpack_s03_quest.iff",
+					"Tech Pack", "object/tangible/wearables/backpack/backpack_s04.iff",
+					"Bounty Hunter Pack", "object/tangible/wearables/backpack/backpack_s05.iff",
+					"Spec-Ops Pack", "object/tangible/wearables/backpack/backpack_s06.iff",
+					"Spec-Ops Field Agent Pack", "object/tangible/wearables/backpack/backpack_s06_quest.iff",
+					"Singing Mountain Clan Pack", "object/tangible/wearables/backpack/singing_mountain_clan_backpack.iff",
+					"Chiss Backpack", "object/tangible/wearables/backpack/ep3_chiss_poacher_backpack.iff"
 				}
 			},
-			"Consumables",
-			{
-				"Desserts",
-				{
-			--"Air Cake", "object/tangible/food/crafted/dessert_air_cake.iff",
-			--"Almond Kwevvu Crisp Munchies", "object/tangible/food/crafted/dessert_almond_kwevvu_crisp_munchies.iff",
-			--"Bantha Butter", "object/tangible/food/crafted/dessert_bantha_butter.iff",
-			--"Blap Biscuit", "object/tangible/food/crafted/dessert_blap_biscuit.iff",
-			--"Blob Candy", "object/tangible/food/crafted/dessert_blob_candy.iff",
-			--"Bofa Treat", "object/tangible/food/crafted/dessert_bofa_treat.iff",
-			--"Cavaellin Creams", "object/tangible/food/crafted/dessert_cavaellin_creams.iff",
-			--"Chandad", "object/tangible/food/crafted/dessert_chandad.iff",
-			"Citros Snow Cake", "object/tangible/food/crafted/dessert_citros_snow_cake.iff",
-			--"Corellian Fried Icecream", "object/tangible/food/crafted/dessert_corellian_fried_icecream.iff",
-			--"Deneelian Fizz Pudding", "object/tangible/food/crafted/dessert_deneelian_fizz_pudding.iff",
-			--"Dweezel", "object/tangible/food/crafted/dessert_dweezel.iff",
-			--"Felbar", "object/tangible/food/crafted/dessert_felbar.iff",
-			--"Glazed Glucose Pate", "object/tangible/food/crafted/dessert_glazed_glucose_pate.iff",
-			--"Gorrnar", "object/tangible/food/crafted/dessert_gorrnar.iff",
-			--"Kiwik Clusjo Swirl", "object/tangible/food/crafted/dessert_kiwik_clusjo_swirl.iff",
-			--"Nanana Twist", "object/tangible/food/crafted/dessert_nanana_twist.iff",
-			--"Para Roll", "object/tangible/food/crafted/dessert_para_roll.iff",
-			--"Parwan Nutricake", "object/tangible/food/crafted/dessert_parwan_nutricake.iff",
-			--"Pastebread", "object/tangible/food/crafted/dessert_pastebread.iff",
-			"Pikatta Pie", "object/tangible/food/crafted/dessert_pikatta_pie.iff",
-			--"Pkneb", "object/tangible/food/crafted/dessert_pkneb.iff",
-			--"Puffcake", "object/tangible/food/crafted/dessert_puffcake.iff",
-			--"Pyollian Cake", "object/tangible/food/crafted/dessert_pyollian_cake.iff",
-			--"Ryshcate", "object/tangible/food/crafted/dessert_ryshcate.iff",
-			--"Smugglers Delight", "object/tangible/food/crafted/dessert_smugglers_delight.iff",
-			--"Sweesonberry Rolls", "object/tangible/food/crafted/dessert_sweesonberry_rolls.iff",
-			--"Sweet Cake Mix", "object/tangible/food/crafted/dessert_sweet_cake_mix.iff",
-			--"Tranna Nougat Cream", "object/tangible/food/crafted/dessert_tranna_nougat_cream.iff",
-			"Vagnerian Canape", "object/tangible/food/crafted/dessert_vagnerian_canape.iff",
-			--"Wedding Cake", "object/tangible/food/crafted/dessert_wedding_cake.iff",
-			--"Won Won", "object/tangible/food/crafted/dessert_won_won.iff",
-			},
-			"Dishes",
-			{
-			--"Ahrisa", "object/tangible/food/crafted/dish_ahrisa.iff",
-			--"Bivoli Tempari", "object/tangible/food/crafted/dish_bivoli_tempari.iff",
-			--"Blood Chowder", "object/tangible/food/crafted/dish_blood_chowder.iff",
-			--"Braised Canron", "object/tangible/food/crafted/dish_braised_canron.iff",
-			--"Cho Nor Hoola", "object/tangible/food/crafted/dish_cho_nor_hoola.iff",
-			--"Crispic", "object/tangible/food/crafted/dish_crispic.iff",
-			--"Dustcrepe", "object/tangible/food/crafted/dish_dustcrepe.iff",
-			"Exo Protein Wafers", "object/tangible/food/crafted/dish_exo_protein_wafers.iff",
-			--"Fire Stew", "object/tangible/food/crafted/dish_fire_stew.iff",
-			--"Fried Endwa", "object/tangible/food/crafted/dish_fried_endwa.iff",
-			--"Gruuvan Shaal", "object/tangible/food/crafted/dish_gruuvan_shaal.iff",
-			--"Havla", "object/tangible/food/crafted/dish_havla.iff",
-			--"Kanali Wafers", "object/tangible/food/crafted/dish_kanali_wafers.iff",
-			--"Karkan Ribenes", "object/tangible/food/crafted/dish_karkan_ribenes.iff",
-			--"Meatlump", "object/tangible/food/crafted/dish_meatlump.iff",
-			--"ormachek", "object/tangible/food/crafted/dish_ormachek.iff",
-			--"Patot Panak", "object/tangible/food/crafted/dish_patot_panak.iff",
-			--"Protato", "object/tangible/food/crafted/dish_protato.iff",
-			--"Puk", "object/tangible/food/crafted/dish_puk.iff",
-			--"Rakririan Burnout Sauce", "object/tangible/food/crafted/dish_rakririan_burnout_sauce.iff",
-			--"Ramorrean Capanata", "object/tangible/food/crafted/dish_ramorrean_capanata.iff",
-			--"Rations", "object/tangible/food/crafted/dish_rations.iff",
-			--"Scrimpi", "object/tangible/food/crafted/dish_scrimpi.iff",
-			--"Soypro", "object/tangible/food/crafted/dish_soypro.iff",
-			--"Stewed Gwouch", "object/tangible/food/crafted/dish_stewed_gwouch.iff",
-			"Synthsteak", "object/tangible/food/crafted/dish_synthsteak.iff",
-			--"Teltier Noodles", "object/tangible/food/crafted/dish_teltier_noodles.iff",
-			--"Terratta", "object/tangible/food/crafted/dish_terratta.iff",
-			"Thakitillo", "object/tangible/food/crafted/dish_thakitillo.iff",
-			--"Travel Biscuits", "object/tangible/food/crafted/dish_travel_biscuits.iff",
-			--"Trimpian", "object/tangible/food/crafted/dish_trimpian.iff",
-			--"Vegeparsine", "object/tangible/food/crafted/dish_vegeparsine.iff",
-			--"Veghash", "object/tangible/food/crafted/dish_veghash.iff",
-			--"Vercupti of Agazza Boleruuee", "object/tangible/food/crafted/dish_vercupti_of_agazza_boleruuee.iff",
-			--"Wastril Bread", "object/tangible/food/crafted/dish_wastril_bread.iff",
-			--"Xermaauc", "object/tangible/food/crafted/dish_xermaauc.iff"
-			},
-			"Drinks",
-			{
-			--"Accarragm", "object/tangible/food/crafted/drink_accarragm.iff",
-			--"Aitha", "object/tangible/food/crafted/drink_aitha.iff",
-			--"Alcohol", "object/tangible/food/crafted/drink_alcohol.iff",
-			--"Aludium Pu36", "object/tangible/food/crafted/drink_aludium_pu36.iff",
-			--"Angerian Fishak Surprise", "object/tangible/food/crafted/drink_angerian_fishak_surprise.iff",
-			--"Antakarian Fire Dancer", "object/tangible/food/crafted/drink_antakarian_fire_dancer.iff",
-			--"Bantha Blaster", "object/tangible/food/crafted/drink_bantha_blaster.iff",
-			--"Bespin Port", "object/tangible/food/crafted/drink_bespin_port.iff",
-			"Blue Milk", "object/tangible/food/crafted/drink_blue_milk.iff",
-			--"Breath of Heaven", "object/tangible/food/crafted/drink_breath_of_heaven.iff",
-			--"Caf", "object/tangible/food/crafted/drink_caf.iff",
-			--"Charde", "object/tangible/food/crafted/drink_charde.iff",
-			--"Corellian Ale", "object/tangible/food/crafted/drink_corellian_ale.iff",
-			--"Corellian Brandy", "object/tangible/food/crafted/drink_corellian_brandy.iff",
-			--"Cortyg", "object/tangible/food/crafted/drink_cortyg.iff",
-			--"Deuterium Pyro", "object/tangible/food/crafted/drink_deuterium_pyro.iff",
-			--"Double Dip outer Rim Rumdrop", "object/tangible/food/crafted/drink_double_dip_outer_rim_rumdrop.iff",
-			--"Durindfire", "object/tangible/food/crafted/drink_durindfire.iff",
-			--"Elshandruu Pica Thundercloud", "object/tangible/food/crafted/drink_elshandruu_pica_thundercloud.iff",
-			--"Flameout", "object/tangible/food/crafted/drink_flameout.iff",
-			--"Garrmorl", "object/tangible/food/crafted/drink_garrmorl.iff",
-			--"Gralinyn Juice", "object/tangible/food/crafted/drink_gralinyn_juice.iff",
-			--"Ice Blaster", "object/tangible/food/crafted/drink_ice_blaster.iff",
-			"Ithorian Mist", "object/tangible/food/crafted/drink_ithorian_mist.iff",
-			--"Jaar", "object/tangible/food/crafted/drink_jaar.iff",
-			--"Jawa Beer", "object/tangible/food/crafted/drink_jawa_beer.iff",
-			--"Kylessian Fruit Distillate", "object/tangible/food/crafted/drink_kylessian_fruit_distillate.iff",
-			--"Mandalorian Wine", "object/tangible/food/crafted/drink_mandalorian_wine.iff",
-			--"Ruby Bliel", "object/tangible/food/crafted/drink_ruby_bliel.iff",
-			--"Skannbult Likker", "object/tangible/food/crafted/drink_skannbult_likker.iff",
-			"Spiced Tea", "object/tangible/food/crafted/drink_spiced_tea.iff",
-			--"Starshine Surprise", "object/tangible/food/crafted/drink_starshine_surprise.iff",
-			--"Sullustan Gin", "object/tangible/food/crafted/drink_sullustan_gin.iff",
-			--"Tatooine Sunburn", "object/tangible/food/crafted/drink_tatooine_sunburn.iff",
-			--"Tilla Tiil", "object/tangible/food/crafted/drink_tilla_tiil.iff",
-			--"Tssolok", "object/tangible/food/crafted/drink_tssolok.iff",
-			"Vasarian Brandy", "object/tangible/food/crafted/drink_vasarian_brandy.iff",
-			--"Vayerbok", "object/tangible/food/crafted/drink_vayerbok.iff",
-			--"Veronian Berry Wine", "object/tangible/food/crafted/drink_veronian_berry_wine.iff"
-			},
-			--"Foraged Food",
+			--"Consumables",
 			--{
-			--"Jar of Berries", "object/tangible/food/foraged/edible_jar_berries.iff",
-			--"Jar of Bugs", "object/tangible/food/foraged/edible_jar_bugs.iff",
-			--"Jar of Fungus", "object/tangible/food/foraged/edible_jar_fungus.iff",
-			--"Jar of Funk", "object/tangible/food/foraged/edible_jar_funk.iff",
-			--"Jar of Livers", "object/tangible/food/foraged/edible_jar_livers.iff",
-			--"Fruit Style 1", "object/tangible/food/foraged/foraged_fruit_s1.iff",
-			--"Fruit Style 2", "object/tangible/food/foraged/foraged_fruit_s2.iff",
-			--"Fruit Style 3", "object/tangible/food/foraged/foraged_fruit_s3.iff",
-			--"Fruit Style 4", "object/tangible/food/foraged/foraged_fruit_s4.iff",
-			--"Fruit Style 5", "object/tangible/food/foraged/foraged_fruit_s5.iff",
-			--"Vegetable Style 2", "object/tangible/food/foraged/foraged_vegetable_s2.iff",
-			--"Vegetable Style 3", "object/tangible/food/foraged/foraged_vegetable_s3.iff",
-			--"Vegetable Style 4", "object/tangible/food/foraged/foraged_vegetable_s4.iff",
-			--"Vegetable Style 5", "object/tangible/food/foraged/foraged_vegetable_s5.iff"
+			--	"Desserts",
+			--	{
+					--"Air Cake", "object/tangible/food/crafted/dessert_air_cake.iff",
+					--"Almond Kwevvu Crisp Munchies", "object/tangible/food/crafted/dessert_almond_kwevvu_crisp_munchies.iff",
+					--"Bantha Butter", "object/tangible/food/crafted/dessert_bantha_butter.iff",
+					--"Blap Biscuit", "object/tangible/food/crafted/dessert_blap_biscuit.iff",
+					--"Blob Candy", "object/tangible/food/crafted/dessert_blob_candy.iff",
+					--"Bofa Treat", "object/tangible/food/crafted/dessert_bofa_treat.iff",
+					--"Cavaellin Creams", "object/tangible/food/crafted/dessert_cavaellin_creams.iff",
+					--"Chandad", "object/tangible/food/crafted/dessert_chandad.iff",
+					--"Citros Snow Cake", "object/tangible/food/crafted/dessert_citros_snow_cake.iff",
+					--"Corellian Fried Icecream", "object/tangible/food/crafted/dessert_corellian_fried_icecream.iff",
+					--"Deneelian Fizz Pudding", "object/tangible/food/crafted/dessert_deneelian_fizz_pudding.iff",
+					--"Dweezel", "object/tangible/food/crafted/dessert_dweezel.iff",
+					--"Felbar", "object/tangible/food/crafted/dessert_felbar.iff",
+					--"Glazed Glucose Pate", "object/tangible/food/crafted/dessert_glazed_glucose_pate.iff",
+					--"Gorrnar", "object/tangible/food/crafted/dessert_gorrnar.iff",
+					--"Kiwik Clusjo Swirl", "object/tangible/food/crafted/dessert_kiwik_clusjo_swirl.iff",
+					--"Nanana Twist", "object/tangible/food/crafted/dessert_nanana_twist.iff",
+					--"Para Roll", "object/tangible/food/crafted/dessert_para_roll.iff",
+					--"Parwan Nutricake", "object/tangible/food/crafted/dessert_parwan_nutricake.iff",
+					--"Pastebread", "object/tangible/food/crafted/dessert_pastebread.iff",
+					--"Pikatta Pie", "object/tangible/food/crafted/dessert_pikatta_pie.iff",
+					--"Pkneb", "object/tangible/food/crafted/dessert_pkneb.iff",
+					--"Puffcake", "object/tangible/food/crafted/dessert_puffcake.iff",
+					--"Pyollian Cake", "object/tangible/food/crafted/dessert_pyollian_cake.iff",
+					--"Ryshcate", "object/tangible/food/crafted/dessert_ryshcate.iff",
+					--"Smugglers Delight", "object/tangible/food/crafted/dessert_smugglers_delight.iff",
+					--"Sweesonberry Rolls", "object/tangible/food/crafted/dessert_sweesonberry_rolls.iff",
+					--"Sweet Cake Mix", "object/tangible/food/crafted/dessert_sweet_cake_mix.iff",
+					--"Tranna Nougat Cream", "object/tangible/food/crafted/dessert_tranna_nougat_cream.iff",
+					--"Vagnerian Canape", "object/tangible/food/crafted/dessert_vagnerian_canape.iff",
+					--"Wedding Cake", "object/tangible/food/crafted/dessert_wedding_cake.iff",
+					--"Won Won", "object/tangible/food/crafted/dessert_won_won.iff",
+				--},
+				--"Dishes",
+				--{
+					--"Ahrisa", "object/tangible/food/crafted/dish_ahrisa.iff",
+					--"Bivoli Tempari", "object/tangible/food/crafted/dish_bivoli_tempari.iff",
+					--"Blood Chowder", "object/tangible/food/crafted/dish_blood_chowder.iff",
+					--"Braised Canron", "object/tangible/food/crafted/dish_braised_canron.iff",
+					--"Cho Nor Hoola", "object/tangible/food/crafted/dish_cho_nor_hoola.iff",
+					--"Crispic", "object/tangible/food/crafted/dish_crispic.iff",
+					--"Dustcrepe", "object/tangible/food/crafted/dish_dustcrepe.iff",
+					--"Exo Protein Wafers", "object/tangible/food/crafted/dish_exo_protein_wafers.iff",
+					--"Fire Stew", "object/tangible/food/crafted/dish_fire_stew.iff",
+					--"Fried Endwa", "object/tangible/food/crafted/dish_fried_endwa.iff",
+					--"Gruuvan Shaal", "object/tangible/food/crafted/dish_gruuvan_shaal.iff",
+					--"Havla", "object/tangible/food/crafted/dish_havla.iff",
+					--"Kanali Wafers", "object/tangible/food/crafted/dish_kanali_wafers.iff",
+					--"Karkan Ribenes", "object/tangible/food/crafted/dish_karkan_ribenes.iff",
+					--"Meatlump", "object/tangible/food/crafted/dish_meatlump.iff",
+					--"ormachek", "object/tangible/food/crafted/dish_ormachek.iff",
+					--"Patot Panak", "object/tangible/food/crafted/dish_patot_panak.iff",
+					--"Protato", "object/tangible/food/crafted/dish_protato.iff",
+					--"Puk", "object/tangible/food/crafted/dish_puk.iff",
+					--"Rakririan Burnout Sauce", "object/tangible/food/crafted/dish_rakririan_burnout_sauce.iff",
+					--"Ramorrean Capanata", "object/tangible/food/crafted/dish_ramorrean_capanata.iff",
+					--"Rations", "object/tangible/food/crafted/dish_rations.iff",
+					--"Scrimpi", "object/tangible/food/crafted/dish_scrimpi.iff",
+					--"Soypro", "object/tangible/food/crafted/dish_soypro.iff",
+					--"Stewed Gwouch", "object/tangible/food/crafted/dish_stewed_gwouch.iff",
+					--"Synthsteak", "object/tangible/food/crafted/dish_synthsteak.iff",
+					--"Teltier Noodles", "object/tangible/food/crafted/dish_teltier_noodles.iff",
+					--"Terratta", "object/tangible/food/crafted/dish_terratta.iff",
+					--"Thakitillo", "object/tangible/food/crafted/dish_thakitillo.iff",
+					--"Travel Biscuits", "object/tangible/food/crafted/dish_travel_biscuits.iff",
+					--"Trimpian", "object/tangible/food/crafted/dish_trimpian.iff",
+					--"Vegeparsine", "object/tangible/food/crafted/dish_vegeparsine.iff",
+					--"Veghash", "object/tangible/food/crafted/dish_veghash.iff",
+					--"Vercupti of Agazza Boleruuee", "object/tangible/food/crafted/dish_vercupti_of_agazza_boleruuee.iff",
+					--"Wastril Bread", "object/tangible/food/crafted/dish_wastril_bread.iff",
+					--"Xermaauc", "object/tangible/food/crafted/dish_xermaauc.iff"
+				--},
+				--"Drinks",
+				--{
+					--"Accarragm", "object/tangible/food/crafted/drink_accarragm.iff",
+					--"Aitha", "object/tangible/food/crafted/drink_aitha.iff",
+					--"Alcohol", "object/tangible/food/crafted/drink_alcohol.iff",
+					--"Aludium Pu36", "object/tangible/food/crafted/drink_aludium_pu36.iff",
+					--"Angerian Fishak Surprise", "object/tangible/food/crafted/drink_angerian_fishak_surprise.iff",
+					--"Antakarian Fire Dancer", "object/tangible/food/crafted/drink_antakarian_fire_dancer.iff",
+					--"Bantha Blaster", "object/tangible/food/crafted/drink_bantha_blaster.iff",
+					--"Bespin Port", "object/tangible/food/crafted/drink_bespin_port.iff",
+					--"Blue Milk", "object/tangible/food/crafted/drink_blue_milk.iff",
+					--"Breath of Heaven", "object/tangible/food/crafted/drink_breath_of_heaven.iff",
+					--"Caf", "object/tangible/food/crafted/drink_caf.iff",
+					--"Charde", "object/tangible/food/crafted/drink_charde.iff",
+					--"Corellian Ale", "object/tangible/food/crafted/drink_corellian_ale.iff",
+					--"Corellian Brandy", "object/tangible/food/crafted/drink_corellian_brandy.iff",
+					--"Cortyg", "object/tangible/food/crafted/drink_cortyg.iff",
+					--"Deuterium Pyro", "object/tangible/food/crafted/drink_deuterium_pyro.iff",
+					--"Double Dip outer Rim Rumdrop", "object/tangible/food/crafted/drink_double_dip_outer_rim_rumdrop.iff",
+					--"Durindfire", "object/tangible/food/crafted/drink_durindfire.iff",
+					--"Elshandruu Pica Thundercloud", "object/tangible/food/crafted/drink_elshandruu_pica_thundercloud.iff",
+					--"Flameout", "object/tangible/food/crafted/drink_flameout.iff",
+					--"Garrmorl", "object/tangible/food/crafted/drink_garrmorl.iff",
+					--"Gralinyn Juice", "object/tangible/food/crafted/drink_gralinyn_juice.iff",
+					--"Ice Blaster", "object/tangible/food/crafted/drink_ice_blaster.iff",
+					--"Ithorian Mist", "object/tangible/food/crafted/drink_ithorian_mist.iff",
+					--"Jaar", "object/tangible/food/crafted/drink_jaar.iff",
+					--"Jawa Beer", "object/tangible/food/crafted/drink_jawa_beer.iff",
+					--"Kylessian Fruit Distillate", "object/tangible/food/crafted/drink_kylessian_fruit_distillate.iff",
+					--"Mandalorian Wine", "object/tangible/food/crafted/drink_mandalorian_wine.iff",
+					--"Ruby Bliel", "object/tangible/food/crafted/drink_ruby_bliel.iff",
+					--"Skannbult Likker", "object/tangible/food/crafted/drink_skannbult_likker.iff",
+					--"Spiced Tea", "object/tangible/food/crafted/drink_spiced_tea.iff",
+					--"Starshine Surprise", "object/tangible/food/crafted/drink_starshine_surprise.iff",
+					--"Sullustan Gin", "object/tangible/food/crafted/drink_sullustan_gin.iff",
+					--"Tatooine Sunburn", "object/tangible/food/crafted/drink_tatooine_sunburn.iff",
+					--"Tilla Tiil", "object/tangible/food/crafted/drink_tilla_tiil.iff",
+					--"Tssolok", "object/tangible/food/crafted/drink_tssolok.iff",
+					--"Vasarian Brandy", "object/tangible/food/crafted/drink_vasarian_brandy.iff",
+					--"Vayerbok", "object/tangible/food/crafted/drink_vayerbok.iff",
+					--"Veronian Berry Wine", "object/tangible/food/crafted/drink_veronian_berry_wine.iff"
+				--},
+				--"Foraged Food",
+				--{
+					--"Jar of Berries", "object/tangible/food/foraged/edible_jar_berries.iff",
+					--"Jar of Bugs", "object/tangible/food/foraged/edible_jar_bugs.iff",
+					--"Jar of Fungus", "object/tangible/food/foraged/edible_jar_fungus.iff",
+					--"Jar of Funk", "object/tangible/food/foraged/edible_jar_funk.iff",
+					--"Jar of Livers", "object/tangible/food/foraged/edible_jar_livers.iff",
+					--"Fruit Style 1", "object/tangible/food/foraged/foraged_fruit_s1.iff",
+					--"Fruit Style 2", "object/tangible/food/foraged/foraged_fruit_s2.iff",
+					--"Fruit Style 3", "object/tangible/food/foraged/foraged_fruit_s3.iff",
+					--"Fruit Style 4", "object/tangible/food/foraged/foraged_fruit_s4.iff",
+					--"Fruit Style 5", "object/tangible/food/foraged/foraged_fruit_s5.iff",
+					--"Vegetable Style 2", "object/tangible/food/foraged/foraged_vegetable_s2.iff",
+					--"Vegetable Style 3", "object/tangible/food/foraged/foraged_vegetable_s3.iff",
+					--"Vegetable Style 4", "object/tangible/food/foraged/foraged_vegetable_s4.iff",
+					--"Vegetable Style 5", "object/tangible/food/foraged/foraged_vegetable_s5.iff"
+				--},
+				--"Generic Food",
+				--{
+					--"Bread loaf", "object/tangible/food/bread_loaf_full_s1.iff",
+					--"Fruit Melon", "object/tangible/food/fruit_melon.iff",
+					--"Meat Kabob", "object/tangible/food/meat_kabob.iff",
+					--"Meat Object", "object/tangible/food/meat_object.iff",
+					--"Nectar", "object/tangible/food/nectar.iff"
+				--},
+				--"Spice",
+				--{
+					--"Booster Blue", "object/tangible/food/spice/spice_booster_blue.iff",
+					--"Crash N Burn", "object/tangible/food/spice/spice_brash_n_burn.iff",
+					--"Droid Lube", "object/tangible/food/spice/spice_droid_lube.iff",
+					--"Giggledust", "object/tangible/food/spice/spice_giggledust.iff",
+					--"Grey Gabaki", "object/tangible/food/spice/spice_grey_gabaki.iff",
+					--"Gunjack", "object/tangible/food/spice/spice_gunjack.iff",
+					--"Kliknik Boost", "object/tangible/food/spice/spice_kliknik_boost.iff",
+					--"Kwi Boost", "object/tangible/food/spice/spice_kwi_boost.iff",
+					--"Muon Gold", "object/tangible/food/spice/spice_muon_gold.iff",  
+					--"Neutron Pixie", "object/tangible/food/spice/spice_neutron_pixey.iff",
+					--"Pyrepenol", "object/tangible/food/spice/spice_pyrepenol.iff",
+					--"Scramjet", "object/tangible/food/spice/spice_Scramjet.iff",
+					--"Sedative H4B", "object/tangible/food/spice/spice_sedative_h4b.iff",
+					--"Shadowpaw", "object/tangible/food/spice/spice_shadowpaw.iff",
+					--"Sweetblossom", "object/tangible/food/spice/spice_sweetblossom.iff",
+					--"Thruster Head", "object/tangible/food/spice/spice_thruster_head.iff",
+					--"Yarrock", "object/tangible/food/spice/spice_yarrock.iff"
+				--}
 			--},
-			--"Generic Food",
-			--{
-			--"Bread loaf", "object/tangible/food/bread_loaf_full_s1.iff",
-			--"Fruit Melon", "object/tangible/food/fruit_melon.iff",
-			--"Meat Kabob", "object/tangible/food/meat_kabob.iff",
-			--"Meat Object", "object/tangible/food/meat_object.iff",
-			--"Nectar", "object/tangible/food/nectar.iff"
-			--},
-			--"Spice",
-			--{
-			--"Booster Blue", "object/tangible/food/spice/spice_booster_blue.iff",
-			--"Crash N Burn", "object/tangible/food/spice/spice_brash_n_burn.iff",
-			--"Droid Lube", "object/tangible/food/spice/spice_droid_lube.iff",
-			--"Giggledust", "object/tangible/food/spice/spice_giggledust.iff",
-			--"Grey Gabaki", "object/tangible/food/spice/spice_grey_gabaki.iff",
-			--"Gunjack", "object/tangible/food/spice/spice_gunjack.iff",
-			--"Kliknik Boost", "object/tangible/food/spice/spice_kliknik_boost.iff",
-			--"Kwi Boost", "object/tangible/food/spice/spice_kwi_boost.iff",
-			--"Muon Gold", "object/tangible/food/spice/spice_muon_gold.iff",
-			--"Neutron Pixie", "object/tangible/food/spice/spice_neutron_pixey.iff",
-			--"Pyrepenol", "object/tangible/food/spice/spice_pyrepenol.iff",
-			--"Scramjet", "object/tangible/food/spice/spice_Scramjet.iff",
-			--"Sedative H4B", "object/tangible/food/spice/spice_sedative_h4b.iff",
-			--"Shadowpaw", "object/tangible/food/spice/spice_shadowpaw.iff",
-			--"Sweetblossom", "object/tangible/food/spice/spice_sweetblossom.iff",
-			--"Thruster Head", "object/tangible/food/spice/spice_thruster_head.iff",
-			--"Yarrock", "object/tangible/food/spice/spice_yarrock.iff"
-			--}
-			},
 			"Deeds",
 			{
-				"Resource Deed", "object/tangible/veteran_reward/resource.iff",
 				"Vehicle Deeds",
 				{
+					"BARC Speeder", "object/tangible/deed/vehicle_deed/barc_speeder_deed.iff",
 					"Swoop", "object/tangible/deed/vehicle_deed/speederbike_swoop_deed.iff",
-					--"Jetpack", "object/tangible/deed/vehicle_deed/jetpack_deed.iff",
+					"Jetpack", "object/tangible/deed/vehicle_deed/jetpack_deed.iff",
 					"Speederbike", "object/tangible/deed/vehicle_deed/speederbike_deed.iff",
-				--"Speederbike Flash", "object/tangible/deed/vehicle_deed/speederbike_flash_deed.iff",
-				--"Landspeeder av21", "object/tangible/deed/vehicle_deed/landspeeder_av21_deed.iff",
-				--"Landspeeder x31", "object/tangible/deed/vehicle_deed/landspeeder_x31_deed.iff",
-				--"Landspeeder x34", "object/tangible/deed/vehicle_deed/landspeeder_x34_deed.iff"
+					"Flash Speeder", "object/tangible/deed/vehicle_deed/speederbike_flash_deed.iff",
+					"Landspeeder AV-21", "object/tangible/deed/vehicle_deed/landspeeder_av21_deed.iff",
+					"Landspeeder X-31", "object/tangible/deed/vehicle_deed/landspeeder_x31_deed.iff",
+					"Landspeeder X-34", "object/tangible/deed/vehicle_deed/landspeeder_x34_deed.iff"
 				},
 				"Structure Deeds",
 				{
+					"NGE Player House Deeds",
+					{
+						"AT-AT House", "object/tangible/deed/player_house_deed/atat_house_deed.iff",
+						"Bespin House", "object/tangible/deed/player_house_deed/bespin_house_deed.iff",
+						"Commando Bunker", "object/tangible/deed/player_house_deed/commando_house_deed.iff",
+						"Emperor's Spire", "object/tangible/deed/player_house_deed/emperors_house_deed.iff",
+						"Generic Large Window s01", "object/tangible/deed/player_house_deed/generic_large_window_s01_deed.iff",
+						"Generic Large Window s02", "object/tangible/deed/player_house_deed/generic_large_window_s02_deed.iff",
+						"Generic medium Window s01", "object/tangible/deed/player_house_deed/generic_medium_window_s01_deed.iff",
+						"Generic medium Window s02", "object/tangible/deed/player_house_deed/generic_medium_window_s02_deed.iff",
+						"Generic Small Window s01", "object/tangible/deed/player_house_deed/generic_small_window_s01_deed.iff",
+						"Generic Small Window s02", "object/tangible/deed/player_house_deed/generic_small_window_s02_deed.iff",
+						"Starship Hanger", "object/tangible/deed/player_house_deed/hangar_house_deed.iff",
+						"Jabba's Skiff", "object/tangible/deed/player_house_deed/jabbas_house_deed.iff",
+						"Jedi Meditation Room", "object/tangible/deed/player_house_deed/jedi_house_deed.iff",
+						"Mustafarian Bunker", "object/tangible/deed/player_house_deed/musty_house_deed.iff",
+						"Naboo Small Window s01", "object/tangible/deed/player_house_deed/naboo_small_window_s01_deed.iff",
+						"NS Hut", "object/tangible/deed/player_house_deed/ns_hut_deed.iff",
+						"Rebel Spire", "object/tangible/deed/player_house_deed/rebel_house_deed.iff",
+						"Relaxation Pool", "object/tangible/deed/player_house_deed/relaxation_house_deed.iff",
+						"Sandcrawler House", "object/tangible/deed/player_house_deed/sandcrawler_house_deed.iff",
+						"Sith Meditation Room", "object/tangible/deed/player_house_deed/sith_house_deed.iff",
+						"SMC Hut", "object/tangible/deed/player_house_deed/sm_hut_deed.iff",
+						"Tatooine Small Window s01", "object/tangible/deed/player_house_deed/tatooine_small_window_s01_deed.iff",
+						"Wookiee Tree House", "object/tangible/deed/player_house_deed/tree_house_deed.iff",
+						"Vehicle Garage", "object/tangible/deed/player_house_deed/vehicle_house_deed.iff",
+						"VIP Bunker", "object/tangible/deed/player_house_deed/vipbunker_house_deed.iff",
+						"Yoda's Hut", "object/tangible/deed/player_house_deed/yoda_house_deed.iff",
+						"YT1300 House", "object/tangible/deed/player_house_deed/yt1300_house_deed.iff"
+					},
 					--"Factional Bases",
 					--{
-					--"Generic Base 1", "object/tangible/deed/faction_perk/hq/hq_s01.iff",
-					--"Generic PVP Base 1", "object/tangible/deed/faction_perk/hq/hq_s01_pvp.iff",
-					--"Generic Base 2", "object/tangible/deed/faction_perk/hq/hq_s02.iff",
-					--"Generic PVP Base 2", "object/tangible/deed/faction_perk/hq/hq_s02_pvp.iff",
-					--"Generic Base 3", "object/tangible/deed/faction_perk/hq/hq_s03.iff",
-					--"Generic PVP Base 3", "object/tangible/deed/faction_perk/hq/hq_s03_pvp.iff",
-					--"Generic Base 4", "object/tangible/deed/faction_perk/hq/hq_s04.iff",
-					--"Generic PVP Base 4", "object/tangible/deed/faction_perk/hq/hq_s04_pvp.iff",
-					--"Generic Base 5", "object/tangible/deed/faction_perk/hq/hq_s05.iff",
-					--"Generic PVP Base 5", "object/tangible/deed/faction_perk/hq/hq_s05_pvp.iff",
-					--"Imperial Base 1", "object/tangible/deed/faction_perk/hq/hq_s01_imp.iff",
-					--"Imperial PVP Base 1", "object/tangible/deed/faction_perk/hq/hq_s01_imp_pvp.iff",
-					--"Imperial Base 2", "object/tangible/deed/faction_perk/hq/hq_s02_imp.iff",
-					--"Imperial PVP Base 2", "object/tangible/deed/faction_perk/hq/hq_s02_imp_pvp.iff",
-					--"Imperial Base 3", "object/tangible/deed/faction_perk/hq/hq_s03_imp.iff",
-					--"Imperial PVP Base 3", "object/tangible/deed/faction_perk/hq/hq_s03_imp_pvp.iff",
-					--"Imperial Base 4", "object/tangible/deed/faction_perk/hq/hq_s04_imp.iff",
-					--"Imperial PVP Base 4", "object/tangible/deed/faction_perk/hq/hq_s04_imp_pvp.iff",
-					--"Imperial Base 5", "object/tangible/deed/faction_perk/hq/hq_s05_imp.iff",
-					--"Imperial PVP Base 5", "object/tangible/deed/faction_perk/hq/hq_s05_imp_pvp.iff",
-					--"Rebel Base 1", "object/tangible/deed/faction_perk/hq/hq_s01_reb.iff",
-					--"Rebel PVP Base 1", "object/tangible/deed/faction_perk/hq/hq_s01_reb_pvp.iff",
-					--"Rebel Base 2", "object/tangible/deed/faction_perk/hq/hq_s02_reb.iff",
-					--"Rebel PVP Base 2", "object/tangible/deed/faction_perk/hq/hq_s02_reb_pvp.iff",
-					--"Rebel Base 3", "object/tangible/deed/faction_perk/hq/hq_s03_reb.iff",
-					--"Rebel PVP Base 3", "object/tangible/deed/faction_perk/hq/hq_s03_reb_pvp.iff",
-					--"Rebel Base 4", "object/tangible/deed/faction_perk/hq/hq_s04_reb.iff",
-					--"Rebel PVP Base 4", "object/tangible/deed/faction_perk/hq/hq_s04_reb_pvp.iff",
-					--"Rebel Base 5", "object/tangible/deed/faction_perk/hq/hq_s05_reb.iff",
-					--"Rebel PVP Base 5", "object/tangible/deed/faction_perk/hq/hq_s05_reb_pvp.iff",
+						--"Generic Base 1", "object/tangible/deed/faction_perk/hq/hq_s01.iff",
+						--"Generic PVP Base 1", "object/tangible/deed/faction_perk/hq/hq_s01_pvp.iff",
+						--"Generic Base 2", "object/tangible/deed/faction_perk/hq/hq_s02.iff",
+						--"Generic PVP Base 2", "object/tangible/deed/faction_perk/hq/hq_s02_pvp.iff",
+						--"Generic Base 3", "object/tangible/deed/faction_perk/hq/hq_s03.iff",
+						--"Generic PVP Base 3", "object/tangible/deed/faction_perk/hq/hq_s03_pvp.iff",
+						--"Generic Base 4", "object/tangible/deed/faction_perk/hq/hq_s04.iff",
+						--"Generic PVP Base 4", "object/tangible/deed/faction_perk/hq/hq_s04_pvp.iff",
+						--"Generic Base 5", "object/tangible/deed/faction_perk/hq/hq_s05.iff",
+						--"Generic PVP Base 5", "object/tangible/deed/faction_perk/hq/hq_s05_pvp.iff",
+						--"Imperial Base 1", "object/tangible/deed/faction_perk/hq/hq_s01_imp.iff",
+						--"Imperial PVP Base 1", "object/tangible/deed/faction_perk/hq/hq_s01_imp_pvp.iff",
+						--"Imperial Base 2", "object/tangible/deed/faction_perk/hq/hq_s02_imp.iff",
+						--"Imperial PVP Base 2", "object/tangible/deed/faction_perk/hq/hq_s02_imp_pvp.iff",
+						--"Imperial Base 3", "object/tangible/deed/faction_perk/hq/hq_s03_imp.iff",
+						--"Imperial PVP Base 3", "object/tangible/deed/faction_perk/hq/hq_s03_imp_pvp.iff",
+						--"Imperial Base 4", "object/tangible/deed/faction_perk/hq/hq_s04_imp.iff",
+						--"Imperial PVP Base 4", "object/tangible/deed/faction_perk/hq/hq_s04_imp_pvp.iff",
+						--"Imperial Base 5", "object/tangible/deed/faction_perk/hq/hq_s05_imp.iff",
+						--"Imperial PVP Base 5", "object/tangible/deed/faction_perk/hq/hq_s05_imp_pvp.iff",
+						--"Rebel Base 1", "object/tangible/deed/faction_perk/hq/hq_s01_reb.iff",
+						--"Rebel PVP Base 1", "object/tangible/deed/faction_perk/hq/hq_s01_reb_pvp.iff",
+						--"Rebel Base 2", "object/tangible/deed/faction_perk/hq/hq_s02_reb.iff",
+						--"Rebel PVP Base 2", "object/tangible/deed/faction_perk/hq/hq_s02_reb_pvp.iff",
+						--"Rebel Base 3", "object/tangible/deed/faction_perk/hq/hq_s03_reb.iff",
+						--"Rebel PVP Base 3", "object/tangible/deed/faction_perk/hq/hq_s03_reb_pvp.iff",
+						--"Rebel Base 4", "object/tangible/deed/faction_perk/hq/hq_s04_reb.iff",
+						--"Rebel PVP Base 4", "object/tangible/deed/faction_perk/hq/hq_s04_reb_pvp.iff",
+						--"Rebel Base 5", "object/tangible/deed/faction_perk/hq/hq_s05_reb.iff",
+						--"Rebel PVP Base 5", "object/tangible/deed/faction_perk/hq/hq_s05_reb_pvp.iff",
 					--},
 					"Merchant Tent Deeds",
 					{
@@ -1915,29 +1958,29 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 					{
 						--"Harvester Deeds",
 						--{
-						--"Creature Harvester Deed", "object/tangible/deed/harvester_deed/harvester_creature_deed.iff",
-						--"Personal Flora Harvester Deed", "object/tangible/deed/harvester_deed/harvester_flora_deed.iff",
-						--"Heavy Flora Harvester Deed", "object/tangible/deed/harvester_deed/harvester_flora_deed_heavy.iff",
-						--"Medium Flora Harvester Deed", "object/tangible/deed/harvester_deed/harvester_flora_deed_medium.iff",
-						--"Personal Gas Harvester Deed", "object/tangible/deed/harvester_deed/harvester_gas_deed.iff",
-						--"Heavy Gas Harvester Deed", "object/tangible/deed/harvester_deed/harvester_gas_deed_heavy.iff",
-						--"Medium Gas Harvester Deed", "object/tangible/deed/harvester_deed/harvester_gas_deed_medium.iff",
-						--"Personal Liquid Harvester Deed", "object/tangible/deed/harvester_deed/harvester_liquid_deed.iff",
-						--"Heavy Liquid Harvester Deed", "object/tangible/deed/harvester_deed/harvester_liquid_deed_heavy.iff",
-						--"Medium Liquid Harvester Deed", "object/tangible/deed/harvester_deed/harvester_liquid_deed_medium.iff",
-						--"Personal Moisture Harvester Deed", "object/tangible/deed/harvester_deed/harvester_moisture_deed.iff",
-						--"Heavy Moisture Harvester Deed", "object/tangible/deed/harvester_deed/harvester_moisture_deed_heavy.iff",
-						--"Medium Moisture Harvester Deed", "object/tangible/deed/harvester_deed/harvester_moisture_deed_medium.iff",
-						--"Personal Mineral Harvester Deed", "object/tangible/deed/harvester_deed/harvester_ore_s1_deed.iff",
-						--"Heavy Mineral Harvester Deed", "object/tangible/deed/harvester_deed/harvester_ore_heavy_deed.iff",
-						--"Medium Mineral Harvester Deed", "object/tangible/deed/harvester_deed/harvester_ore_s2_deed.iff"
+							--"Creature Harvester Deed", "object/tangible/deed/harvester_deed/harvester_creature_deed.iff",
+							--"Personal Flora Harvester Deed", "object/tangible/deed/harvester_deed/harvester_flora_deed.iff",
+							--"Heavy Flora Harvester Deed", "object/tangible/deed/harvester_deed/harvester_flora_deed_heavy.iff",
+							--"Medium Flora Harvester Deed", "object/tangible/deed/harvester_deed/harvester_flora_deed_medium.iff",
+							--"Personal Gas Harvester Deed", "object/tangible/deed/harvester_deed/harvester_gas_deed.iff",
+							--"Heavy Gas Harvester Deed", "object/tangible/deed/harvester_deed/harvester_gas_deed_heavy.iff",
+							--"Medium Gas Harvester Deed", "object/tangible/deed/harvester_deed/harvester_gas_deed_medium.iff",
+							--"Personal Liquid Harvester Deed", "object/tangible/deed/harvester_deed/harvester_liquid_deed.iff",
+							--"Heavy Liquid Harvester Deed", "object/tangible/deed/harvester_deed/harvester_liquid_deed_heavy.iff",
+							--"Medium Liquid Harvester Deed", "object/tangible/deed/harvester_deed/harvester_liquid_deed_medium.iff",
+							--"Personal Moisture Harvester Deed", "object/tangible/deed/harvester_deed/harvester_moisture_deed.iff",
+							--"Heavy Moisture Harvester Deed", "object/tangible/deed/harvester_deed/harvester_moisture_deed_heavy.iff",
+							--"Medium Moisture Harvester Deed", "object/tangible/deed/harvester_deed/harvester_moisture_deed_medium.iff",
+							--"Personal Mineral Harvester Deed", "object/tangible/deed/harvester_deed/harvester_ore_s1_deed.iff",
+							--"Heavy Mineral Harvester Deed", "object/tangible/deed/harvester_deed/harvester_ore_heavy_deed.iff",
+							--"Medium Mineral Harvester Deed", "object/tangible/deed/harvester_deed/harvester_ore_s2_deed.iff"
 						--},
 						--"Generator Deeds",
 						--{
-						--"Fusion Generator Deed", "object/tangible/deed/generator_deed/generator_fusion_deed.iff",
-						--"Photo Bio Generator Deed", "object/tangible/deed/generator_deed/generator_photo_bio_deed.iff",
-						--"Solar Generator Deed", "object/tangible/deed/generator_deed/generator_solar_deed.iff",
-						--"Wind Generator Deed", "object/tangible/deed/generator_deed/generator_wind_deed.iff",
+							--"Fusion Generator Deed", "object/tangible/deed/generator_deed/generator_fusion_deed.iff",
+							--"Photo Bio Generator Deed", "object/tangible/deed/generator_deed/generator_photo_bio_deed.iff",
+							--"Solar Generator Deed", "object/tangible/deed/generator_deed/generator_solar_deed.iff",
+							--"Wind Generator Deed", "object/tangible/deed/generator_deed/generator_wind_deed.iff",
 						--},
 						"Factory Deeds",
 						{
@@ -1971,7 +2014,7 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 							"Small Dathomir Garden", "object/tangible/deed/city_deed/garden_dathomir_sml_01_deed.iff",
 							"Large Endor Garden", "object/tangible/deed/city_deed/garden_endor_lrg_01_deed.iff",
 							"Medium Endor Garden", "object/tangible/deed/city_deed/garden_endor_med_01_deed.iff",
-							"Small Endor Garden", "object/tangible/deed/city_deed/garden_endor_sml_01_deed.iff"
+							"Small Endor Garden", "object/tangible/deed/city_deed/garden_endor_sml_01_deed.iff"	
 						}
 					},
 					"Corellia Deeds",
@@ -2199,14 +2242,14 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 			},
 			--"Fireworks",
 			--{
-			--"Firework 1", "object/tangible/firework/firework_s01.iff",
-			--"Firework 2", "object/tangible/firework/firework_s02.iff",
-			--"Firework 3", "object/tangible/firework/firework_s03.iff",
-			--"Firework 4", "object/tangible/firework/firework_s04.iff",
-			--"Firework 5", "object/tangible/firework/firework_s05.iff",
-			--"Firework 6", "object/tangible/firework/firework_s10.iff",
-			--"Firework 7", "object/tangible/firework/firework_s11.iff",
-			--"Firework 8", "object/tangible/firework/firework_s18.iff",
+				--"Firework 1", "object/tangible/firework/firework_s01.iff",
+				--"Firework 2", "object/tangible/firework/firework_s02.iff",
+				--"Firework 3", "object/tangible/firework/firework_s03.iff",
+				--"Firework 4", "object/tangible/firework/firework_s04.iff",
+				--"Firework 5", "object/tangible/firework/firework_s05.iff",
+				--"Firework 6", "object/tangible/firework/firework_s10.iff",
+				--"Firework 7", "object/tangible/firework/firework_s11.iff",
+				--"Firework 8", "object/tangible/firework/firework_s18.iff",
 			--},
 			"Veteran Rewards (COMPLETE)",
 			{
@@ -2297,7 +2340,7 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 				"Painting: Emperor's Eyes (TIE Sentinel)","object/tangible/veteran_reward/one_year_anniversary/painting_09.iff",
 			},
 			"Furniture",
-			{
+			{	
 				"Trophies (NEW COMPLETE)",
 				{
 					"Picture Handheld (Style 1)", "object/tangible/trophy/picture_handheld_s01.iff",
@@ -2349,7 +2392,7 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 					"Rodian (female)", "object/tangible/painting/painting_rodian_f.iff",
 					"Rodian Ad 1 (female)", "object/tangible/painting/painting_rodian_f_ad_01.iff",
 					"Rodian (male)", "object/tangible/painting/painting_rodian_m.iff",
-					"Stormtrooper", "object/tangible/painting/painting_bw_stormtrooper.iff",
+					"Stormtrooper", "object/tangible/painting/painting_bw_stormtrooper.iff",				
 					"Han Solo Wanted", "object/tangible/painting/painting_han_wanted.iff",
 					"Luke Skywalker Wanted", "object/tangible/painting/painting_luke_wanted.iff",
 					"Princess Leia Wanted", "object/tangible/painting/painting_leia_wanted.iff",
@@ -2426,20 +2469,8 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 					"Table-top Lamp (Naboo) Lit", "object/tangible/furniture/all/frn_all_lamp_tbl_s03_lit.iff",
 					"Table-top Lamp (Coruscant)", "object/tangible/furniture/all/frn_all_lamp_tatt_s01.iff",
 					"Table-top Lamp(Coruscant) Lit", "object/tangible/furniture/all/frn_all_lamp_tatt_s01_lit.iff",
-
-				},
-				"Trophies",
-				{
-					"Kashyyyk Bantha", "object/tangible/furniture/ep3_rewards/ep3_kash_reward_trophy_bantha_kash.iff",
-					"Kashyyyk Bolotaur", "object/tangible/furniture/ep3_rewards/ep3_kash_reward_trophy_bolotaur.iff",
-					"Kashyyyk Katarn", "object/tangible/furniture/ep3_rewards/ep3_kash_reward_trophy_katarn.iff",
-					"Kashyyyk Kkorrwrot", "object/tangible/furniture/ep3_rewards/ep3_kash_reward_trophy_kkorrwrot.iff",
-					"Kashyyyk Minstyngar", "object/tangible/furniture/ep3_rewards/ep3_kash_reward_trophy_minstyngar.iff",
-					"Kashyyyk Mouf", "object/tangible/furniture/ep3_rewards/ep3_kash_reward_trophy_mouf.iff",
-					"Kashyyyk Uller", "object/tangible/furniture/ep3_rewards/ep3_kash_reward_trophy_uller.iff",
-					"Kashyyyk Walluga", "object/tangible/furniture/ep3_rewards/ep3_kash_reward_trophy_walluga.iff",
-					"Kashyyyk Webweaver", "object/tangible/furniture/ep3_rewards/ep3_kash_reward_trophy_webweaver.iff",
-				},
+					
+				},				
 				"Rugs and Tapestry",
 				{
 					"Large Rectangular Rug (Style 1)", "object/tangible/furniture/modern/rug_rect_lg_s01.iff",
@@ -2457,12 +2488,12 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 					"Fine Woven Rug (Style 4)", "object/tangible/furniture/all/frn_all_rug_rectangle_large_style_04.iff",
 					"Fine Woven Rug (Style 5)", "object/tangible/furniture/all/frn_all_rug_rectangle_large_style_05.iff",
 					"Tatooine Tapestry","object/tangible/furniture/decorative/tatooine_tapestry.iff",
-				-- The following do not generate an item, but are in the TRE files.
-				--"Bestine Rug","object/tangible/furniture/modern/bestine_quest_rug",
-				--"Large Oval Rug (Style 3)","object/tangible/furniture/modern/rug_oval_lg_s01",
-				--"Large Round Rug (Style 3)","object/tangible/furniture/modern/rug_rnd_m_s01",
-				--"Small Rectangular Rug","object/tangible/furniture/modern/rug_rect_sml_s01",
-				--"Medium Rectangular Rug","object/tangible/furniture/modern/rug_rect_m_s01",
+					-- The following do not generate an item, but are in the TRE files.
+					--"Bestine Rug","object/tangible/furniture/modern/bestine_quest_rug", 
+					--"Large Oval Rug (Style 3)","object/tangible/furniture/modern/rug_oval_lg_s01", 
+					--"Large Round Rug (Style 3)","object/tangible/furniture/modern/rug_rnd_m_s01", 
+					--"Small Rectangular Rug","object/tangible/furniture/modern/rug_rect_sml_s01", 
+					--"Medium Rectangular Rug","object/tangible/furniture/modern/rug_rect_m_s01", 
 				},
 				"Plants",
 				{
@@ -2523,7 +2554,7 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 					"Throwpillow (Brown)", "object/tangible/furniture/all/frn_all_throwpillow_med_s01.iff",
 					"Throwpillow (Red)", "object/tangible/furniture/all/frn_all_throwpillow_med_s02.iff",
 					"Throwpillow (Blue)", "object/tangible/furniture/all/frn_all_throwpillow_med_s03.iff"
-				},
+				},			
 				"Elegant Furniture (COMPLETE)",
 				{
 					"Elegant Armoire", "object/tangible/furniture/elegant/armoire_elegant_s01.iff",
@@ -2587,7 +2618,7 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 					"Modern Coffee Table (Style 2)", "object/tangible/furniture/modern/coffee_table_modern_style_02.iff",
 					"Modern End Table - Small", "object/tangible/furniture/modern/end_table_small_modern_style_01.iff",
 					"Modern Sofa Chair", "object/tangible/furniture/modern/sofa_chair_modern_style_01.iff",
-					"Modern Table", "object/tangible/furniture/modern/table_modern_style_01.iff"
+					"Modern Table", "object/tangible/furniture/modern/table_modern_style_01.iff"	
 				},
 				"Camp Furniture",
 				-- Commented items don't have a mouseover hit box, which makes them too difficult to interact with.
@@ -2613,8 +2644,8 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 					"Meat Skewer","object/tangible/camp/camp_spit_s1.iff",
 					"Camp Center (Small)","object/tangible/camp/camp_spit_s2.iff",
 					"Camp Center (Large)","object/tangible/camp/camp_spit_s3.iff",
-				--"Stool (Short)","object/tangible/camp/camp_stool_short.iff",
-				--"Stool (Tall)","object/tangible/camp/camp_stool_tall.iff",
+					--"Stool (Short)","object/tangible/camp/camp_stool_short.iff",
+					--"Stool (Tall)","object/tangible/camp/camp_stool_tall.iff",
 				},
 				"Jedi Furniture",
 				{
@@ -2667,19 +2698,20 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 			},
 			--"Intruments",
 			--{
-			--"Bandfill", "object/tangible/instrument/bandfill.iff",
-			--"Fanfar", "object/tangible/instrument/fanfar.iff",
-			--"Fizz", "object/tangible/instrument/fizz.iff",
-			--"Flute Droopy", "object/tangible/instrument/flute_droopy.iff",
-			--"Kloo Horn", "object/tangible/instrument/kloo_horn.iff",
-			--"Mandoviol", "object/tangible/instrument/mandoviol.iff",
-			--"Nalargon", "object/tangible/instrument/nalargon.iff",
-			--"Ommni Box", "object/tangible/instrument/ommni_box.iff",
-			--"Slitherhorn", "object/tangible/instrument/slitherhorn.iff",
-			--"Traz", "object/tangible/instrument/traz.iff"
+				--"Bandfill", "object/tangible/instrument/bandfill.iff",
+				--"Fanfar", "object/tangible/instrument/fanfar.iff",
+				--"Fizz", "object/tangible/instrument/fizz.iff",
+				--"Flute Droopy", "object/tangible/instrument/flute_droopy.iff",
+				--"Kloo Horn", "object/tangible/instrument/kloo_horn.iff",
+				--"Mandoviol", "object/tangible/instrument/mandoviol.iff",
+				--"Nalargon", "object/tangible/instrument/nalargon.iff",
+				--"Ommni Box", "object/tangible/instrument/ommni_box.iff",
+				--"Slitherhorn", "object/tangible/instrument/slitherhorn.iff",
+				--"Traz", "object/tangible/instrument/traz.iff"
 			--},
 			"Pharmaceutical",
 			{
+				"Small StimPack", "object/tangible/medicine/stimpack_sm_s1.iff",
 				"StimPack A", "object/tangible/medicine/crafted/crafted_stimpack_sm_s1_a.iff",
 				"StimPack B", "object/tangible/medicine/crafted/crafted_stimpack_sm_s1_b.iff",
 				"StimPack C", "object/tangible/medicine/crafted/crafted_stimpack_sm_s1_c.iff",
@@ -2693,12 +2725,14 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 				"Medpack Grenade Area A", "object/tangible/medicine/crafted/medpack_grenade_area_a.iff",
 				"Medpack Grenade Area B", "object/tangible/medicine/crafted/medpack_grenade_area_b.iff",
 				"Medpack Grenade Area C", "object/tangible/medicine/crafted/medpack_grenade_area_c.iff",
-				"Medpack Enhance Disease A", "object/tangible/medicine/crafted/medpack_enhance_disease_a.iff",
-				"Medpack Enhance Disease B", "object/tangible/medicine/crafted/medpack_enhance_disease_b.iff",
-				"Medpack Enhance Disease C", "object/tangible/medicine/crafted/medpack_enhance_disease_c.iff",
-				"Medpack Enhance Poison A", "object/tangible/medicine/crafted/medpack_enhance_poison_a.iff",
-				"Medpack Enhance Poison B", "object/tangible/medicine/crafted/medpack_enhance_poison_b.iff",
-				"Medpack Enhance Poison C", "object/tangible/medicine/crafted/medpack_enhance_poison_c.iff",
+				"Medpack Enhance Action A", "object/tangible/medicine/crafted/medpack_enhance_action_a.iff",
+				"Medpack Enhance Constitution A", "object/tangible/medicine/crafted/medpack_enhance_constitution_a.iff",
+				--"Medpack Enhance Disease A", "object/tangible/medicine/crafted/medpack_enhance_disease_a.iff",
+				"Medpack Enhance Health A", "object/tangible/medicine/crafted/medpack_enhance_health_a.iff",
+				--"Medpack Enhance Poison A", "object/tangible/medicine/crafted/medpack_enhance_poison_a.iff",
+				"Medpack Enhance Quickness A", "object/tangible/medicine/crafted/medpack_enhance_quickness_a.iff",
+				"Medpack Enhance Stamina A", "object/tangible/medicine/crafted/medpack_enhance_stamina_a.iff",
+				"Medpack Enhance Strength A", "object/tangible/medicine/crafted/medpack_enhance_strength_a.iff",
 				"Fire blanket", "object/tangible/medicine/crafted/medic_fire_blanket.iff",
 				"Medpack Cure Disease A", "object/tangible/medicine/crafted/medpack_cure_disease_a.iff",
 				"Medpack Cure Disease Area A", "object/tangible/medicine/crafted/medpack_cure_disease_area_a.iff",
@@ -2706,51 +2740,56 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 				"Medpack Cure Poison Area A", "object/tangible/medicine/crafted/medpack_cure_poison_area_a.iff",
 				"Disease Health Area A", "object/tangible/medicine/crafted/medpack_disease_area_health_a.iff",
 				"Poison Health Area A", "object/tangible/medicine/crafted/medpack_poison_area_health_a.iff",
+				"Medpack Health Wound", "object/tangible/medicine/medpack_wound_health.iff",
 				"Medpack Blinded", "object/tangible/medicine/crafted/medpack_blinded_a.iff",
 				"Medpack Dizzy", "object/tangible/medicine/crafted/medpack_dizzy_a.iff",
 				"Medpack Intimidated", "object/tangible/medicine/crafted/medpack_intimidated_a.iff",
 				"Medpack Stunned", "object/tangible/medicine/crafted/medpack_stunned_a.iff",
 				"Revive Pack", "object/tangible/medicine/medpack_revive.iff"
 			},
+			"Resources",
+			{
+				"Resource Deed", "object/tangible/veteran_reward/resource.iff"
+			},
 			--"Scout Equipment",
 			--{
-			--"Camokit",
-			--{
-			--"Corellia", "object/tangible/scout/camokit/camokit_corellia.iff",
-			--"Dantooine", "object/tangible/scout/camokit/camokit_dantooine.iff",
-			--"Dathomir", "object/tangible/scout/camokit/camokit_dathomir.iff",
-			--"Endor", "object/tangible/scout/camokit/camokit_endor.iff",
-			--"Lok", "object/tangible/scout/camokit/camokit_lok.iff",
-			--"Naboo", "object/tangible/scout/camokit/camokit_naboo.iff",
-			--"Rori", "object/tangible/scout/camokit/camokit_rori.iff",
-			--"Talus", "object/tangible/scout/camokit/camokit_talus.iff",
-			--"Tatooine", "object/tangible/scout/camokit/camokit_tatooine.iff",
-			--"Yavin", "object/tangible/scout/camokit/camokit_yavin.iff"
-			--},
-			--"Camps",
-			--{
-			--"Basic", "object/tangible/scout/camp/camp_basic.iff",
-			--"Elite", "object/tangible/scout/camp/camp_elite.iff",
-			--"Improved", "object/tangible/scout/camp/camp_improved.iff",
-			--"Luxury", "object/tangible/scout/camp/camp_luxury.iff",
-			--"Multi", "object/tangible/scout/camp/camp_multi.iff",
-			--"Quality", "object/tangible/scout/camp/camp_quality.iff"
-			--},
-			--"Traps",
-			--{
-			--"Drowsy Dart", "object/tangible/scout/trap/trap_drowsy_dart.iff",
-			--"Enraging Spur", "object/tangible/scout/trap/trap_enraging_spur.iff",
-			--"Flash Bomb", "object/tangible/scout/trap/trap_flash_bomb.iff",
-			--"Melee Defence", "object/tangible/scout/trap/trap_melee_def_1.iff",
-			--"Melee Ranged defence", "object/tangible/scout/trap/trap_melee_ranged_def_1.iff",
-			--"Noise Maker", "object/tangible/scout/trap/trap_noise_maker.iff",
-			--"Ranged Defence", "object/tangible/scout/trap/trap_ranged_def_1.iff",
-			--"Ranged Speed", "object/tangible/scout/trap/trap_ranged_speed_1.iff",
-			--"Sonic Pulse", "object/tangible/scout/trap/trap_sonic_pulse.iff",
-			--"State Defence", "object/tangible/scout/trap/trap_state_def_1.iff",
-			--"Tranq Dart", "object/tangible/scout/trap/trap_tranq_dart.iff",
-			--"Webber", "object/tangible/scout/trap/trap_webber.iff"
-			--}
+				--"Camokit",
+				--{
+					--"Corellia", "object/tangible/scout/camokit/camokit_corellia.iff",
+					--"Dantooine", "object/tangible/scout/camokit/camokit_dantooine.iff",
+					--"Dathomir", "object/tangible/scout/camokit/camokit_dathomir.iff",
+					--"Endor", "object/tangible/scout/camokit/camokit_endor.iff",
+					--"Lok", "object/tangible/scout/camokit/camokit_lok.iff",
+					--"Naboo", "object/tangible/scout/camokit/camokit_naboo.iff",
+					--"Rori", "object/tangible/scout/camokit/camokit_rori.iff",
+					--"Talus", "object/tangible/scout/camokit/camokit_talus.iff",
+					--"Tatooine", "object/tangible/scout/camokit/camokit_tatooine.iff",
+					--"Yavin", "object/tangible/scout/camokit/camokit_yavin.iff"
+				--},
+				--"Camps",
+				--{
+					--"Basic", "object/tangible/scout/camp/camp_basic.iff",
+					--"Elite", "object/tangible/scout/camp/camp_elite.iff",
+					--"Improved", "object/tangible/scout/camp/camp_improved.iff",
+					--"Luxury", "object/tangible/scout/camp/camp_luxury.iff",
+					--"Multi", "object/tangible/scout/camp/camp_multi.iff",
+					--"Quality", "object/tangible/scout/camp/camp_quality.iff"
+				--},
+				--"Traps",
+				--{
+					--"Drowsy Dart", "object/tangible/scout/trap/trap_drowsy_dart.iff",
+					--"Enraging Spur", "object/tangible/scout/trap/trap_enraging_spur.iff",
+					--"Flash Bomb", "object/tangible/scout/trap/trap_flash_bomb.iff",
+					--"Melee Defence", "object/tangible/scout/trap/trap_melee_def_1.iff",
+					--"Melee Ranged defence", "object/tangible/scout/trap/trap_melee_ranged_def_1.iff",
+					--"Noise Maker", "object/tangible/scout/trap/trap_noise_maker.iff",
+					--"Ranged Defence", "object/tangible/scout/trap/trap_ranged_def_1.iff",
+					--"Ranged Speed", "object/tangible/scout/trap/trap_ranged_speed_1.iff",
+					--"Sonic Pulse", "object/tangible/scout/trap/trap_sonic_pulse.iff",
+					--"State Defence", "object/tangible/scout/trap/trap_state_def_1.iff",
+					--"Tranq Dart", "object/tangible/scout/trap/trap_tranq_dart.iff",
+					--"Webber", "object/tangible/scout/trap/trap_webber.iff"
+				--}
 			--}
 			"Tools",
 			{
@@ -2774,147 +2813,441 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 				},
 				"Survey Tools",
 				{
-					"Gas Survey Tool", "object/tangible/survey_tool/survey_tool_gas.iff",
-					--"Inorganic Survey Tool", "oobject/tangible/survey_tool/survey_tool_inorganic.iff",
-					"Chemical Survey Tool", "object/tangible/survey_tool/survey_tool_liquid.iff",
+					--"Gas Survey Tool", "object/tangible/survey_tool/survey_tool_gas.iff",
+					"Inorganic Survey Tool", "oobject/tangible/survey_tool/survey_tool_inorganic.iff",
+					--"Chemical Survey Tool", "object/tangible/survey_tool/survey_tool_liquid.iff",
 					"Flora Survey Tool", "object/tangible/survey_tool/survey_tool_lumber.iff",
-					"Mineral Survey Tool", "object/tangible/survey_tool/survey_tool_mineral.iff",
+					--"Mineral Survey Tool", "object/tangible/survey_tool/survey_tool_mineral.iff",
 					"Moisture Survey Tool", "object/tangible/survey_tool/survey_tool_moisture.iff",
 					--"Organic Survey Tool", "object/tangible/survey_tool/survey_tool_organic.iff",
-					"Solar Survey Tool", "object/tangible/survey_tool/survey_tool_solar.iff",
-					"Wind Survey Tool", "object/tangible/survey_tool/survey_tool_wind.iff"
+					--"Solar Survey Tool", "object/tangible/survey_tool/survey_tool_solar.iff",
+					--"Wind Survey Tool", "object/tangible/survey_tool/survey_tool_wind.iff"
 				}
-			--"Repair Tools",
-			--{
-			--"Armor Repair", "object/tangible/crafting/station/armor_repair.iff",
-			--"Clothing Repair", "object/tangible/crafting/station/clothing_repair.iff",
-			--"Droid Repair", "object/tangible/crafting/station/droid_repair.iff",
-			--"Structure Repair", "object/tangible/crafting/station/structure_repair.iff",
-			--"Weapon Repair", "object/tangible/crafting/station/weapon_repair.iff"
-			--}
+				--"Repair Tools",
+				--{
+					--"Armor Repair", "object/tangible/crafting/station/armor_repair.iff",
+					--"Clothing Repair", "object/tangible/crafting/station/clothing_repair.iff",
+					--"Droid Repair", "object/tangible/crafting/station/droid_repair.iff",
+					--"Structure Repair", "object/tangible/crafting/station/structure_repair.iff",
+					--"Weapon Repair", "object/tangible/crafting/station/weapon_repair.iff"
+				--}
 			},
 			"Weapons",
 			{
 				"Carbines",
 				{
-					--		"CDEF Carbine", "object/weapon/ranged/carbine/carbine_cdef.iff",
-					--		"Corsec CDEF Carbine", "object/weapon/ranged/carbine/carbine_cdef_corsec.iff",
-					--		"DH17 Carbine", "object/weapon/ranged/carbine/carbine_dh17.iff",
-					--		"DH17 Carbine (black)", "object/weapon/ranged/carbine/carbine_dh17_black.iff",
-					--		"DH17 Short Carbine", "object/weapon/ranged/carbine/carbine_dh17_snubnose.iff",
+					"CDEF Carbine", "object/weapon/ranged/carbine/carbine_cdef.iff",
+					"Corsec CDEF Carbine", "object/weapon/ranged/carbine/carbine_cdef_corsec.iff",
+					"DH17 Carbine", "object/weapon/ranged/carbine/carbine_dh17.iff",
+					"DH17 Carbine (black)", "object/weapon/ranged/carbine/carbine_dh17_black.iff",
+					"DH17 Short Carbine", "object/weapon/ranged/carbine/carbine_dh17_snubnose.iff",
 					"DXR6 Carbine", "object/weapon/ranged/carbine/carbine_dxr6.iff",
-					--		"E11 Carbine", "object/weapon/ranged/carbine/carbine_e11.iff",
-					--		"Enhanced E11 Carbine", "object/weapon/ranged/carbine/carbine_e11_quest.iff",
-					--		"Lithitanium Carbine", "object/weapon/ranged/carbine/carbine_e11_victor_quest.iff",
-					--		"EE3 Carbine", "object/weapon/ranged/carbine/carbine_ee3.iff",
-					--		"Elite Carbine", "object/weapon/ranged/carbine/carbine_elite.iff",
+					"E11 Carbine", "object/weapon/ranged/carbine/carbine_e11.iff",
+					"Enhanced E11 Carbine", "object/weapon/ranged/carbine/carbine_e11_quest.iff",
+					"Lithitanium Carbine", "object/weapon/ranged/carbine/carbine_e11_victor_quest.iff",
+					"EE3 Carbine", "object/weapon/ranged/carbine/carbine_ee3.iff",
+					"Elite Carbine", "object/weapon/ranged/carbine/carbine_elite.iff",
 					"Laser Carbine", "object/weapon/ranged/carbine/carbine_laser.iff",
-				--		"Nym's Slug-thrower Carbine", "object/weapon/ranged/carbine/carbine_nym_slugthrower.iff"
+					"Nym's Slug-thrower Carbine", "object/weapon/ranged/carbine/carbine_nym_slugthrower.iff"
+				},
+				
+				"Post 14 Special Melee Weapons",
+				{
+					"Spiked Knuckles", "object/weapon/melee/special/wookiee_knuckler_wod.iff",
+					"Knuckles Of The Katarn", "object/weapon/melee/special/ep3/wookiee_knuckler.iff",
+					"Witch's War Fan", "object/weapon/melee/special/wod_war_fan.iff",
+					"Vibroknuckler Static", "object/weapon/melee/special/vibroknuckler_static.iff",
+					"NPE Vibro", "object/weapon/melee/special/vibroknuckler_npe.iff",
+					"Buzz Knuck", "object/weapon/melee/special/pvp_bf_knuckler.iff",
+					"Tenebrous Edge", "object/weapon/melee/special/punch_dagger.iff",
+					--"Massassi Knuckler Generic", "object/weapon/melee/special/massassiknuckler_generic.iff",
+					"Massassi Knuckler", "object/weapon/melee/special/massassiknuckler.iff",
+					"Necrosis Nightblade", "object/weapon/melee/special/ep3_loot_necrosis.iff",
+					"Sayormi Soulstinger", "object/weapon/melee/special/ep3_loot_soulstinger.iff",
+					"Blasterfist Generic", "object/weapon/melee/special/blasterfist_generic.iff",
+					"Blasterfist", "object/weapon/melee/special/blasterfist.iff",
+					"Blacksun Razor Generic", "object/weapon/melee/special/blacksun_razor_generic.iff",
+					"Metal Combat Fan", "object/weapon/melee/special/fan_metal.iff",
+					"Sayormi Heartstriker", "object/weapon/melee/special/ep3_loot_heartstriker.iff"
+				},
+				"Post 14 2h Swords",
+				{
+					"2h Tulrus Sword Generic", "object/weapon/melee/2h_sword/som_2h_sword_tulrus_generic.iff",
+					"2h Tulrus Sword", "object/weapon/melee/2h_sword/som_2h_sword_tulrus.iff",
+					"2h Obsidian Sword Generic", "object/weapon/melee/2h_sword/som_2h_sword_obsidian_generic.iff",
+					"2h Obsidian Sword", "object/weapon/melee/2h_sword/som_2h_sword_obsidian.iff",
+					"2h Massassi Sword", "object/weapon/melee/2h_sword/som_2h_sword_massassi.iff",
+					"2h Sword Maul", "object/weapon/melee/2h_sword/quest_2h_sword_maul.iff",
+					"2h Battleaxe", "object/weapon/melee/2h_sword/quest_2h_sword_battleaxe.iff",
+					--"2h Sword WOD", "object/weapon/melee/2h_sword/2h_sword_wod_sword.iff",
+					--"2h Scyth WOD", "object/weapon/melee/2h_sword/2h_sword_wod_scyth.iff",
+					"2h Sword Sith WOD", "object/weapon/melee/2h_sword/2h_sword_sith_wod.iff",
+					"2h Sword Sith Generic", "object/weapon/melee/2h_sword/2h_sword_sith_generic.iff",
+					"2h Sword Sith", "object/weapon/melee/2h_sword/2h_sword_sith.iff",
+					"2h Sword PVP BF 1", "object/weapon/melee/2h_sword/2h_sword_pvp_bf_01.iff",
+					"2h Sword Maul Legendary", "object/weapon/melee/2h_sword/2h_sword_maul_legendary.iff",
+					"2h Sword Kun Massassi", "object/weapon/melee/2h_sword/2h_sword_kun_massassi.iff",
+					--"2h Sword Katana Generic", "object/weapon/melee/2h_sword/2h_sword_katana_generic.iff",
+					"2h Sword Kashyyyk", "object/weapon/melee/2h_sword/2h_sword_kashyyk_wod.iff",
+					"2h Sword Kashyyyk", "object/weapon/melee/2h_sword/2h_sword_kashyyk.iff",
+					--"2h Sword Cleaver NPE", "object/weapon/melee/2h_sword/2h_sword_cleaver_npe.iff",
+					"Loot Lifeblood", "object/weapon/melee/2h_sword/ep3_loot_lifeblood.iff",
+					"Loot Executer", "object/weapon/melee/2h_sword/ep3_loot_executer.iff",
+					"Loot Sickle WOD", "object/weapon/melee/2h_sword/ep3_loot_sickle_wod.iff",
+					"Loot Sickle", "object/weapon/melee/2h_sword/ep3_loot_sickle.iff"
+				},	
+				"Post 14 Axe's",
+				{
+					"Heavy Duty Axe NPE", "object/weapon/melee/axe/axe_heavy_duty_npe.iff"
+				},
+				"Post 14 Batons",
+				{
+					--"Xantha Smasher", "object/weapon/melee/baton/xantha_smasher.iff",--Tre Error object.iff has wrong appearance of musical instrument
+					--"Mandovial Smasher", "object/weapon/melee/baton/mandoviol_smasher.iff",--Tre Error object.iff has wrong appearance of musical instrument
+					"Stun Baton Legendary", "object/weapon/melee/baton/baton_stun_legendary.iff",
+					"Gaderiffi Baton NPE", "object/weapon/melee/baton/baton_gaderiffi_npe.iff",
+					--"Gaderiffi Baton Elite", "object/weapon/melee/baton/baton_gaderiffi_elite.iff", --String error
+					"Avatar Trando Stun Stick", "object/weapon/melee/baton/baton_avatar_trando_stun_stick.iff"
+				},
+				"Post 14 Knives",
+				{
+					"Trando Skinner", "object/weapon/melee/knife/ep3/knife_trando_skinner.iff",
+					"Survival Knife NPE", "object/weapon/melee/knife/knife_survival_npe.iff",
+					"Survival Knife Decorative", "object/weapon/melee/knife/knife_survival_decorative.iff",
+					"Naktra Krystal Knife", "object/weapon/melee/knife/ep3/knife_naktra_crystal.iff",
+					"Dagger Static", "object/weapon/melee/knife/knife_dagger_static.iff",
+					"Loot Blackbane", "object/weapon/melee/knife/ep3_loot_blackbane.iff",
+				},	
+				"Post 14 Polearms",
+				{
+					"Xandank Generic", "object/weapon/melee/polearm/som_lance_xandank_generic.iff",
+					"Xandank", "object/weapon/melee/polearm/som_lance_xandank.iff",
+					"Lance Obsidian Generic", "object/weapon/melee/polearm/som_lance_obsidian_generic.iff",
+					"Lance Obsidian", "object/weapon/melee/polearm/som_lance_obsidian.iff",
+					"Polearm Vibro Axe NPE", "object/weapon/melee/polearm/polearm_vibro_axe_npe.iff",
+					"Electric Polearm", "object/weapon/melee/polearm/polearm_lance_electric_polearm.iff",
+					"Polearm Heroic SD", "object/weapon/melee/polearm/polearm_heroic_sd.iff",
+					"Lance WOD Twin Blade", "object/weapon/melee/polearm/lance_wod_twin_blade.iff",
+					"Trando Lance", "object/weapon/melee/polearm/ep3/lance_trando.iff",
+					"Wood Staff 2 NPE", "object/weapon/melee/polearm/lance_staff_wood_s2_npe.iff",
+					"Wood Staff 1 NPE", "object/weapon/melee/polearm/lance_staff_wood_s1_npe.iff",
+					"Magna Guard Staff", "object/weapon/melee/polearm/lance_staff_magna_guard.iff",
+					"Shock Lance", "object/weapon/melee/polearm/lance_shock.iff",
+					"NS Lance Legendary", "object/weapon/melee/polearm/lance_nightsister_legendary.iff",
+					"Massassi Lance", "object/weapon/melee/polearm/lance_massassi.iff",
+					"Kashyyyk Lance Generic", "object/weapon/melee/polearm/lance_kashyyk_generic.iff",
+					"Kashyyyk Lance", "object/weapon/melee/polearm/lance_kashyyk.iff",
+					--"Kaminoan Lance Generic", "object/weapon/melee/polearm/lance_kaminoan_generic.iff",
+					"Kaminoan Lance", "object/weapon/melee/polearm/lance_kaminoan.iff",
+					"GCW Gand Shockprod", "object/weapon/melee/polearm/lance_gcw_gand_shockprod.iff",
+					"Electric Polearm", "object/weapon/melee/polearm/lance_electric_polearm.iff",
+					"Cryo Lance", "object/weapon/melee/polearm/lance_cryo.iff",
+					"Lance ControllerFP NPE", "object/weapon/melee/polearm/lance_controllerfp_npe.iff",
+					"Avatar Wookiee Heartlance", "object/weapon/melee/polearm/lance_avatar_wke_heartlance.iff",
+					"Wookiee Lance", "object/weapon/melee/polearm/ep3/lance_wookiee.iff",
+					"Loot Poisonspike", "object/weapon/melee/polearm/ep3_loot_poisonspike.iff",
+					"Loot Pestilence WOD", "object/weapon/melee/polearm/ep3_loot_pestilence_wod.iff",
+					"Loot Pestilence", "object/weapon/melee/polearm/ep3_loot_pestilence.iff",
+					"Lance EP3 Loot Strike", "object/weapon/melee/polearm/ep3_loot_strike.iff"
+				},
+				"Post 14 Swords",
+				{
+					"Wookiee Sword", "object/weapon/melee/sword/sword_wookiee.iff",
+					--"Sword WOD", "object/weapon/melee/sword/sword_wod_sword.iff",--tre error missing blade
+					--"Schyth WOD", "object/weapon/melee/sword/sword_wod_scyth.iff",--tre error missing blade
+					"RSF Sword Generic", "object/weapon/melee/sword/sword_rsf_generic.iff",
+					"RSF Sword", "object/weapon/melee/sword/sword_rsf.iff",
+					"Rebel Sword", "object/weapon/melee/sword/sword_rebel.iff",
+					"Rantok Generic", "object/weapon/melee/sword/sword_rantok_generic.iff",
+					"PVP BF1", "object/weapon/melee/sword/sword_pvp_bf_01.iff",
+					"Massassi Generic", "object/weapon/melee/sword/sword_massassi_generic.iff",
+					"Massissi", "object/weapon/melee/sword/sword_massassi.iff",
+					"Marauder Sword", "object/weapon/melee/sword/sword_marauder.iff",
+					"Crusader", "object/weapon/melee/sword/sword_mandalorian.iff",
+					"Junti Mace Generic", "object/weapon/melee/sword/sword_mace_junti_generic.iff",
+					"Junti Mace", "object/weapon/melee/sword/sword_mace_junti.iff",
+					"Avatar Wookiee Spiritblade", "object/weapon/melee/sword/sword_avatar_wke_spiritblade.iff",
+					"Acid Sword", "object/weapon/melee/sword/sword_acid.iff",
+					--"Sword 02 Generic", "object/weapon/melee/sword/sword_02_generic.iff",
+					"Sword 01 Static", "object/weapon/melee/sword/sword_01_static.iff",
+					"Sword 01 NPE", "object/weapon/melee/sword/sword_01_npe.iff",
+					"Obsidian Generic", "object/weapon/melee/sword/som_sword_obsidian_generic.iff",
+					"Obsidian", "object/weapon/melee/sword/som_sword_obsidian.iff",
+					"Mustafar Bandit Sword Generic", "object/weapon/melee/sword/som_sword_mustafar_bandit_generic.iff",
+					"Mustafar Bandit Sword", "object/weapon/melee/sword/som_sword_mustafar_bandit.iff",
+					"Loot Ripper WOD", "object/weapon/melee/sword/ep3_loot_ripper_wod.iff",
+					"Loot Ripper", "object/weapon/melee/sword/ep3_loot_ripper.iff",
+					"Loot Eventide", "object/weapon/melee/sword/ep3_loot_eventide.iff"
+				},					
+				"Post 14 Ranged Carbines", -- 42 
+				{
+					"Alliance Needler Carbine", "object/weapon/ranged/carbine/carbine_alliance_needler.iff",
+					"Avatar Trandoshian Carbine", "object/weapon/ranged/carbine/carbine_avatar_trando.iff",
+					"Avatar Trandoshian E5 Carbine", "object/weapon/ranged/carbine/carbine_avatar_trando_e5.iff",
+					"Bothan Bola Carbine", "object/weapon/ranged/carbine/carbine_bothan_bola.iff",
+					"Bothan Bola Carbine Generic", "object/weapon/ranged/carbine/carbine_bothan_bola_generic.iff",
+					"Bounty EE3 Carbine", "object/weapon/ranged/carbine/carbine_bounty_ee3.iff",
+					"CDEF Carbine NPE", "object/weapon/ranged/carbine/carbine_cdef_npe.iff",
+					"Charric Carbine", "object/weapon/ranged/carbine/carbine_charric.iff",
+					"Czerka Dart", "object/weapon/ranged/carbine/carbine_czerka_dart.iff",
+					"DC15 Carbine", "object/weapon/ranged/carbine/ep3/carbine_dc15.iff",
+					"DH17 Carbine Black NPE", "object/weapon/ranged/carbine/carbine_dh17_black_npe.iff",
+					"DH17 Carbine Snubnose NPE", "object/weapon/ranged/carbine/carbine_dh17_snubnose_npe.iff",
+					"E11 MkII Carbine", "object/weapon/ranged/carbine/carbine_e11_mark2.iff",
+					"E11 MkII Carbine Static", "object/weapon/ranged/carbine/carbine_e11_static.iff",
+					"E5 Carbine", "object/weapon/ranged/carbine/carbine_e5.iff",
+					"E5 Carbine Generic", "object/weapon/ranged/carbine/carbine_e5_generic.iff",
+					"E5 Carbine Legend", "object/weapon/ranged/carbine/carbine_e5_legend.iff",
+					"EE3 Carbine Static", "object/weapon/ranged/carbine/carbine_ee3_static.iff",
+					"Geo Carbine", "object/weapon/ranged/carbine/carbine_geo.iff",
+					"Geo Carbine Generic", "object/weapon/ranged/carbine/carbine_geo_generic.iff",
+					"Heroic SD Carbine", "object/weapon/ranged/carbine/carbine_heroic_sd.iff",
+					"Kun Massassi Carbine", "object/weapon/ranged/carbine/carbine_kun_massassi.iff",
+					"Laser Static Carbine", "object/weapon/ranged/carbine/carbine_laser_static.iff",
+					"Mandalorian Carbine", "object/weapon/ranged/carbine/carbine_mandalorian.iff",
+					"Proton Carbine", "object/weapon/ranged/carbine/carbine_proton.iff",
+					"PVP Carbine", "object/weapon/ranged/carbine/carbine_pvp.iff",
+					"PVP NGANT Carbine", "object/weapon/ranged/carbine/carbine_pvp_ngant.iff",
+					"Rotary Underslung Carbine", "object/weapon/ranged/carbine/carbine_rotary_underslung.iff",
+					"Slug Carbine", "object/weapon/ranged/carbine/carbine_slug.iff",
+					"Specops Bothan Carbine", "object/weapon/ranged/carbine/carbine_specops_bothan_carbine.iff",
+					"Underslung Carbine", "object/weapon/ranged/carbine/carbine_underslung.iff",
+					"Wookie Bowcaster Carbine", "object/weapon/ranged/carbine/ep3/carbine_wookiee_bowcaster.iff",
+					"Wookie Bowcaster Generic Carbine", "object/weapon/ranged/carbine/ep3/carbine_wookiee_bowcaster_generic.iff",
+					"Corestrike", "object/weapon/ranged/carbine/ep3_loot_corestrike.iff",
+					"Firestar", "object/weapon/ranged/carbine/ep3_loot_firestar.iff",
+					"Grievance", "object/weapon/ranged/carbine/ep3_loot_grievance.iff",
+					"Mark", "object/weapon/ranged/carbine/ep3_loot_mark.iff",
+					"Retribution", "object/weapon/ranged/carbine/ep3_loot_retribution.iff",
+					"Rilctur", "object/weapon/ranged/carbine/ep3_loot_rilctur.iff",
+					"Hairtrigger Carbine", "object/weapon/ranged/carbine/event_carbine_hairtrigger.iff",
+					"Republic SFOR Carbine", "object/weapon/ranged/carbine/som_carbine_republic_sfor.iff",
+					"Republic SFOR Carbine Generic", "object/weapon/ranged/carbine/som_carbine_republic_sfor_generic.iff"
+
+				},
+				"Post 14 Ranged Pistols",
+				{
+					"Blackfalcon", "object/weapon/ranged/pistol/ep3_loot_blackfalcon.iff",
+					"Blackhand", "object/weapon/ranged/pistol/ep3_loot_blackhand.iff",
+					"Calibrated", "object/weapon/ranged/pistol/ep3_loot_calibrated.iff",
+					"Deathrain", "object/weapon/ranged/pistol/ep3_loot_deathrain.iff",
+					"Dragoneye", "object/weapon/ranged/pistol/ep3_loot_dragoneye.iff",
+					"Hydra", "object/weapon/ranged/pistol/ep3_loot_hydra.iff",
+					"Liquidsilver", "object/weapon/ranged/pistol/ep3_loot_liquidsilver.iff",
+					"Quicktrigger", "object/weapon/ranged/pistol/ep3_loot_quicktrigger.iff",
+					"Rhiss", "object/weapon/ranged/pistol/ep3_loot_rhiss.iff",
+					"Silencer", "object/weapon/ranged/pistol/ep3_loot_silencer.iff",
+					"Event Pistol Striker Enforcer", "object/weapon/ranged/pistol/event_pistol_striker_enforcer.iff",
+					"Alliance Disruptor", "object/weapon/ranged/pistol/pistol_alliance_disruptor.iff",
+					"Alliance Disruptor Generic", "object/weapon/ranged/pistol/pistol_alliance_disruptor_generic.iff",
+					"Avatar Trando Special", "object/weapon/ranged/pistol/pistol_avatar_trando_special.iff",
+					"CDEF NPE", "object/weapon/ranged/pistol/pistol_cdef_npe.iff",
+					"D-18 NPE", "object/weapon/ranged/pistol/pistol_d18_npe.iff",
+					"DD6", "object/weapon/ranged/pistol/pistol_dd6.iff",
+					"DE10 Generic", "object/weapon/ranged/pistol/pistol_de_10_generic.iff",
+					"Deathhammer Pistol", "object/weapon/ranged/pistol/pistol_deathhammer.iff",
+					--"DH17 Generic", "object/weapon/ranged/pistol/pistol_dh17_generic.iff",
+					"DH18a GCW", "object/weapon/ranged/pistol/pistol_dh18a_gcw.iff",
+					"DL44 Metal Light", "object/weapon/ranged/pistol/pistol_dl44_metal_light.iff",
+					"DL44 Metal Static", "object/weapon/ranged/pistol/pistol_dl44_metal_static.iff",
+					"Flare Pistol", "object/weapon/ranged/pistol/pistol_flare.iff",
+					"Flechette", "object/weapon/ranged/pistol/pistol_flechette.iff",
+					"Flechette Generic", "object/weapon/ranged/pistol/pistol_flechette_generic.iff",
+					"FWG-5 Legendary", "object/weapon/ranged/pistol/pistol_fwg5_legendary.iff",
+					"Green Bolt", "object/weapon/ranged/pistol/pistol_green_bolt.iff",
+					"Heroic Exar", "object/weapon/ranged/pistol/pistol_heroic_exar.iff",
+					"Heroic SD", "object/weapon/ranged/pistol/pistol_heroic_sd.iff",
+					"Intimidator Pistol", "object/weapon/ranged/pistol/pistol_intimidator.iff",
+					"Intimidator Generic", "object/weapon/ranged/pistol/pistol_intimidator_generic.iff",
+					"Ion Stunner Pistol", "object/weapon/ranged/pistol/ep3/pistol_ion_stunner.iff",
+					"Jawa Pistol", "object/weapon/ranged/pistol/pistol_jawa.iff",
+					"KYD21 Pistol", "object/weapon/ranged/pistol/ep3/pistol_kyd21.iff",
+					"KYD21 Generic", "object/weapon/ranged/pistol/pistol_kyd21_generic.iff",
+					"Launcher Elite", "object/weapon/ranged/pistol/pistol_launcher_elite.iff",
+					--"Launcher Generic", "object/weapon/ranged/pistol/pistol_launcher_generic.iff",
+					"Launcher Medium", "object/weapon/ranged/pistol/pistol_launcher_medium.iff",
+					"Launcher Targeting", "object/weapon/ranged/pistol/pistol_launcher_targeting.iff",
+					"Mandalorian", "object/weapon/ranged/pistol/pistol_mandalorian.iff",
+					"PVP", "object/weapon/ranged/pistol/pistol_pvp.iff",
+					"Quest Imperial Navy Formal", "object/weapon/ranged/pistol/pistol_quest_imperial_navy_formal.iff",
+					"Rebel", "object/weapon/ranged/pistol/pistol_rebel.iff",
+					"Renegade Pistol", "object/weapon/ranged/pistol/pistol_renegade.iff",
+					"Renegade Generic", "object/weapon/ranged/pistol/pistol_renegade_generic.iff",
+					"Scatter Light", "object/weapon/ranged/pistol/pistol_scatter_light.iff",
+					"Scout Blaster NPE", "object/weapon/ranged/pistol/pistol_scout_blaster_npe.iff",
+					"Scout Blaster Static", "object/weapon/ranged/pistol/pistol_scout_blaster_static.iff",
+					"Striker Static", "object/weapon/ranged/pistol/pistol_striker_static.iff",
+					"Trando Surpressor Pistol", "object/weapon/ranged/pistol/ep3/pistol_trando_suppressor.iff",
+					"Westar 34", "object/weapon/ranged/pistol/pistol_westar_34.iff",
+					"Wookiee Pistol", "object/weapon/ranged/pistol/ep3/pistol_wookiee.iff",
+					"Wookiee Bowcaster Pistol", "object/weapon/ranged/pistol/ep3/pistol_wookiee_bowcaster.iff",
+					"Quest Pistol Launcher", "object/weapon/ranged/pistol/quest_pistol_launcher.iff",
+					"Quest Pistol Republic Blaster", "object/weapon/ranged/pistol/quest_pistol_republic_blaster.iff",
+					"Som Disruptor Pistol", "object/weapon/ranged/pistol/som_disruptor_pistol.iff",
+					"Som Disruptor Pistol Generic", "object/weapon/ranged/pistol/som_disruptor_pistol_generic.iff",
+					"Som Ion Relic Pistol", "object/weapon/ranged/pistol/som_ion_relic_pistol.iff",
+					"Som Ion Relic Pistol Generic", "object/weapon/ranged/pistol/som_ion_relic_pistol_generic.iff"
+				},
+				"Post 14 Ranged Rifles",
+				{
+					"Darksting", "object/weapon/ranged/rifle/ep3_loot_darksting.iff",
+					"Dawnsorrow", "object/weapon/ranged/rifle/ep3_loot_dawnsorrow.iff",
+					"Nullifier", "object/weapon/ranged/rifle/ep3_loot_nullifier.iff",
+					"Retaliation", "object/weapon/ranged/rifle/ep3_loot_retaliation.iff",
+					"Sharpshooter", "object/weapon/ranged/rifle/ep3_loot_sharpshooter.iff",
+					"Event_rifle_tusken_berserker", "object/weapon/ranged/rifle/event_rifle_tusken_berserker.iff",
+					"jinkins_j1_rifle", "object/weapon/ranged/rifle/jinkins_j1_rifle.iff",
+					"Quest_rifle_flame_thrower", "object/weapon/ranged/rifle/quest_rifle_flame_thrower.iff",
+					"Quest_rifle_lighning", "object/weapon/ranged/rifle/quest_rifle_lightning.iff",
+					"A280 Rifle", "object/weapon/ranged/rifle/rifle_a280.iff",
+					"Adventurer Rifle", "object/weapon/ranged/rifle/rifle_adventurer.iff",
+					"Rifle_alliance_gauss_generic", "object/weapon/ranged/rifle/rifle_alliance_gauss_generic.iff",
+					"Rifle_avatar_laser_trando", "object/weapon/ranged/rifle/rifle_avatar_laser_trando.iff",
+					"Bounty DC15 Rifle", "object/weapon/ranged/rifle/ep3/rifle_dc15.iff",
+					"Rifle_bowcaster_heavy", "object/weapon/ranged/rifle/rifle_bowcaster_heavy.iff",
+					"Rifle_bowcaster_master", "object/weapon/ranged/rifle/rifle_bowcaster_master.iff",
+					"Rrifle_bowcaster_medium", "object/weapon/ranged/rifle/rifle_bowcaster_medium.iff",
+					"Cdef_npe", "object/weapon/ranged/rifle/rifle_cdef_npe.iff",
+					"dc15", "object/weapon/ranged/rifle/ep3/rifle_dc15.iff",
+					"deathtroopers", "object/weapon/ranged/rifle/rifle_deathtroopers.iff",
+					"dlt20_npe", "object/weapon/ranged/rifle/rifle_dlt20_npe.iff",
+					--"e11_generic", "object/weapon/ranged/rifle/rifle_e11_generic.iff",
+					"eweb", "object/weapon/ranged/rifle/rifle_eweb.iff",
+					"Faux_bowcaster", "object/weapon/ranged/rifle/rifle_faux_bowcaster.iff",
+					"Flame_thrower_light", "object/weapon/ranged/rifle/rifle_flame_thrower_light.iff",
+					"Geo_drill", "object/weapon/ranged/rifle/rifle_geo_drill.iff",
+					"Geo_drill_generic", "object/weapon/ranged/rifle/rifle_geo_drill_generic.iff",
+					"Laser_light", "object/weapon/ranged/rifle/rifle_laser_light.iff",
+					"Ld1", "object/weapon/ranged/rifle/rifle_ld1.iff",
+					"Ld1_generic", "object/weapon/ranged/rifle/rifle_ld1_generic.iff",
+					"Lightning_heavy", "object/weapon/ranged/rifle/rifle_lightning_heavy.iff",
+					"Lightning_heavy_static", "object/weapon/ranged/rifle/rifle_lightning_heavy_static.iff",
+					"Lightning_light", "object/weapon/ranged/rifle/rifle_lightning_light.iff",
+					"Love_day_crossbow", "object/weapon/ranged/rifle/rifle_love_day_crossbow.iff",
+					"mandalorian", "object/weapon/ranged/rifle/rifle_mandalorian.iff",
+					"Massassi_ink", "object/weapon/ranged/rifle/rifle_massassi_ink.iff",
+					"Massassi_ink_generic", "object/weapon/ranged/rifle/rifle_massassi_ink_generic.iff",
+					"Naktra_crystal", "object/weapon/ranged/rifle/ep3/rifle_naktra_crystal.iff",
+					"Odararissl", "object/weapon/ranged/rifle/rifle_odararissl.iff",
+					"Proton", "object/weapon/ranged/rifle/rifle_proton.iff",
+					"Pvp", "object/weapon/ranged/rifle/rifle_pvp.iff",
+					"Rebel", "object/weapon/ranged/rifle/rifle_rebel.iff",
+					--"T21_generic", "object/weapon/ranged/rifle/rifle_t21_generic.iff",
+					"T21_legendary", "object/weapon/ranged/rifle/rifle_t21_legendary.iff",
+					"Tc_22_blaster", "object/weapon/ranged/rifle/rifle_tc22_blaster.iff",
+					"Trando_hunter", "object/weapon/ranged/rifle/ep3/rifle_trando_hunter.iff",
+					"Tusken_elite", "object/weapon/ranged/rifle/rifle_tusken_elite.iff",
+					--"Tusken_generic", "object/weapon/ranged/rifle/rifle_tusken_generic.iff",--THIS WORKS??
+					"Westar_m5", "object/weapon/ranged/rifle/rifle_westar_m5.iff",
+					"Dp23", "object/weapon/ranged/rifle/som_rifle_dp23.iff",
+					"Dp23_generic", "object/weapon/ranged/rifle/som_rifle_dp23_generic.iff",
+					"Mustafar_disruptor", "object/weapon/ranged/rifle/som_rifle_mustafar_disruptor.iff",
+					"Mustafar_disruptor_generic", "object/weapon/ranged/rifle/som_rifle_mustafar_disruptor_generic.iff"
 				},
 				"Heavy",
 				{
-					--		"Acid Stream Launcher", "object/weapon/ranged/heavy/heavy_acid_beam.iff",
-					--		"Beam Rifle", "object/weapon/ranged/rifle/rifle_beam.iff",
+			--		"Acid Stream Launcher", "object/weapon/ranged/heavy/heavy_acid_beam.iff",
+			--		"Beam Rifle", "object/weapon/ranged/rifle/rifle_beam.iff",
 					"Flame Thrower", "object/weapon/ranged/rifle/rifle_flame_thrower.iff",
-					--		"Heavy Acid Rifle", "object/weapon/ranged/rifle/rifle_acid_beam.iff",
-					--		"Heavy Particle Beam Cannon", "object/weapon/ranged/heavy/heavy_particle_beam.iff",
-					--		"Lightning Beam Cannon", "object/weapon/ranged/heavy/heavy_lightning_beam.iff",
+			--		"Heavy Acid Rifle", "object/weapon/ranged/rifle/rifle_acid_beam.iff",
+			--		"Heavy Particle Beam Cannon", "object/weapon/ranged/heavy/heavy_particle_beam.iff",
+			--		"Lightning Beam Cannon", "object/weapon/ranged/heavy/heavy_lightning_beam.iff",
 					"Light Lightning Cannon", "object/weapon/ranged/rifle/rifle_lightning.iff",
-				--		"Rocket Launcher", "object/weapon/ranged/heavy/heavy_rocket_launcher.iff"
+			--		"Rocket Launcher", "object/weapon/ranged/heavy/heavy_rocket_launcher.iff"
 				},
 				"One-handed",
 				{
-					--		"Sword", "object/weapon/melee/sword/sword_01.iff",
-					--		"Sword (noob)", "object/weapon/melee/sword/sword_01_noob.iff",
-					--		"Curved Sword", "object/weapon/melee/sword/sword_02.iff",
-					--		"Ryyk Blade", "object/weapon/melee/sword/sword_blade_ryyk.iff",
-					--		"Curved Nyax Sword", "object/weapon/melee/sword/sword_curved_nyax.iff",
-					--		"Nyax Sword", "object/weapon/melee/sword/sword_nyax.iff",
-					--		"Rantok", "object/weapon/melee/sword/sword_rantok.iff",
-					--		"Survival Knife", "object/weapon/melee/knife/knife_survival.iff",
-					--		"Dagger", "object/weapon/melee/knife/knife_dagger.iff",
-					--		"Donkuwah Knife", "object/weapon/melee/knife/knife_donkuwah.iff",
-					--		"Janta Knife", "object/weapon/melee/knife/knife_janta.iff",
-					--		"Stone Knife", "object/weapon/melee/knife/knife_stone.iff",
-					--		"Stone Knife (noob)", "object/weapon/melee/knife/knife_stone_noob.iff",
-					--		"Vibroblade", "object/weapon/melee/knife/knife_vibroblade.iff",
-					--		"Jagged Vibroblade", "object/weapon/melee/knife/knife_vibroblade_quest.iff",
+			--		"Sword", "object/weapon/melee/sword/sword_01.iff",
+			--		"Sword (noob)", "object/weapon/melee/sword/sword_01_noob.iff",
+			--		"Curved Sword", "object/weapon/melee/sword/sword_02.iff",
+			--		"Ryyk Blade", "object/weapon/melee/sword/sword_blade_ryyk.iff",
+			--		"Curved Nyax Sword", "object/weapon/melee/sword/sword_curved_nyax.iff",
+			--		"Nyax Sword", "object/weapon/melee/sword/sword_nyax.iff",
+			--		"Rantok", "object/weapon/melee/sword/sword_rantok.iff",
+			--		"Survival Knife", "object/weapon/melee/knife/knife_survival.iff",
+			--		"Dagger", "object/weapon/melee/knife/knife_dagger.iff",
+			--		"Donkuwah Knife", "object/weapon/melee/knife/knife_donkuwah.iff",
+			--		"Janta Knife", "object/weapon/melee/knife/knife_janta.iff",
+			--		"Stone Knife", "object/weapon/melee/knife/knife_stone.iff",
+			--		"Stone Knife (noob)", "object/weapon/melee/knife/knife_stone_noob.iff",
+			--		"Vibroblade", "object/weapon/melee/knife/knife_vibroblade.iff",
+			--		"Jagged Vibroblade", "object/weapon/melee/knife/knife_vibroblade_quest.iff",
 					"Stun Baton", "object/weapon/melee/baton/baton_stun.iff",
 					"Gaderiffi Baton", "object/weapon/melee/baton/baton_gaderiffi.iff",
-				--		"Black Metal Gaderiffi Baton", "object/weapon/melee/baton/victor_baton_gaderiffi.iff"
+			--		"Black Metal Gaderiffi Baton", "object/weapon/melee/baton/victor_baton_gaderiffi.iff"
 				},
 				"Pistols",
 				{
-					--		"CDEF Pistol", "object/weapon/ranged/pistol/pistol_cdef.iff",
-					--		"CDEF Pistol (noob)", "object/weapon/ranged/pistol/pistol_cdef_noob.iff",
-					--		"Corsec CDEF Pistol", "object/weapon/ranged/pistol/pistol_cdef_corsec.iff",
-					--		"D18 Pistol", "object/weapon/ranged/pistol/pistol_d18.iff",
-					--		"DE-10 Pistol", "object/weapon/ranged/pistol/pistol_de_10.iff",
-					--		"DH17 Pistol", "object/weapon/ranged/pistol/pistol_dh17.iff",
-					--		"DL44 Pistol", "object/weapon/ranged/pistol/pistol_dl44.iff",
-					--		"DL44 Metal Pistol", "object/weapon/ranged/pistol/pistol_dl44_metal.iff",
-					--		"DX2 Pistol", "object/weapon/ranged/pistol/pistol_dx2.iff",
+			--		"CDEF Pistol", "object/weapon/ranged/pistol/pistol_cdef.iff",
+			--		"CDEF Pistol (noob)", "object/weapon/ranged/pistol/pistol_cdef_noob.iff",
+			--		"Corsec CDEF Pistol", "object/weapon/ranged/pistol/pistol_cdef_corsec.iff",
+			--		"D18 Pistol", "object/weapon/ranged/pistol/pistol_d18.iff",
+			--		"DE-10 Pistol", "object/weapon/ranged/pistol/pistol_de_10.iff",
+			--		"DH17 Pistol", "object/weapon/ranged/pistol/pistol_dh17.iff",
+			--		"DL44 Pistol", "object/weapon/ranged/pistol/pistol_dl44.iff",
+			--		"DL44 Metal Pistol", "object/weapon/ranged/pistol/pistol_dl44_metal.iff",
+			--		"DX2 Pistol", "object/weapon/ranged/pistol/pistol_dx2.iff",
 					"FWG5 Pistol", "object/weapon/ranged/pistol/pistol_fwg5.iff",
-					--		"Featherweight FWG5 Pistol", "object/weapon/ranged/pistol/pistol_fwg5_quest.iff",
-					--		"Geonosian Sonic Blaster", "object/weapon/ranged/pistol/pistol_geonosian_sonic_blaster_loot.iff",
+			--		"Featherweight FWG5 Pistol", "object/weapon/ranged/pistol/pistol_fwg5_quest.iff",
+			--		"Geonosian Sonic Blaster", "object/weapon/ranged/pistol/pistol_geonosian_sonic_blaster_loot.iff",
 					"Launcher Pistol", "object/weapon/ranged/pistol/pistol_launcher.iff",
-					--		"Power5 Pistol", "object/weapon/ranged/pistol/pistol_power5.iff",
+			--		"Power5 Pistol", "object/weapon/ranged/pistol/pistol_power5.iff",
 					"Republic Blaster", "object/weapon/ranged/pistol/pistol_republic_blaster.iff",
-					--		"Modified Republic Blaster", "object/weapon/ranged/pistol/pistol_republic_blaster_quest.iff",
+			--		"Modified Republic Blaster", "object/weapon/ranged/pistol/pistol_republic_blaster_quest.iff",
 					"Scatter Pistol", "object/weapon/ranged/pistol/pistol_scatter.iff",
-				--		"Scout Blaster", "object/weapon/ranged/pistol/pistol_scout_blaster.iff",
-				--		"SR Combat Pistol", "object/weapon/ranged/pistol/pistol_srcombat.iff",
-				--		"Striker Pistol", "object/weapon/ranged/pistol/pistol_striker.iff",
-				--		"Striker Pistol (noob)", "object/weapon/ranged/pistol/pistol_striker_noob.iff",
-				--		"Tangle Pistol", "object/weapon/ranged/pistol/pistol_tangle.iff"
+			--		"Scout Blaster", "object/weapon/ranged/pistol/pistol_scout_blaster.iff",
+			--		"SR Combat Pistol", "object/weapon/ranged/pistol/pistol_srcombat.iff",
+			--		"Striker Pistol", "object/weapon/ranged/pistol/pistol_striker.iff",
+			--		"Striker Pistol (noob)", "object/weapon/ranged/pistol/pistol_striker_noob.iff",
+			--		"Tangle Pistol", "object/weapon/ranged/pistol/pistol_tangle.iff"
 				},
 				"Polearms",
 				{
-					--		"Lance", "object/weapon/melee/polearm/lance_controllerfp.iff",
-					--		"Nightsister Lance", "object/weapon/melee/polearm/lance_controllerfp_nightsister.iff",
-					--		"Nightsister Energy Lance", "object/weapon/melee/polearm/lance_nightsister.iff",
-					--		"Janta Staff", "object/weapon/melee/polearm/lance_staff_janta.iff",
-					--		"Metal Staff", "object/weapon/melee/polearm/lance_staff_metal.iff",
+			--		"Lance", "object/weapon/melee/polearm/lance_controllerfp.iff",
+			--		"Nightsister Lance", "object/weapon/melee/polearm/lance_controllerfp_nightsister.iff",
+			--		"Nightsister Energy Lance", "object/weapon/melee/polearm/lance_nightsister.iff",
+			--		"Janta Staff", "object/weapon/melee/polearm/lance_staff_janta.iff",
+			--		"Metal Staff", "object/weapon/melee/polearm/lance_staff_metal.iff",
 					"Vibro Lance", "object/weapon/melee/polearm/lance_vibrolance.iff",
 					"Long Vibro Axe", "object/weapon/melee/polearm/polearm_vibro_axe.iff",
-				--		"Wood Staff", "object/weapon/melee/polearm/lance_staff_wood_s1.iff",
-				--		"Reinforced Combat Staff", "object/weapon/melee/polearm/lance_staff_wood_s2.iff",
+			--		"Wood Staff", "object/weapon/melee/polearm/lance_staff_wood_s1.iff",
+			--		"Reinforced Combat Staff", "object/weapon/melee/polearm/lance_staff_wood_s2.iff",
 				},
 				"Rifles",
 				{
-					--		"Berserker Rifle", "object/weapon/ranged/rifle/rifle_berserker.iff",
-					--		"Bowcaster", "object/weapon/ranged/rifle/rifle_bowcaster.iff",
-					--		"CDEF Rifle", "object/weapon/ranged/rifle/rifle_cdef.iff",
-					--		"DLT20 Rifle", "object/weapon/ranged/rifle/rifle_dlt20.iff",
-					--		"DLT20a Rifle", "object/weapon/ranged/rifle/rifle_dlt20a.iff",
-					--		"E11 Rifle", "object/weapon/ranged/rifle/rifle_e11.iff",
-					--		"An Ewok Crossbow", "object/weapon/ranged/rifle/rifle_ewok_crossbow.iff",
+			--		"Berserker Rifle", "object/weapon/ranged/rifle/rifle_berserker.iff",
+			--		"Bowcaster", "object/weapon/ranged/rifle/rifle_bowcaster.iff",
+			--		"CDEF Rifle", "object/weapon/ranged/rifle/rifle_cdef.iff",
+			--		"DLT20 Rifle", "object/weapon/ranged/rifle/rifle_dlt20.iff",
+			--		"DLT20a Rifle", "object/weapon/ranged/rifle/rifle_dlt20a.iff",
+			--		"E11 Rifle", "object/weapon/ranged/rifle/rifle_e11.iff",
+			--		"An Ewok Crossbow", "object/weapon/ranged/rifle/rifle_ewok_crossbow.iff",
 					"Jawa Ion Rifle", "object/weapon/ranged/rifle/rifle_jawa_ion.iff",
-					--		"Laser Rifle", "object/weapon/ranged/rifle/rifle_laser.iff",
-					--		"Laser Rifle (noob)", "object/weapon/ranged/rifle/rifle_laser_noob.iff",
-					--		"Lithitanium Rifle", "object/weapon/ranged/rifle/rifle_victor_tusken.iff",
-					--		"SG82 Rifle", "object/weapon/ranged/rifle/rifle_sg82.iff",
-					--		"Spraystick", "object/weapon/ranged/rifle/rifle_spraystick.iff",
-					--		"Tenloss DXR-6 Disruptor Rifle", "object/weapon/ranged/rifle/rifle_tenloss_dxr6_disruptor_loot.iff",
+			--		"Laser Rifle", "object/weapon/ranged/rifle/rifle_laser.iff",
+			--		"Laser Rifle (noob)", "object/weapon/ranged/rifle/rifle_laser_noob.iff",
+			--		"Lithitanium Rifle", "object/weapon/ranged/rifle/rifle_victor_tusken.iff",
+			--		"SG82 Rifle", "object/weapon/ranged/rifle/rifle_sg82.iff",
+			--		"Spraystick", "object/weapon/ranged/rifle/rifle_spraystick.iff",
+			--		"Tenloss DXR-6 Disruptor Rifle", "object/weapon/ranged/rifle/rifle_tenloss_dxr6_disruptor_loot.iff",
 					"T21", "object/weapon/ranged/rifle/rifle_t21.iff",
-				--		"Tusken Rifle", "object/weapon/ranged/rifle/rifle_tusken.iff"
+			--		"Tusken Rifle", "object/weapon/ranged/rifle/rifle_tusken.iff"
 				},
 				"Two-handed",
 				{
 					"Two-handed Curved Sword", "object/weapon/melee/2h_sword/2h_sword_katana.iff",
-					--		"Grooved Two-handed Sword", "object/weapon/melee/2h_sword/2h_sword_katana_quest.iff",
-					--		"Scythe Blade", "object/weapon/melee/2h_sword/2h_sword_scythe.iff",
+			--		"Grooved Two-handed Sword", "object/weapon/melee/2h_sword/2h_sword_katana_quest.iff",
+			--		"Scythe Blade", "object/weapon/melee/2h_sword/2h_sword_scythe.iff",
 					"Power Hammer", "object/weapon/melee/2h_sword/2h_sword_maul.iff",
-				--		"Two-handed Cleaver", "object/weapon/melee/2h_sword/2h_sword_cleaver.iff",
-				--		"Black Sun Executioner's Hack", "object/weapon/melee/2h_sword/2h_sword_blacksun_hack.iff",
-				--		"Gamorrean Battleaxe", "object/weapon/melee/2h_sword/2h_sword_battleaxe_quest.iff",
-				--		"Heavy Axe", "object/weapon/melee/axe/axe_heavy_duty.iff",
-				--		"Vibro Axe", "object/weapon/melee/axe/axe_vibroaxe.iff"
+			--		"Two-handed Cleaver", "object/weapon/melee/2h_sword/2h_sword_cleaver.iff",
+			--		"Black Sun Executioner's Hack", "object/weapon/melee/2h_sword/2h_sword_blacksun_hack.iff",
+			--		"Gamorrean Battleaxe", "object/weapon/melee/2h_sword/2h_sword_battleaxe_quest.iff",
+			--		"Heavy Axe", "object/weapon/melee/axe/axe_heavy_duty.iff",
+			--		"Vibro Axe", "object/weapon/melee/axe/axe_vibroaxe.iff"
 				},
 				"Unarmed",
 				{
 					"Vibro Knuckler", "object/weapon/melee/special/vibroknuckler.iff",
-				--		"A Blacksun Razor Knuckler", "object/weapon/melee/special/blacksun_razor.iff"
+			--		"A Blacksun Razor Knuckler", "object/weapon/melee/special/blacksun_razor.iff"
 				}
 			},
 			--"Holocrons",
