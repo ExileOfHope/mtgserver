@@ -49,3 +49,6 @@ build.out
 build.out.prev
 bin/screenlog*
 compile_commands.json
+.cache
+.vscode
+bin/scripts/managers/resource_manager_spawns.lua
