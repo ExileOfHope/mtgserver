@@ -18,7 +18,7 @@ arenaChallengeDuration = 3600000 -- 60 mins
 arenaChallengeCooldown = 90000000 -- 25 hours
 
 -- Costs are in FRS experience
-baseMaintCost = 100
+baseMaintCost = 0
 requestDemotionCost = 2000
 voteChallengeCost = 1000
 
