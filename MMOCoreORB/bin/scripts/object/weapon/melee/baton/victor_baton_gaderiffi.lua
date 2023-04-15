@@ -75,7 +75,7 @@ object_weapon_melee_baton_victor_baton_gaderiffi = object_weapon_melee_baton_sha
 	damageType = KINETIC,
 	
 	-- NONE, LIGHT, MEDIUM, HEAVY
-	armorPiercing = LIGHT,
+	armorPiercing = MEDIUM,
 	
 	-- combat_rangedspecialize_bactarifle, combat_rangedspecialize_rifle, combat_rangedspecialize_pistol, combat_rangedspecialize_heavy, combat_rangedspecialize_carbine
 	-- combat_meleespecialize_unarmed, combat_meleespecialize_twohand, combat_meleespecialize_polearm, combat_meleespecialize_onehand, combat_general,
@@ -103,22 +103,26 @@ object_weapon_melee_baton_victor_baton_gaderiffi = object_weapon_melee_baton_sha
 	       
 	
 	-- The values below are the default values.  To be used for blue frog objects primarily
-	healthAttackCost = 40,
-	actionAttackCost = 33,
-	mindAttackCost = 13,
+	healthAttackCost = 18,
+	actionAttackCost = 21,
+	mindAttackCost = 11,
 	forceCost = 0,
 
 	pointBlankRange = 0,
-	pointBlankAccuracy = -13,
-	idealRange = 3,
-	idealAccuracy = -13,
-	maxRange = 5,
-	maxRangeAccuracy = -13,
+	pointBlankAccuracy = 15,
 
-	minDamage = 48,
-	maxDamage = 148,
-	attackSpeed = 3.8,
-	woundsRatio = 16,
+	idealRange = 3,
+	idealAccuracy = 15,
+
+	maxRange = 7,
+	maxRangeAccuracy = 15,
+
+	minDamage = 98,
+	maxDamage = 364,
+
+	attackSpeed = 2.5,
+
+	woundsRatio = 43
 }
 
 ObjectTemplates:addTemplate(object_weapon_melee_baton_victor_baton_gaderiffi, "object/weapon/melee/baton/victor_baton_gaderiffi.iff")

@@ -72,7 +72,7 @@ object_weapon_melee_sword_sword_rantok = object_weapon_melee_sword_shared_sword_
 	damageType = KINETIC,
 
 	-- NONE, LIGHT, MEDIUM, HEAVY
-	armorPiercing = NONE,
+	armorPiercing = MEDIUM,
 
 	-- combat_rangedspecialize_bactarifle, combat_rangedspecialize_rifle, combat_rangedspecialize_pistol, combat_rangedspecialize_heavy, combat_rangedspecialize_carbine
 	-- combat_meleespecialize_unarmed, combat_meleespecialize_twohand, combat_meleespecialize_polearm, combat_meleespecialize_onehand, combat_general,
@@ -100,26 +100,26 @@ object_weapon_melee_sword_sword_rantok = object_weapon_melee_sword_shared_sword_
 	
 
 	-- The values below are the default values.  To be used for blue frog objects primarily
-	healthAttackCost = 27,
-	actionAttackCost = 40,
-	mindAttackCost = 25,
+	healthAttackCost = 18,
+	actionAttackCost = 21,
+	mindAttackCost = 11,
 	forceCost = 0,
 
 	pointBlankRange = 0,
-	pointBlankAccuracy = 10,
+	pointBlankAccuracy = 15,
 
 	idealRange = 3,
-	idealAccuracy = 10,
+	idealAccuracy = 15,
 
-	maxRange = 3,
-	maxRangeAccuracy = 10,
+	maxRange = 7,
+	maxRangeAccuracy = 15,
 
-	minDamage = 45,
-	maxDamage = 150,
+	minDamage = 98,
+	maxDamage = 364,
 
-	attackSpeed = 3.3,
+	attackSpeed = 2.5,
 
-	woundsRatio = 20
+	woundsRatio = 43
 }
 
 ObjectTemplates:addTemplate(object_weapon_melee_sword_sword_rantok, "object/weapon/melee/sword/sword_rantok.iff")
