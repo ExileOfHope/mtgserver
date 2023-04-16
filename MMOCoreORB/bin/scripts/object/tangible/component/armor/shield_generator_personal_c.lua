@@ -114,7 +114,7 @@ object_tangible_component_armor_shield_generator_personal_c = object_tangible_co
 			},
 	
 	-- Damage types in WeaponObject
-	vulnerability = ACID + BLAST + KINETIC + LIGHTSABER,
+	vulnerability = LIGHTSABER,
 
 	-- These are default Blue Frog stats
 	healthEncumbrance = 0,
@@ -124,15 +124,15 @@ object_tangible_component_armor_shield_generator_personal_c = object_tangible_co
 	-- LIGHT, MEDIUM, HEAVY
 	rating = LIGHT,
 
-	kinetic = 0,
-	energy = 15,
-	electricity = 10,
-	stun = 10,
-	blast = 0,
-	heat = 10,
-	cold = 10,
-	acid = 0,
-	lightSaber = 10,
+	kinetic = 40,
+	energy = 40,
+	electricity = 40,
+	stun = 40,
+	blast = 40,
+	heat = 40,
+	cold = 40,
+	acid = 40,
+	lightSaber = 40,
 
 	numberExperimentalProperties = {1, 1, 1, 2, 2, 2, 2, 2, 1, 1, 2, 1},
 	experimentalProperties = {"XX", "XX", "XX", "OQ", "SR", "OQ", "UT", "MA", "OQ", "MA", "OQ", "MA", "OQ", "XX", "XX", "OQ", "SR", "XX"},
@@ -140,7 +140,7 @@ object_tangible_component_armor_shield_generator_personal_c = object_tangible_co
 	experimentalGroupTitles = {"null", "null", "exp_durability", "exp_quality", "exp_durability", "null", "null", "null", "null", "null", "exp_resistance", "null"},
 	experimentalSubGroupTitles = {"null", "null", "hit_points", "armor_effectiveness", "armor_integrity", "armor_health_encumbrance", "armor_action_encumbrance", "armor_mind_encumbrance", "armor_rating", "armor_special_type", "armor_special_effectiveness", "armor_special_integrity"},
 	experimentalMin = {0, 0, 1000, 1, 750, 0, 0, 0, 1, 2, 1, 750},
-	experimentalMax = {0, 0, 1000, 40, 1500, 0, 0, 0, 1, 2, 60, 1500},
+	experimentalMax = {0, 0, 1000, 60, 1500, 0, 0, 0, 3, 2, 60, 1500},
 	experimentalPrecision = {0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0},
 	experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 1, 4, 4, 4, 1},
 }

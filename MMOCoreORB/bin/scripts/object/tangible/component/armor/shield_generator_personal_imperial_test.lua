@@ -96,7 +96,7 @@ object_tangible_component_armor_shield_generator_personal_imperial_test = object
 				"object/mobile/vendor/wookiee_male.iff" },
 	
 	-- Damage types in WeaponObject
-	vulnerability = ACID + BLAST + KINETIC + LIGHTSABER,
+	vulnerability = LIGHTSABER,
 
 	-- These are default Blue Frog stats
 	healthEncumbrance = 0,
@@ -104,17 +104,17 @@ object_tangible_component_armor_shield_generator_personal_imperial_test = object
 	mindEncumbrance = 0,
 
 	-- LIGHT, MEDIUM, HEAVY
-	rating = LIGHT,
+	rating = MEDIUM,
 
-	kinetic = 0,
-	energy = 15,
-	electricity = 10,
-	stun = 10,
-	blast = 0,
-	heat = 10,
-	cold = 10,
-	acid = 0,
-	lightSaber = 10,
+	kinetic = 50,
+	energy = 50,
+	electricity = 50,
+	stun = 50,
+	blast = 50,
+	heat = 50,
+	cold = 50,
+	acid = 50,
+	lightSaber = 50,
 
 	numberExperimentalProperties = {1, 1, 1, 2, 2, 2, 2, 2, 1, 1, 2, 1},
 	experimentalProperties = {"XX", "XX", "XX", "OQ", "SR", "OQ", "UT", "MA", "OQ", "MA", "OQ", "MA", "OQ", "XX", "XX", "OQ", "SR", "XX"},
@@ -122,7 +122,7 @@ object_tangible_component_armor_shield_generator_personal_imperial_test = object
 	experimentalGroupTitles = {"null", "null", "exp_durability", "exp_quality", "exp_durability", "null", "null", "null", "null", "null", "exp_resistance", "null"},
 	experimentalSubGroupTitles = {"null", "null", "hit_points", "armor_effectiveness", "armor_integrity", "armor_health_encumbrance", "armor_action_encumbrance", "armor_mind_encumbrance", "armor_rating", "armor_special_type", "armor_special_effectiveness", "armor_special_integrity"},
 	experimentalMin = {0, 0, 1000, 10, 2500, 0, 0, 0, 1, 2, 10, 2500},
-	experimentalMax = {0, 0, 1000, 50, 3400, 0, 0, 0, 1, 2, 70, 3400},
+	experimentalMax = {0, 0, 1000, 75, 3400, 0, 0, 0, 3, 2, 75, 3400},
 	experimentalPrecision = {0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0},
 	experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 1, 4, 4, 4, 1},
 }
