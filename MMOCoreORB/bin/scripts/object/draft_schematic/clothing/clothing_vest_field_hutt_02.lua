@@ -42,7 +42,40 @@
 
 
 object_draft_schematic_clothing_clothing_vest_field_hutt_02 = object_draft_schematic_clothing_shared_clothing_vest_field_hutt_02:new {
-    factoryCrateType = "object/factory/factory_crate_clothing.iff"
+  
+    templateType = DRAFTSCHEMATIC,
+
+    customObjectName = "Enforcer\'s Vest",
+ 
+    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
+    complexity = 20, 
+    size = 3, 
+    factoryCrateType = "object/factory/factory_crate_clothing.iff",
+ 
+    xpType = "crafting_clothing_general", 
+    xp = 95, 
+ 
+    assemblySkill = "clothing_assembly", 
+    experimentingSkill = "clothing_experimentation", 
+    customizationSkill = "clothing_customization", 
+ 
+    customizationOptions = {2},
+    customizationStringNames = {"/private/index_color_1"},
+    customizationDefaults = {15},
+ 
+    ingredientTemplateNames = {"craft_clothing_ingredients_n", "craft_clothing_ingredients_n", "craft_clothing_ingredients_n"},
+    ingredientTitleNames = {"body", "decorative_trim", "metal_fasteners"},
+    ingredientSlotType = {1, 0, 1},
+    resourceTypes = {"object/tangible/component/clothing/shared_synthetic_cloth.iff", "fiberplast", "object/tangible/component/clothing/shared_metal_fasteners.iff"},
+    resourceQuantities = {1, 40, 1},
+    contribution = {100, 100, 100},
+ 
+ 
+    targetTemplate = "object/tangible/wearables/vest/vest_hutt_gang_s02.iff",
+ 
+    additionalTemplates = {
+              }
 }
+
 
 ObjectTemplates:addTemplate(object_draft_schematic_clothing_clothing_vest_field_hutt_02, "object/draft_schematic/clothing/clothing_vest_field_hutt_02.iff")
