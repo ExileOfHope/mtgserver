@@ -42,7 +42,40 @@
 
 
 object_draft_schematic_clothing_clothing_jewelry_ring_04 = object_draft_schematic_clothing_shared_clothing_jewelry_ring_04:new {
-    factoryCrateType = "object/factory/factory_crate_clothing.iff"
-}
+
+    templateType = DRAFTSCHEMATIC,
+ 
+    customObjectName = "Fingerband",
+ 
+    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
+    complexity = 20, 
+    size = 3, 
+    factoryCrateType = "object/factory/factory_crate_clothing.iff",
+ 
+    xpType = "crafting_clothing_general", 
+    xp = 100, 
+ 
+    assemblySkill = "clothing_assembly", 
+    experimentingSkill = "clothing_experimentation", 
+    customizationSkill = "clothing_customization", 
+ 
+    customizationOptions = {},
+    customizationStringNames = {},
+    customizationDefaults = {},
+ 
+    ingredientTemplateNames = {"craft_clothing_ingredients_n", "craft_clothing_ingredients_n", "craft_clothing_ingredients_n"},
+    ingredientTitleNames = {"trim", "ring", "jewelry_setting"},
+    ingredientSlotType = {0, 0, 1},
+    resourceTypes = {"metal", "metal", "object/tangible/component/clothing/shared_jewelry_setting.iff"},
+    resourceQuantities = {20, 20, 3},
+    contribution = {100, 100, 100},
+ 
+ 
+    targetTemplate = "object/tangible/wearables/ring/ring_s04.iff",
+ 
+    additionalTemplates = {
+              }
+ 
+ }
 
 ObjectTemplates:addTemplate(object_draft_schematic_clothing_clothing_jewelry_ring_04, "object/draft_schematic/clothing/clothing_jewelry_ring_04.iff")
