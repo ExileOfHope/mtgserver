@@ -62,13 +62,13 @@ object_draft_schematic_clothing_clothing_vest_field_hutt_02 = object_draft_schem
     customizationOptions = {2},
     customizationStringNames = {"/private/index_color_1"},
     customizationDefaults = {15},
- 
+
     ingredientTemplateNames = {"craft_clothing_ingredients_n", "craft_clothing_ingredients_n", "craft_clothing_ingredients_n"},
-    ingredientTitleNames = {"body", "decorative_trim", "metal_fasteners"},
-    ingredientSlotType = {1, 0, 1},
-    resourceTypes = {"object/tangible/component/clothing/shared_synthetic_cloth.iff", "fiberplast", "object/tangible/component/clothing/shared_metal_fasteners.iff"},
-    resourceQuantities = {1, 40, 1},
-    contribution = {100, 100, 100},
+    ingredientTitleNames = {"body", "heavy_shell", "hardware", "padded_straps"},
+    ingredientSlotType = {1, 0, 1, 0},
+    resourceTypes = {"object/tangible/component/clothing/shared_synthetic_cloth.iff", "hide_leather", "object/tangible/component/clothing/shared_metal_fasteners.iff", "hide"},
+    resourceQuantities = {1, 40, 1, 10},
+    contribution = {100, 100, 100, 100},
  
  
     targetTemplate = "object/tangible/wearables/vest/vest_hutt_gang_s02.iff",
