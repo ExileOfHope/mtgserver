@@ -52,12 +52,12 @@ object_draft_schematic_scout_item_trap_flash_bomb = object_draft_schematic_scout
    size = 1, 
    factoryCrateType = "object/factory/factory_crate_electronics.iff",
    
-   xpType = "camp", 
-   xp = 70, 
+   xpType = "trapping", 
+   xp = 170, 
 
-   assemblySkill = "general_assembly", 
-   experimentingSkill = "general_experimentation", 
-   customizationSkill = "clothing_customization", 
+   assemblySkill = "trapping", 
+   experimentingSkill = "trapping", 
+   customizationSkill = "trapping", 
 
    customizationOptions = {},
    customizationStringNames = {},

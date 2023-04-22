@@ -52,12 +52,12 @@ object_draft_schematic_scout_item_trap_enraging_spur = object_draft_schematic_sc
    size = 1, 
    factoryCrateType = "object/factory/factory_crate_electronics.iff",
    
-   xpType = "camp", 
-   xp = 16, 
+   xpType = "trapping", 
+   xp = 116, 
 
-   assemblySkill = "general_assembly", 
-   experimentingSkill = "general_experimentation", 
-   customizationSkill = "clothing_customization", 
+   assemblySkill = "trapping", 
+   experimentingSkill = "trapping", 
+   customizationSkill = "trapping", 
 
    customizationOptions = {},
    customizationStringNames = {},

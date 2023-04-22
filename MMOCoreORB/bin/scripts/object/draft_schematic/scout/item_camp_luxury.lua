@@ -53,11 +53,11 @@ object_draft_schematic_scout_item_camp_luxury = object_draft_schematic_scout_sha
    factoryCrateType = "object/factory/factory_crate_electronics.iff",
    
    xpType = "camp", 
-   xp = 230, 
+   xp = 1230, 
 
-   assemblySkill = "general_assembly", 
-   experimentingSkill = "general_experimentation", 
-   customizationSkill = "clothing_customization", 
+   assemblySkill = "camp", 
+   experimentingSkill = "camp", 
+   customizationSkill = "camp", 
 
    customizationOptions = {},
    customizationStringNames = {},

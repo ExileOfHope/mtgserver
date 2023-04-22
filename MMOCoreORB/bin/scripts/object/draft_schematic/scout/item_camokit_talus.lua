@@ -53,7 +53,7 @@ object_draft_schematic_scout_item_camokit_talus = object_draft_schematic_scout_s
    factoryCrateType = "object/factory/factory_crate_electronics.iff",
    
    xpType = "scout", 
-   xp = 200, 
+   xp = 1200, 
 
    assemblySkill = "camouflage", 
    experimentingSkill = "camouflage", 

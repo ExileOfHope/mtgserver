@@ -53,7 +53,7 @@ object_draft_schematic_scout_item_camokit_dathomir = object_draft_schematic_scou
    factoryCrateType = "object/factory/factory_crate_electronics.iff",
    
    xpType = "scout", 
-   xp = 280, 
+   xp = 1280, 
 
    assemblySkill = "camouflage", 
    experimentingSkill = "camouflage", 

@@ -53,7 +53,7 @@ object_draft_schematic_scout_item_camokit_dantooine = object_draft_schematic_sco
    factoryCrateType = "object/factory/factory_crate_electronics.iff",
    
    xpType = "scout", 
-   xp = 230, 
+   xp = 1230, 
 
    assemblySkill = "camouflage", 
    experimentingSkill = "camouflage", 

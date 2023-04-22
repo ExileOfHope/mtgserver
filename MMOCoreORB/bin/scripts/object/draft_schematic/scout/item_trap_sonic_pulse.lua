@@ -52,12 +52,12 @@ object_draft_schematic_scout_item_trap_sonic_pulse = object_draft_schematic_scou
    size = 1, 
    factoryCrateType = "object/factory/factory_crate_electronics.iff",
    
-   xpType = "camp", 
-   xp = 90, 
+   xpType = "trapping", 
+   xp = 190, 
 
-   assemblySkill = "general_assembly", 
-   experimentingSkill = "general_experimentation", 
-   customizationSkill = "clothing_customization", 
+   assemblySkill = "trapping", 
+   experimentingSkill = "trapping", 
+   customizationSkill = "trapping", 
 
    customizationOptions = {},
    customizationStringNames = {},

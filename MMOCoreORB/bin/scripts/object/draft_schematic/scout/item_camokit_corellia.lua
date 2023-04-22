@@ -53,7 +53,7 @@ object_draft_schematic_scout_item_camokit_corellia = object_draft_schematic_scou
    factoryCrateType = "object/factory/factory_crate_electronics.iff",
    
    xpType = "scout", 
-   xp = 170, 
+   xp = 1170, 
 
    assemblySkill = "camouflage", 
    experimentingSkill = "camouflage", 
