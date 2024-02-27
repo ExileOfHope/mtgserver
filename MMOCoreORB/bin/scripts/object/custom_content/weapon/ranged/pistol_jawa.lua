@@ -127,23 +127,23 @@ object_weapon_ranged_pistol_pistol_jawa = object_weapon_ranged_pistol_shared_pis
 	-- combat_rangedspecialize_bactarifle, combat_rangedspecialize_rifle, combat_rangedspecialize_pistol, combat_rangedspecialize_heavy, combat_rangedspecialize_carbine
 	-- combat_meleespecialize_unarmed, combat_meleespecialize_twohand, combat_meleespecialize_polearm, combat_meleespecialize_onehand, combat_general,
 	-- combat_meleespecialize_twohandlightsaber, combat_meleespecialize_polearmlightsaber, combat_meleespecialize_onehandlightsaber
-	xpType = "combat_rangedspecialize_carbine",
+	xpType = "combat_rangedspecialize_pistol",
 
 	-- See http://www.ocdsoft.com/files/certifications.xls
-	certificationsRequired = { "cert_carbine_cdef" },
+	certificationsRequired = { "cert_pistol_fwg5" },
 	-- See http://www.ocdsoft.com/files/accuracy.xls
-	creatureAccuracyModifiers = { "carbine_accuracy" },
+	creatureAccuracyModifiers = { "pistol_accuracy" },
 
-	creatureAimModifiers = { "carbine_aim", "aim" },
+	creatureAimModifiers = { "pistol_aim", "aim" },
 
 	-- See http://www.ocdsoft.com/files/defense.xls
 	defenderDefenseModifiers = { "ranged_defense" },
 
 	-- Leave as "dodge" for now, may have additions later
-	defenderSecondaryDefenseModifiers = { "counterattack" },
+	defenderSecondaryDefenseModifiers = { "dodge" },
 
 	-- See http://www.ocdsoft.com/files/speed.xls
-	speedModifiers = { "carbine_speed" },
+	speedModifiers = { "pistol_speed" },
 
 	-- Leave blank for now
 	damageModifiers = { },
