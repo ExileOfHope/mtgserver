@@ -146,7 +146,7 @@ object_weapon_melee_polearm_ep3_loot_pestilence_wod = object_weapon_melee_polear
 	speedModifiers = { "polearm_speed" },
 
 	-- Leave blank for now
-	damageModifiers = { },
+	damageModifiers = { "polearm_damage" },
 
 
 	-- The values below are the default values.  To be used for blue frog objects primarily

@@ -103,7 +103,7 @@ object_weapon_melee_sword_som_sword_obsidian_generic = object_weapon_melee_sword
 	speedModifiers = { "onehandmelee_speed" },
 
 	-- Leave blank for now
-	damageModifiers = { },
+	damageModifiers = { "onehandmelee_damage" },
 
 
 	-- The values below are the default values.  To be used for blue frog objects primarily

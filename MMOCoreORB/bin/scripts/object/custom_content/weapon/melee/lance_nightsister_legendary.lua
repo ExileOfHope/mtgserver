@@ -146,7 +146,7 @@ object_weapon_melee_polearm_lance_nightsister_legendary = object_weapon_melee_po
 	speedModifiers = { "polearm_speed" },
 
 	-- Leave blank for now
-	damageModifiers = { },
+	damageModifiers = { "polearm_damage" },
 
 
 	-- The values below are the default values.  To be used for blue frog objects primarily

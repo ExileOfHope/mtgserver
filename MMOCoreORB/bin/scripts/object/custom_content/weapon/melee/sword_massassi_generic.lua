@@ -103,7 +103,7 @@ object_weapon_melee_sword_sword_massassi_generic = object_weapon_melee_sword_sha
 	speedModifiers = { "onehandmelee_speed" },
 
 	-- Leave blank for now
-	damageModifiers = { },
+	damageModifiers = { "onehandmelee_damage" },
 
 
 	-- The values below are the default values.  To be used for blue frog objects primarily

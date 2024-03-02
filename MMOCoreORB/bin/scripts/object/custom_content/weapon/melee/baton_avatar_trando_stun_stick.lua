@@ -148,7 +148,7 @@ object_weapon_melee_baton_baton_avatar_trando_stun_stick = object_weapon_melee_b
 	speedModifiers = { "onehandmelee_speed" },
 
 	-- Leave blank for now
-	damageModifiers = { },
+	damageModifiers = { "onehandmelee_damage" },
 
 
 	-- The values below are the default values.  To be used for blue frog objects primarily

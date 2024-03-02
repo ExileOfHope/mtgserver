@@ -148,7 +148,7 @@ object_weapon_melee_baton_baton_gaderiffi_npe = object_weapon_melee_baton_shared
 	speedModifiers = { "onehandmelee_speed" },
 
 	-- Leave blank for now
-	damageModifiers = { },
+	damageModifiers = { "onehandmelee_damage" },
 
 
 	-- The values below are the default values.  To be used for blue frog objects primarily

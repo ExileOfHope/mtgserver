@@ -146,7 +146,7 @@ object_weapon_melee_knife_ep3_loot_blackbane = object_weapon_melee_knife_shared_
 	speedModifiers = { "onehandmelee_speed" },
 
 	-- Leave blank for now
-	damageModifiers = { },
+	damageModifiers = { "onehandmelee_damage" },
 
 
 	-- The values below are the default values.  To be used for blue frog objects primarily

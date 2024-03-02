@@ -103,7 +103,7 @@ object_weapon_melee_sword_sword_mace_junti_generic = object_weapon_melee_sword_s
 	speedModifiers = { "onehandmelee_speed" },
 
 	-- Leave blank for now
-	damageModifiers = { },
+	damageModifiers = { "onehandmelee_damage" },
 
 
 	-- The values below are the default values.  To be used for blue frog objects primarily

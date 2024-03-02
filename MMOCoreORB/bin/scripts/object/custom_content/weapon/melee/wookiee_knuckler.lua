@@ -143,10 +143,10 @@ object_weapon_melee_special_ep3_wookiee_knuckler = object_weapon_melee_special_e
 	defenderToughnessModifiers = { "twohandmelee_toughness" },
 
 	-- See http://www.ocdsoft.com/files/speed.xls
-	speedModifiers = { "twohandmelee_speed" },
+	speedModifiers = { "polearm_speed" },
 
 	-- Leave blank for now
-	damageModifiers = { },
+	damageModifiers = { "twohandmelee_damage" },
 
 
 	-- The values below are the default values.  To be used for blue frog objects primarily

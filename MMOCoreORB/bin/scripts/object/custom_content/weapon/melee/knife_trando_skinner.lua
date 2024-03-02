@@ -144,9 +144,9 @@ object_weapon_melee_knife_ep3_knife_trando_skinner = object_weapon_melee_knife_e
 	
 	-- See http://www.ocdsoft.com/files/speed.xls
 	speedModifiers = { "onehandmelee_speed" },
-	
+
 	-- Leave blank for now
-	damageModifiers = { },
+	damageModifiers = { "onehandmelee_damage" },
 	       
 	
 	-- The values below are the default values.  To be used for blue frog objects primarily
