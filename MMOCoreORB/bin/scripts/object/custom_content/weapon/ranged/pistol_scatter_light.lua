@@ -164,8 +164,8 @@ object_weapon_ranged_pistol_pistol_scatter_light = object_weapon_ranged_pistol_s
 	maxRange = 200,
 	maxRangeAccuracy = 100,
 
-	minDamage = 99999999998,
-	maxDamage = 99999999999,
+	minDamage = 45000000,
+	maxDamage = 90000000,
 
 	attackSpeed = 1,
 
