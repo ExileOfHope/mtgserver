@@ -1279,37 +1279,24 @@ bool PlanetManagerImplementation::isSpawningPermittedAt(float x, float y, float 
 }
 
 bool PlanetManagerImplementation::isBuildingPermittedAt(float x, float y, SceneObject* object, float margin, bool checkFootprint) {
-	SortedVector<ActiveArea*> activeAreas;
+    SortedVector<ActiveArea*> activeAreas;
 
-	Vector3 targetPos(x, y, 0);
+    Vector3 targetPos(x, y, 0);
 
-	if (!zone->isWithinBoundaries(targetPos))
-		return false;
+    if (!zone->isWithinBoundaries(targetPos))
+        return false;
 
-	//targetPos.setZ(zone->getHeight(x, y)); not needed
+    zone->getInRangeActiveAreas(x, y, &activeAreas, true);
 
-	zone->getInRangeActiveAreas(x, y, &activeAreas, true);
+    if (isInObjectsNoBuildZone(x, y, margin, checkFootprint)) {
+        return false;
+    }
 
-	for (int i = 0; i < activeAreas.size(); ++i) {
-		ActiveArea* area = activeAreas.get(i);
-
-		if (area->isNoBuildZone()) {
-			return false;
-		}
-	}
-
-	if (isInObjectsNoBuildZone(x, y, margin, checkFootprint)) {
-		return false;
-	}
-
-	if (isInWater(x, y)) {
-		return false;
-	}
-
-	if (isInRangeWithPoi(x, y, 150))
-		return false;
-
-	return true;
+    if (isInWater(x, y)) {
+        return false;
+    }
+    
+    return true;
 }
 
 bool PlanetManagerImplementation::isCampingPermittedAt(float x, float y, float margin) {
