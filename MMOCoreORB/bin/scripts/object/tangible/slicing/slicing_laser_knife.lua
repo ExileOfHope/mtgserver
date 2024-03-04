@@ -53,7 +53,7 @@ object_tangible_slicing_slicing_laser_knife = object_tangible_slicing_shared_sli
 	experimentalGroupTitles = {"null", "null", "null", "exp_effectiveness"},
 	experimentalSubGroupTitles = {"null", "null", "hitpoints", "usemodifier"},
 	experimentalMin = {0, 0, 1000, -15},
-	experimentalMax = {0, 0, 1000, 15},
+	experimentalMax = {0, 0, 1000, 30},
 	experimentalPrecision = {0, 0, 0, 0},
 	experimentalCombineType = {0, 0, 4, 1},
 }

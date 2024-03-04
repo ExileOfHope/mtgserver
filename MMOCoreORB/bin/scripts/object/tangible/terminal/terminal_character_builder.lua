@@ -1687,7 +1687,7 @@ object_tangible_terminal_terminal_character_builder = object_tangible_terminal_s
 					"Architect", "crafting_apron_architect",
 					"Armorsmith", "crafting_apron_armorsmith",
 					"Chef", "crafting_apron_chef",
-					"Combat Medic", "crafting_apron_combat_medic",
+					--"Combat Medic", "crafting_apron_combat_medic",
 					"Doctor", "crafting_apron_doctor",
 					"Droid Engineer", "crafting_apron_droid_engineer",
 					"Tailor", "crafting_apron_tailor",

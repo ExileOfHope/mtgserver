@@ -1016,7 +1016,7 @@ void EntertainingSessionImplementation::awardEntertainerExperience() {
 			flourishXp = oldFlourishXp;
 
 			if (flourishXp > 0) {
-				int flourishDec = (int)((float)performance->getFlourishXpMod() / 6.0f);
+				int flourishDec = (int)((float)performance->getFlourishXpMod() / 1.0f);
 				flourishXp -= Math::max(1, flourishDec);
 			}
 
@@ -1059,12 +1059,12 @@ void EntertainingSessionImplementation::awardEntertainerExperience() {
 			int xpAmount = flourishXp + performance->getBaseXp();
 
 			int audienceSize = Math::min(getBandAudienceSize(), 50);
-			float audienceMod = audienceSize / 50.f;
-			float applauseMod = applauseCount / 100.f;
+			float audienceMod = audienceSize / 1.f;
+			float applauseMod = applauseCount / 1.f;
 
-			float groupMod = groupBonusCount * 0.05;
+			float groupMod = groupBonusCount;
 
-			float totalBonus = 1.f + groupMod + audienceMod + applauseMod;
+			float totalBonus = 2.f + groupMod + audienceMod + applauseMod;
 
 			xpAmount = ceil(xpAmount * totalBonus);
 
