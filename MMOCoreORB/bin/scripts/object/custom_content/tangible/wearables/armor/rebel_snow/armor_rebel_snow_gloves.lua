@@ -1,6 +1,7 @@
 
 object_tangible_wearables_armor_rebel_snow_armor_rebel_snow_gloves = object_tangible_wearables_armor_rebel_snow_shared_armor_rebel_snow_gloves:new {
 	templateType = ARMOROBJECT,
+	objectMenuComponent = "ArmorObjectMenuComponent",
 
 	faction = "Rebel",
 	--noTrade = 1,

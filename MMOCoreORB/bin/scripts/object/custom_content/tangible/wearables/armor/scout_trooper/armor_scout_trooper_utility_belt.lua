@@ -2,6 +2,7 @@
 object_tangible_wearables_armor_scout_trooper_armor_scout_trooper_utility_belt = object_tangible_wearables_armor_scout_trooper_shared_armor_scout_trooper_utility_belt:new {
 	
 	templateType = ARMOROBJECT,
+	objectMenuComponent = "ArmorObjectMenuComponent",
 
 	faction = "Imperial",
 	--noTrade = 1,

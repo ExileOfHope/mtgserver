@@ -44,7 +44,7 @@
 object_tangible_wearables_armor_kashyyykian_black_mtn_armor_kashyyykian_black_mtn_bracer_l_camo = object_tangible_wearables_armor_kashyyykian_black_mtn_shared_armor_kashyyykian_black_mtn_bracer_l_camo:new {
 	templateType = ARMOROBJECT,
 
-	faction = "Imperial",
+	objectMenuComponent = "ArmorObjectMenuComponent",
 
 	playerRaces = { "object/creature/player/bothan_male.iff",
 				"object/creature/player/smc_female.iff",

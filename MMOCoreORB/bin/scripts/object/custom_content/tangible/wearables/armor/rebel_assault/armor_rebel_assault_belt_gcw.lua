@@ -1,6 +1,7 @@
 
 object_tangible_wearables_armor_rebel_assault_armor_rebel_assault_belt_gcw = object_tangible_wearables_armor_rebel_assault_shared_armor_rebel_assault_belt_gcw:new {
 	templateType = ARMOROBJECT,
+	objectMenuComponent = "ArmorObjectMenuComponent",
 
 	faction = "Rebel",
 	--noTrade = 1,

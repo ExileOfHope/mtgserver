@@ -44,7 +44,7 @@
 object_tangible_wearables_armor_kashyyykian_ceremonial_armor_kashyyykian_ceremonial_chestplate = object_tangible_wearables_armor_kashyyykian_ceremonial_shared_armor_kashyyykian_ceremonial_chestplate:new {
 	templateType = ARMOROBJECT,
 
-	faction = "Imperial",
+	objectMenuComponent = "ArmorObjectMenuComponent",
 
 	playerRaces = { "object/creature/player/bothan_male.iff",
 				"object/creature/player/smc_female.iff",

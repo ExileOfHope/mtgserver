@@ -1,6 +1,7 @@
 
 object_tangible_wearables_armor_stormtrooper_armor_stormtrooper_bicep_l_gcw = object_tangible_wearables_armor_stormtrooper_shared_armor_stormtrooper_bicep_l_gcw:new {
 	templateType = ARMOROBJECT,
+	objectMenuComponent = "ArmorObjectMenuComponent",
 
 	faction = "Imperial",
 	----noTrade = 1,

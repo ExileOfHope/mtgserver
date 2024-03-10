@@ -1,5 +1,6 @@
 object_tangible_wearables_armor_scout_trooper_armor_swamp_trooper_leggings = object_tangible_wearables_armor_scout_trooper_shared_armor_swamp_trooper_leggings:new {
 	templateType = ARMOROBJECT,
+	objectMenuComponent = "ArmorObjectMenuComponent",
 
 	faction = "Imperial",
 

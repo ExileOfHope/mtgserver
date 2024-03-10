@@ -1,6 +1,7 @@
 
 object_tangible_wearables_armor_snowtrooper_armor_snowtrooper_helmet = object_tangible_wearables_armor_snowtrooper_shared_armor_snowtrooper_helmet:new {
 	templateType = ARMOROBJECT,
+	objectMenuComponent = "ArmorObjectMenuComponent",
 
 	faction = "Imperial",
 	--noTrade = 1,

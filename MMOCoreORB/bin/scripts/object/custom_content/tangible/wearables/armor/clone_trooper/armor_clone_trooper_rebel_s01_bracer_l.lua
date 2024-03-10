@@ -44,7 +44,7 @@
 object_tangible_wearables_armor_clone_trooper_armor_clone_trooper_rebel_s01_bracer_l = object_tangible_wearables_armor_clone_trooper_shared_armor_clone_trooper_rebel_s01_bracer_l:new {
 	templateType = ARMOROBJECT,
 
-	--objectMenuComponent = {"cpp", "ArmorObjectMenuComponent"},
+	objectMenuComponent = "ArmorObjectMenuComponent",
 
 	faction = "Rebel",
 

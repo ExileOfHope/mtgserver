@@ -44,7 +44,7 @@
 object_tangible_wearables_armor_clone_trooper_armor_clone_trooper_imperial_s01_gloves = object_tangible_wearables_armor_clone_trooper_shared_armor_clone_trooper_imperial_s01_gloves:new {
 	templateType = ARMOROBJECT,
 
-	--objectMenuComponent = {"cpp", "ArmorObjectMenuComponent"},
+	objectMenuComponent = "ArmorObjectMenuComponent",
 
 	faction = "Imperial",
 

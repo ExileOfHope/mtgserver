@@ -1,6 +1,7 @@
 
 object_tangible_wearables_armor_assault_trooper_armor_assault_trooper_leggings = object_tangible_wearables_armor_assault_trooper_shared_armor_assault_trooper_leggings:new {
 	templateType = ARMOROBJECT,
+	objectMenuComponent = "ArmorObjectMenuComponent",
 
 	faction = "Imperial",
 	--noTrade = 1,

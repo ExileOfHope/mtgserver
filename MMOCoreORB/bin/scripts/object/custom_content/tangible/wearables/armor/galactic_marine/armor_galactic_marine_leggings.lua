@@ -1,5 +1,6 @@
 object_tangible_wearables_armor_galactic_marine_armor_galactic_marine_leggings = object_tangible_wearables_armor_galactic_marine_shared_armor_galactic_marine_leggings:new {
 	templateType = ARMOROBJECT,
+	objectMenuComponent = "ArmorObjectMenuComponent",
 
 	faction = "Imperial",
 	--noTrade = 1,

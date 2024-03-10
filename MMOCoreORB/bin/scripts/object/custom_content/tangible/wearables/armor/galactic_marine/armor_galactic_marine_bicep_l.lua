@@ -1,6 +1,7 @@
 
 object_tangible_wearables_armor_galactic_marine_armor_galactic_marine_bicep_l = object_tangible_wearables_armor_galactic_marine_shared_armor_galactic_marine_bicep_l:new {
 	templateType = ARMOROBJECT,
+	objectMenuComponent = "ArmorObjectMenuComponent",
 
 	faction = "Imperial",
 	--noTrade = 1,

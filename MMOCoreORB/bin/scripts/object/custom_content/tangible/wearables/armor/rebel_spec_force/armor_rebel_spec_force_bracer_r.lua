@@ -1,6 +1,7 @@
 
 object_tangible_wearables_armor_rebel_spec_force_armor_rebel_spec_force_bracer_r = object_tangible_wearables_armor_rebel_spec_force_shared_armor_rebel_spec_force_bracer_r:new {
 	templateType = ARMOROBJECT,
+	objectMenuComponent = "ArmorObjectMenuComponent",
 
 	faction = "Rebel",
 	--noTrade = 1,

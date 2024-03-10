@@ -1,6 +1,7 @@
 
 object_tangible_wearables_armor_rebel_battle_armor_rebel_battle_chest_plate_gcw = object_tangible_wearables_armor_rebel_battle_shared_armor_rebel_battle_chest_plate_gcw:new {
 	templateType = ARMOROBJECT,
+	objectMenuComponent = "ArmorObjectMenuComponent",
 
 	faction = "Rebel",
 	--noTrade = 1,

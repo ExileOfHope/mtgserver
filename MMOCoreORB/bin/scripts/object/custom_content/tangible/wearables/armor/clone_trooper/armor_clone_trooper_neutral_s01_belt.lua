@@ -44,7 +44,7 @@
 object_tangible_wearables_armor_clone_trooper_armor_clone_trooper_neutral_s01_belt = object_tangible_wearables_armor_clone_trooper_shared_armor_clone_trooper_neutral_s01_belt:new {
 	templateType = ARMOROBJECT,
 
-	--objectMenuComponent = {"cpp", "ArmorObjectMenuComponent"},
+	objectMenuComponent = "ArmorObjectMenuComponent",
 
 	--faction = "Imperial",
 

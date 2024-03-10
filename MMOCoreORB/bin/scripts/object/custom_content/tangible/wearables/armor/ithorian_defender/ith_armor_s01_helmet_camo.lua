@@ -44,7 +44,7 @@
 object_tangible_wearables_armor_ithorian_defender_ith_armor_s01_helmet_camo = object_tangible_wearables_armor_ithorian_defender_shared_ith_armor_s01_helmet_camo:new {
 	templateType = ARMOROBJECT,
 
-	faction = "Imperial",
+	objectMenuComponent = "ArmorObjectMenuComponent",
 
 	playerRaces = { "object/creature/player/bothan_male.iff",
 				"object/creature/player/smc_female.iff",

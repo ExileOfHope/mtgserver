@@ -1,9 +1,10 @@
 
 object_tangible_wearables_armor_stormtrooper_armor_stormtrooper_chest_plate_gcw = object_tangible_wearables_armor_stormtrooper_shared_armor_stormtrooper_chest_plate_gcw:new {
 	templateType = ARMOROBJECT,
+	objectMenuComponent = "ArmorObjectMenuComponent",
 
 	faction = "Imperial",
-	objectMenuComponent = "ArmorObjectMenuComponent",
+
 	----noTrade = 1,
 	playerRaces = { 	"object/creature/player/smc_female.iff",
 				"object/creature/player/smc_male.iff",

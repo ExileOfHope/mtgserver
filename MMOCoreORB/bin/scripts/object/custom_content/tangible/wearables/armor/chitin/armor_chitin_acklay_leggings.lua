@@ -44,7 +44,7 @@
 object_tangible_wearables_armor_chitin_armor_chitin_acklay_leggings = object_tangible_wearables_armor_chitin_shared_armor_chitin_acklay_leggings:new {
 	templateType = ARMOROBJECT,
 
-	faction = "Imperial",
+	objectMenuComponent = "ArmorObjectMenuComponent",
 
 	playerRaces = { "object/creature/player/bothan_male.iff",
 				"object/creature/player/smc_female.iff",

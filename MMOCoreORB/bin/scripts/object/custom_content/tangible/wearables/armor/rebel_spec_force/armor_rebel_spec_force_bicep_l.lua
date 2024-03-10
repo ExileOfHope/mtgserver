@@ -1,6 +1,7 @@
 
 object_tangible_wearables_armor_rebel_spec_force_armor_rebel_spec_force_bicep_l = object_tangible_wearables_armor_rebel_spec_force_shared_armor_rebel_spec_force_bicep_l:new {
 	templateType = ARMOROBJECT,
+	objectMenuComponent = "ArmorObjectMenuComponent",
 
 	faction = "Rebel",
 	--noTrade = 1,

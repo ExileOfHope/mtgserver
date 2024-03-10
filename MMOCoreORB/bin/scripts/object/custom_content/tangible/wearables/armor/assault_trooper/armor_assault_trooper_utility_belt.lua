@@ -1,6 +1,7 @@
 
 object_tangible_wearables_armor_assault_trooper_armor_assault_trooper_utility_belt = object_tangible_wearables_armor_assault_trooper_shared_armor_assault_trooper_utility_belt:new {
 	templateType = ARMOROBJECT,
+	objectMenuComponent = "ArmorObjectMenuComponent",
 
 	faction = "Imperial",
 	--noTrade = 1,

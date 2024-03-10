@@ -43,6 +43,7 @@
 
 object_tangible_wearables_armor_scout_trooper_armor_scout_trooper_bracer_camo_r = object_tangible_wearables_armor_scout_trooper_shared_armor_scout_trooper_bracer_camo_r:new {
 	templateType = ARMOROBJECT,
+	objectMenuComponent = "ArmorObjectMenuComponent",
 
 	faction = "Imperial",
 

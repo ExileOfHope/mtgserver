@@ -44,7 +44,7 @@
 object_tangible_wearables_armor_kashyyykian_hunting_armor_kashyyykian_hunting_chestplate = object_tangible_wearables_armor_kashyyykian_hunting_shared_armor_kashyyykian_hunting_chestplate:new {
 	templateType = ARMOROBJECT,
 
-	faction = "Imperial",
+	objectMenuComponent = "ArmorObjectMenuComponent",
 
 	playerRaces = { "object/creature/player/bothan_male.iff",
 				"object/creature/player/smc_female.iff",
