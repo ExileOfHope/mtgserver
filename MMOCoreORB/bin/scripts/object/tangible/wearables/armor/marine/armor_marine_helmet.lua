@@ -93,14 +93,14 @@ object_tangible_wearables_armor_marine_armor_marine_helmet = object_tangible_wea
 
 	maxCondition = 45000,
 
-	kinetic = 30,
-	energy = 30,
-	electricity = 30,
-	stun = 0,
-	blast = 30,
-	heat = 0,
-	cold = 30,
-	acid = 0,
+	kinetic = 50,
+	energy = 70,
+	electricity = 60,
+	stun = 25,
+	blast = 25,
+	heat = 60,
+	cold = 60,
+	acid = 60,
 	lightSaber = 0
 }
 

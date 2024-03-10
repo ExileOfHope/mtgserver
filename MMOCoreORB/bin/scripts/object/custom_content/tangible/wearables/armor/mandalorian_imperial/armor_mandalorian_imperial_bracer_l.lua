@@ -84,15 +84,15 @@ object_tangible_wearables_armor_mandalorian_imperial_armor_mandalorian_imperial_
 	-- LIGHT, MEDIUM, HEAVY
 	rating = LIGHT,
 
-	kinetic = 52,
-	energy = 52,
-	electricity = 62,
+	kinetic = 60,
+	energy = 60,
+	electricity = 60,
 	stun = 25,
-	blast = 62,
-	heat = 73,
-	cold = 62,
-	acid = 62,
-	lightSaber = 0,
+	blast = 25,
+	heat = 60,
+	cold = 60,
+	acid = 60,
+	lightSaber = 25,
 	skillMods = {
         {"slope_move", 2},
         {"dizzy_defense", 2},

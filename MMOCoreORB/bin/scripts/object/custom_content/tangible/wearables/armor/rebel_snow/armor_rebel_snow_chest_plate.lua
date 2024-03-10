@@ -82,13 +82,13 @@ object_tangible_wearables_armor_rebel_snow_armor_rebel_snow_chest_plate = object
 
 	maxCondition = 30000,
 
-	kinetic = 52,
-	energy = 50,
-	electricity = 15,
-	stun = 16,
-	blast = 60,
+	kinetic = 50,
+	energy = 70,
+	electricity = 60,
+	stun = 25,
+	blast = 25,
 	heat = 60,
-	cold = 73,
+	cold = 60,
 	acid = 60,
 	lightSaber = 0
 }

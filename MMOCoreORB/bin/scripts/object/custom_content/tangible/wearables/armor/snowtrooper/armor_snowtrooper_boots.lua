@@ -82,11 +82,11 @@ object_tangible_wearables_armor_snowtrooper_armor_snowtrooper_boots = object_tan
 
 	maxCondition = 30000,
 
-	kinetic = 52,
-	energy = 50,
-	electricity = 15,
-	stun = 16,
-	blast = 60,
+	kinetic = 60,
+	energy = 60,
+	electricity = 60,
+	stun = 25,
+	blast = 25,
 	heat = 60,
 	cold = 60,
 	acid = 60,

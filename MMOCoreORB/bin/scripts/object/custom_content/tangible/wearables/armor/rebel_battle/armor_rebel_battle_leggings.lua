@@ -81,14 +81,14 @@ object_tangible_wearables_armor_rebel_battle_armor_rebel_battle_leggings = objec
 	-- LIGHT, MEDIUM, HEAVY
 	rating = LIGHT,
 
-	kinetic = 48,
-	energy = 48,
-	electricity = 15,
-	stun = 15,
-	blast = 58,
-	heat = 58,
-	cold = 58,
-	acid = 58,
+	kinetic = 60,
+	energy = 60,
+	electricity = 60,
+	stun = 25,
+	blast = 25,
+	heat = 60,
+	cold = 60,
+	acid = 60,
 	lightSaber = 0
 }
 

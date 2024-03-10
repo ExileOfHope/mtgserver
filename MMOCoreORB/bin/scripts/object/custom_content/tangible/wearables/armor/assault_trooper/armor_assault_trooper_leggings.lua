@@ -82,14 +82,14 @@ object_tangible_wearables_armor_assault_trooper_armor_assault_trooper_leggings =
 	-- LIGHT, MEDIUM, HEAVY
 	rating = LIGHT,
 
-	kinetic = 52,
-	energy = 52,
-	electricity = 52,
-	stun = 18,
-	blast = 58,
-	heat = 58,
-	cold = 58,
-	acid = 58,
+	kinetic = 70,
+	energy = 50,
+	electricity = 60,
+	stun = 25,
+	blast = 25,
+	heat = 60,
+	cold = 60,
+	acid = 60,
 	lightSaber = 0
 }
 

@@ -80,14 +80,14 @@ object_tangible_wearables_armor_snowtrooper_armor_snowtrooper_belt = object_tang
 	-- LIGHT, MEDIUM, HEAVY
 	rating = LIGHT,
 
-	kinetic = 15,
-	energy = 15,
-	electricity = 15,
-	stun = 15,
-	blast = 15,
-	heat = 15,
-	cold = 15,
-	acid = 15,
+	kinetic = 60,
+	energy = 60,
+	electricity = 60,
+	stun = 25,
+	blast = 25,
+	heat = 60,
+	cold = 60,
+	acid = 60,
 	lightSaber = 0
 }
 

@@ -69,14 +69,14 @@ object_tangible_wearables_armor_rebel_assault_armor_rebel_spec_ops_bicep_l = obj
 	-- LIGHT, MEDIUM, HEAVY
 	rating = LIGHT,
 
-	kinetic = 15,
-	energy = 15,
-	electricity = 15,
-	stun = 15,
-	blast = 15,
-	heat = 15,
-	cold = 15,
-	acid = 15,
+	kinetic = 70,
+	energy = 50,
+	electricity = 60,
+	stun = 25,
+	blast = 25,
+	heat = 60,
+	cold = 60,
+	acid = 60,
 	lightSaber = 0
 }
 

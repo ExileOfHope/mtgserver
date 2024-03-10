@@ -84,13 +84,13 @@ object_tangible_wearables_armor_scout_trooper_armor_scout_trooper_chest_plate = 
 	maxCondition = 30000,
 
 	kinetic = 50,
-	energy = 50,
-	electricity = 35,
-	stun = 9,
-	blast = 58,
-	heat = 58,
-	cold = 58,
-	acid = 58,
+	energy = 70,
+	electricity = 60,
+	stun = 25,
+	blast = 25,
+	heat = 60,
+	cold = 60,
+	acid = 60,
 	lightSaber = 0
 }
 

@@ -71,14 +71,14 @@ object_tangible_wearables_armor_rebel_spec_force_armor_rebel_spec_force_gloves =
 	-- LIGHT, MEDIUM, HEAVY
 	rating = LIGHT,
 
-	kinetic = 52,
-	energy = 52,
-	electricity = 62,
-	stun = 28,
-	blast = 62,
-	heat = 62,
-	cold = 62,
-	acid = 72,
+	kinetic = 50,
+	energy = 70,
+	electricity = 60,
+	stun = 25,
+	blast = 25,
+	heat = 60,
+	cold = 60,
+	acid = 60,
 	lightSaber = 0,
 	
 	skillMods = {

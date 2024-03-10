@@ -84,14 +84,14 @@ object_tangible_wearables_armor_stormtrooper_armor_stormtrooper_chest_plate_grou
 	-- LIGHT, MEDIUM, HEAVY
 	rating = LIGHT,
 
-	kinetic = 54,
-	energy = 54,
-	electricity = 61,
-	stun = 35,
-	blast = 61,
-	heat = 61,
-	cold = 61,
-	acid = 61,
+	kinetic = 60,
+	energy = 60,
+	electricity = 60,
+	stun = 25,
+	blast = 25,
+	heat = 60,
+	cold = 60,
+	acid = 60,
 	lightSaber = 0,
 	
 	skillMods = {
