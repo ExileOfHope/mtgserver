@@ -151,26 +151,25 @@ object_weapon_ranged_pistol_ep3_loot_blackfalcon = object_weapon_ranged_pistol_s
 
 
 	-- The values below are the default values.  To be used for blue frog objects primarily
-	healthAttackCost = 10,
-	actionAttackCost = 15,
+	healthAttackCost = 15,
+	actionAttackCost = 10,
 	mindAttackCost = 10,
-	forceCost = 0,
 
 	pointBlankRange = 0,
 	pointBlankAccuracy = 20,
 
-	idealRange = 15,
+	idealRange = 35,
 	idealAccuracy = 50,
 
 	maxRange = 64,
 	maxRangeAccuracy = -80,
 
-	minDamage = 25,
-	maxDamage = 50,
+	minDamage = 562,
+	maxDamage = 1152,
 
-	attackSpeed = 3.5,
+	attackSpeed = 1.0,
 
-	woundsRatio = 4,
+	woundsRatio = 33,
 
 	numberExperimentalProperties = {1, 1, 2, 2, 2, 2, 2, 2, 1, 1, 1, 2, 2, 2, 2},
 	experimentalProperties = {"XX", "XX", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "OQ", "XX", "XX", "XX", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "OQ"},

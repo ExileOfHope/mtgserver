@@ -122,12 +122,12 @@ object_weapon_ranged_rifle_rifle_flame_thrower_light = object_weapon_ranged_rifl
 	damageType = HEAT,
 
 	-- NONE, LIGHT, MEDIUM, HEAVY
-	armorPiercing = NONE,
+	armorPiercing = LIGHT,
 
 	-- combat_rangedspecialize_bactarifle, combat_rangedspecialize_rifle, combat_rangedspecialize_pistol, combat_rangedspecialize_heavy, combat_rangedspecialize_carbine
 	-- combat_meleespecialize_unarmed, combat_meleespecialize_twohand, combat_meleespecialize_polearm, combat_meleespecialize_onehand, combat_general,
 	-- combat_meleespecialize_twohandlightsaber, combat_meleespecialize_polearmlightsaber, combat_meleespecialize_onehandlightsaber
-	xpType = "combat_rangedspecialize_rifle",
+	xpType = "combat_rangedspecialize_heavy",
 
 	-- See http://www.ocdsoft.com/files/certifications.xls
 	certificationsRequired = { "cert_rifle_cdef" },
@@ -150,26 +150,26 @@ object_weapon_ranged_rifle_rifle_flame_thrower_light = object_weapon_ranged_rifl
 
 
 	-- The values below are the default values.  To be used for blue frog objects primarily
-	healthAttackCost = 0,
-	actionAttackCost = 0,
-	mindAttackCost = 0,
+	healthAttackCost = 30,
+	actionAttackCost = 15,
+	mindAttackCost = 15,
 	forceCost = 0,
 
 	pointBlankRange = 0,
-	pointBlankAccuracy = 100,
+	pointBlankAccuracy = 0,
 
-	idealRange = 50,
-	idealAccuracy = 100,
+	idealRange = 10,
+	idealAccuracy = 40,
 
-	maxRange = 150,
-	maxRangeAccuracy = 100,
+	maxRange = 24,
+	maxRangeAccuracy = -90,
 
-	minDamage = 2000,
-	maxDamage = 3000,
+	minDamage = 300,
+	maxDamage = 400,
 
 	attackSpeed = 1,
 
-	woundsRatio = 95,
+	woundsRatio = 50,
 
 	numberExperimentalProperties = {1, 1, 2, 2, 2, 2, 2, 2, 1, 1, 1, 2, 2, 2, 2},
 	experimentalProperties = {"XX", "XX", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "OQ", "XX", "XX", "XX", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "OQ"},

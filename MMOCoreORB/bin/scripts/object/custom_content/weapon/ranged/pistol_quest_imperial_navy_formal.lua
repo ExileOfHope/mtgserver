@@ -122,7 +122,7 @@ object_weapon_ranged_pistol_pistol_quest_imperial_navy_formal = object_weapon_ra
 	damageType = BLAST,
 
 	-- NONE, LIGHT, MEDIUM, HEAVY
-	armorPiercing = NONE,
+	armorPiercing = LIGHT,
 
 	-- combat_rangedspecialize_bactarifle, combat_rangedspecialize_rifle, combat_rangedspecialize_pistol, combat_rangedspecialize_heavy, combat_rangedspecialize_carbine
 	-- combat_meleespecialize_unarmed, combat_meleespecialize_twohand, combat_meleespecialize_polearm, combat_meleespecialize_onehand, combat_general,
@@ -150,26 +150,26 @@ object_weapon_ranged_pistol_pistol_quest_imperial_navy_formal = object_weapon_ra
 
 
 	-- The values below are the default values.  To be used for blue frog objects primarily
-	healthAttackCost = 15,
-	actionAttackCost = 45,
+	healthAttackCost = 30,
+	actionAttackCost = 15,
 	mindAttackCost = 15,
 	forceCost = 0,
 
 	pointBlankRange = 0,
-	pointBlankAccuracy = 0,
+	pointBlankAccuracy = -30,
 
-	idealRange = 15,
-	idealAccuracy = -10,
+	idealRange = 50,
+	idealAccuracy = 40,
 
-	maxRange = 64,
+	maxRange = 70,
 	maxRangeAccuracy = -70,
 
-	minDamage = 35,
-	maxDamage = 175,
+	minDamage = 300,
+	maxDamage = 400,
 
-	attackSpeed = 4,
+	attackSpeed = 1,
 
-	woundsRatio = 18,
+	woundsRatio = 20,
 
 	numberExperimentalProperties = {1, 1, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2},
 	experimentalProperties = {"XX", "XX", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "OQ", "XX", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "OQ"},

@@ -122,7 +122,7 @@ object_weapon_ranged_pistol_pistol_scout_blaster_npe = object_weapon_ranged_pist
 	damageType = ENERGY,
 
 	-- NONE, LIGHT, MEDIUM, HEAVY
-	armorPiercing = NONE,
+	armorPiercing = LIGHT,
 
 	-- combat_rangedspecialize_bactarifle, combat_rangedspecialize_rifle, combat_rangedspecialize_pistol, combat_rangedspecialize_heavy, combat_rangedspecialize_carbine
 	-- combat_meleespecialize_unarmed, combat_meleespecialize_twohand, combat_meleespecialize_polearm, combat_meleespecialize_onehand, combat_general,
@@ -130,7 +130,8 @@ object_weapon_ranged_pistol_pistol_scout_blaster_npe = object_weapon_ranged_pist
 	xpType = "combat_rangedspecialize_pistol",
 
 	-- See http://www.ocdsoft.com/files/certifications.xls
-	certificationsRequired = { "cert_pistol_fwg5" },
+	certificationsRequired = { "cert_pistol_cdef" },
+
 	-- See http://www.ocdsoft.com/files/accuracy.xls
 	creatureAccuracyModifiers = { "pistol_accuracy" },
 
@@ -150,26 +151,26 @@ object_weapon_ranged_pistol_pistol_scout_blaster_npe = object_weapon_ranged_pist
 
 
 	-- The values below are the default values.  To be used for blue frog objects primarily
-	healthAttackCost = 0,
-	actionAttackCost = 0,
-	mindAttackCost = 0,
+	healthAttackCost = 30,
+	actionAttackCost = 15,
+	mindAttackCost = 15,
 	forceCost = 0,
 
 	pointBlankRange = 0,
-	pointBlankAccuracy = 100,
+	pointBlankAccuracy = 30,
 
-	idealRange = 50,
-	idealAccuracy = 100,
+	idealRange = 30,
+	idealAccuracy = -40,
 
-	maxRange = 200,
-	maxRangeAccuracy = 100,
+	maxRange = 60,
+	maxRangeAccuracy = -70,
 
-	minDamage = 45000000,
-	maxDamage = 90000000,
+	minDamage = 300,
+	maxDamage = 400,
 
 	attackSpeed = 1,
 
-	woundsRatio = 80,
+	woundsRatio = 20,
 
 	numberExperimentalProperties = {1, 1, 2, 2, 2, 2, 2, 2, 1, 1, 1, 2, 2, 2, 2},
 	experimentalProperties = {"XX", "XX", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "OQ", "XX", "XX", "XX", "CD", "OQ", "CD", "OQ", "CD", "OQ", "CD", "OQ"},
