@@ -52,11 +52,11 @@ object_draft_schematic_bio_engineer_bio_component_bio_component_food_light_quant
    size = 1, 
    factoryCrateType = "object/factory/factory_crate_chemicals.iff",
 
-   xpType = "crafting_bio_engineer_creature", 
+   xpType = "crafting_medicine_general", 
    xp = 1100, 
 
-   assemblySkill = "bio_engineer_assembly", 
-   experimentingSkill = "bio_engineer_experimentation", 
+   assemblySkill = "medicine_assembly", 
+   experimentingSkill = "medicine_experimentation", 
    customizationSkill = "bio_customization", 
 
    customizationOptions = {},

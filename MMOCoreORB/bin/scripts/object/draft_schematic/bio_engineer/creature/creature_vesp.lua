@@ -53,12 +53,12 @@ object_draft_schematic_bio_engineer_creature_creature_vesp = object_draft_schema
    size = 1, 
    factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
-   xpType = "crafting_bio_engineer_creature", 
+   xpType = "crafting_medicine_general", 
    xp = 1200, 
 
-   assemblySkill = "bio_engineer_assembly", 
-   experimentingSkill = "bio_engineer_experimentation", 
-   customizationSkill = "bio_engineer_experimentation", 
+   assemblySkill = "medicine_assembly", 
+   experimentingSkill = "medicine_experimentation", 
+   customizationSkill = "medicine_experimentation", 
 
    customizationOptions = {},
    customizationStringNames = {},

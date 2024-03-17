@@ -53,11 +53,11 @@ object_draft_schematic_bio_engineer_dna_template_dna_template_generic = object_d
 	factoryCrateSize = 0,
 	factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
-	xpType = "crafting_bio_engineer_creature", 
+	xpType = "crafting_medicine_general", 
 	xp = 150, 
 	lab = GENETIC_LAB,
-	assemblySkill = "bio_engineer_assembly", 
-	experimentingSkill = "bio_engineer_experimentation", 
+	assemblySkill = "medicine_assembly", 
+	experimentingSkill = "medicine_experimentation", 
 	customizationSkill = "bio_customization", 
 
 	customizationOptions = {},
