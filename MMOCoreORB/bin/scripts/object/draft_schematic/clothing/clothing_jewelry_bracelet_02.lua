@@ -45,7 +45,7 @@ object_draft_schematic_clothing_clothing_jewelry_bracelet_02 = object_draft_sche
 
    templateType = DRAFTSCHEMATIC,
 
-   customObjectName = "Metal Band",
+   customObjectName = "Metal Band (left)",
 
    craftingToolTab = 8, -- (See DraftSchematicObjectTemplate.h)
    complexity = 19, 
