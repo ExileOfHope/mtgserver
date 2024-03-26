@@ -45,6 +45,7 @@
 --Children folder includes
 includeFile("tangible/medicine/base/serverobjects.lua")
 includeFile("tangible/medicine/crafted/serverobjects.lua")
+includeFile("tangible/medicine/enhancer/serverobjects.lua")
 includeFile("tangible/medicine/pet/serverobjects.lua")
 
 -- Server Objects
