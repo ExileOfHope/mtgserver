@@ -56,8 +56,8 @@ object_draft_schematic_chemistry_medpack_disease_health_c = object_draft_schemat
 	xpType = "crafting_medicine_general",
 	xp = 100,
 
-	assemblySkill = "combat_medicine_assembly",
-	experimentingSkill = "combat_medicine_experimentation",
+	assemblySkill = "medicine_assembly",
+	experimentingSkill = "medicine_experimentation",
 	customizationSkill = "medicine_customization",
 
 	customizationOptions = {},

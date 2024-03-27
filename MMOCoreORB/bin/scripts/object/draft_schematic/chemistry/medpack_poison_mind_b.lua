@@ -56,8 +56,8 @@ object_draft_schematic_chemistry_medpack_poison_mind_b = object_draft_schematic_
 	xpType = "crafting_medicine_general",
 	xp = 75,
 
-	assemblySkill = "combat_medicine_assembly",
-	experimentingSkill = "combat_medicine_experimentation",
+	assemblySkill = "medicine_assembly",
+	experimentingSkill = "medicine_experimentation",
 	customizationSkill = "medicine_customization",
 
 	customizationOptions = {},

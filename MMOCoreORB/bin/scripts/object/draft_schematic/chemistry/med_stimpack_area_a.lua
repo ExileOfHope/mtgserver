@@ -56,8 +56,8 @@ object_draft_schematic_chemistry_med_stimpack_area_a = object_draft_schematic_ch
 	xpType = "crafting_medicine_general",
 	xp = 80,
 
-	assemblySkill = "combat_medicine_assembly",
-	experimentingSkill = "combat_medicine_experimentation",
+	assemblySkill = "medicine_assembly",
+	experimentingSkill = "medicine_experimentation",
 	customizationSkill = "medicine_customization",
 
 	customizationOptions = {},

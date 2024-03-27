@@ -56,8 +56,8 @@ object_draft_schematic_chemistry_medpack_disease_area_stamina_c = object_draft_s
 	xpType = "crafting_medicine_general",
 	xp = 105,
 
-	assemblySkill = "combat_medicine_assembly",
-	experimentingSkill = "combat_medicine_experimentation",
+	assemblySkill = "medicine_assembly",
+	experimentingSkill = "medicine_experimentation",
 	customizationSkill = "medicine_customization",
 
 	customizationOptions = {},
