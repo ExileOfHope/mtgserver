@@ -11,7 +11,7 @@ kliknik_chitin_armor_segment = {
 		{"armor_integrity",500,1000,0},
 		{"armor_action_encumbrance",-6,-14,0},
 		{"armor_mind_encumbrance",-6,-14,0},
-		{"useCount",10,100,0},
+		{"useCount",100,200,0},
 	},
 	customizationStringNames = {},
 	customizationValues = {}

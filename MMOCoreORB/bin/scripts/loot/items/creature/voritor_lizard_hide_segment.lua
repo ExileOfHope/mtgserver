@@ -12,7 +12,7 @@ voritor_lizard_hide_segment = {
 		{"kineticeffectiveness",2,14,10},
 		{"armor_action_encumbrance",13,-2,0},
 		{"armor_mind_encumbrance",7,-6,0},
-		{"useCount",10,100,0},
+		{"useCount",100,200,0},
 	},
 	customizationStringNames = {},
 	customizationValues = {}

@@ -17,7 +17,7 @@ vibro_unit_advanced = {
 		{"attackhealthcost",7,-3,0},
 		{"attackactioncost",7,-3,0},
 		{"attackmindcost",7,-3,0},
-		{"useCount",30,70,0}
+		{"useCount",70,140,0}
 	},
 	customizationStringName = {},
 	customizationValues = {}

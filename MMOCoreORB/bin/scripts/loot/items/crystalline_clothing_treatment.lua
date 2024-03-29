@@ -6,7 +6,7 @@ crystalline_clothing_treatment = {
 	customObjectName = "",
 	directObjectTemplate = "object/tangible/component/clothing/clothing_treatment_crystalline.iff",
 	craftingValues = {
-		{"useCount",1,6,0},
+		{"useCount",60,120,0},
 	},
 	customizationStringNames = {},
 	customizationValues = {}

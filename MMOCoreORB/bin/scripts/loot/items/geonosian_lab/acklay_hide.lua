@@ -12,7 +12,7 @@ acklay_hide = {
 		{"heateffectiveness",5,17,10},
 		{"energyeffectiveness",5,17,10},
 		{"hitpoints",0,0,0,0},
-		{"useCount",10,100,0},
+		{"useCount",100,200,0},
 	},
 	customizationStringNames = {},
 	customizationValues = {}

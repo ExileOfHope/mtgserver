@@ -8,7 +8,7 @@ acklay_bones = {
 	craftingValues = {
 		{"mindamage",54,100},
 		{"maxdamage",54,100},
-		{"useCount",1,6,0},
+		{"useCount",60,120,0},
 		{"attackspeed",0,0,0,0},
 		{"woundchance",0,0,0,0},
 		{"hitpoints",0,0,0,0},

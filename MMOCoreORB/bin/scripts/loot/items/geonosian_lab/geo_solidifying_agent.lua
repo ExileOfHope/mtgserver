@@ -8,7 +8,7 @@ geo_solidifying_agent = {
 	craftingValues = {
 		{"maxdamage",5,18,0},
 		{"hitpoints",500,850,0},
-		{"useCount",1,7,0},
+		{"useCount",70,140,0},
 	},
 	customizationStringNames = {},
 	customizationValues = {}

@@ -14,7 +14,7 @@ rancor_padded_armor_segment = {
 		{"armor_health_encumbrance",16,4,0},
 		{"armor_action_encumbrance",12,0,0},
 		{"armor_mind_encumbrance",16,4,0},
-		{"useCount",10,100,0},
+		{"useCount",100,200,0},
 	},
 	customizationStringNames = {},
 	customizationValues = {}

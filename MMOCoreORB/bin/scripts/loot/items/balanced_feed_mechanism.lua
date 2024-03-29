@@ -7,7 +7,7 @@ balanced_feed_mechanism = {
 	directObjectTemplate = "object/tangible/component/weapon/projectile_feed_mechanism_enhancement_min_damage.iff",
 	craftingValues = {
 		{"attackspeed",-0.2,-0.4,1},
-		{"useCount",10,50,0},
+		{"useCount",50,150,0},
 	},
 	customizationStringNames = {},
 	customizationValues = {}

@@ -9,7 +9,7 @@ kliknik_gland = {
 		{"maxdamage",50,90,0},
 		{"mindamage",20,20,0},
 		{"woundchance",10,20,0},
-		{"useCount",10,110,0}
+		{"useCount",100,220,0}
 	},
 	customizationStringNames = {},
 	customizationValues = {}

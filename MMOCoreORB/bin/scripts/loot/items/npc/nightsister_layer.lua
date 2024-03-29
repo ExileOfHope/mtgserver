@@ -9,7 +9,7 @@ nightsister_layer = {
 		{"armor_special_type",0,0,0},
 		{"armor_effectiveness",3,7,10},
 		{"armor_action_encumbrance",-4,-8,0},
-		{"useCount",10,100,0},
+		{"useCount",100,200,0},
 	},
 	customizationStringNames = {},
 	customizationValues = {}

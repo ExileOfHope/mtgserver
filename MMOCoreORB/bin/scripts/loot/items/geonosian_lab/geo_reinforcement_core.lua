@@ -15,7 +15,7 @@ geo_reinforcement_core = {
 		{"attackhealthcost",13,-1,0},
 		{"attackactioncost",13,-1,0},
 		{"attackmindcost",13,-1,0},
-		{"useCount",10,50,0},
+		{"useCount",50,150,0},
 	},
 	customizationStringNames = {},
 	customizationValues = {}
