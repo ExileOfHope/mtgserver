@@ -70,6 +70,7 @@
 #include "server/zone/objects/creature/commands/TipCommand.h"
 #include "server/zone/objects/creature/commands/ToggleAwayFromKeyBoardCommand.h"
 #include "server/zone/objects/creature/commands/ToggleDisplayingFactionRankCommand.h"
+#include "server/zone/objects/creature/commands/ToolCommand.h"
 #include "server/zone/objects/creature/commands/TorsoShotCommand.h"
 #include "server/zone/objects/creature/commands/TotalHealOtherCommand.h"
 #include "server/zone/objects/creature/commands/TotalHealSelfCommand.h"
@@ -214,6 +215,7 @@ void CommandConfigManager::registerCommands4() {
 	commandFactory.registerCommand<TipCommand>(String("tip").toLowerCase());
 	commandFactory.registerCommand<ToggleAwayFromKeyBoardCommand>(String("toggleAwayFromKeyBoard").toLowerCase());
 	commandFactory.registerCommand<ToggleDisplayingFactionRankCommand>(String("toggleDisplayingFactionRank").toLowerCase());
+	commandFactory.registerCommand<ToolCommand>(String("tool").toLowerCase());
 	commandFactory.registerCommand<TorsoShotCommand>(String("torsoShot").toLowerCase());
 	commandFactory.registerCommand<TotalHealOtherCommand>(String("totalHealOther").toLowerCase());
 	commandFactory.registerCommand<TotalHealSelfCommand>(String("totalHealSelf").toLowerCase());

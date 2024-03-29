@@ -847,6 +847,8 @@
 #include "SprayShot_1Command.h"
 #include "UnderHandShot_1Command.h"
 
+//Tool Command for gizmos
+#include "ToolCommand.h"
 
 #endif /* COMMANDSNEW_H_ */
 
