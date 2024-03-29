@@ -6,6 +6,7 @@ tie_suit = {
 	customObjectName = "",
 	directObjectTemplate = "object/tangible/wearables/bodysuit/bodysuit_tie_fighter_quest.iff",
 	craftingValues = {
+		{"sockets",5,5,0},
 	},
 	customizationStringNames = {},
 	customizationValues = {},

@@ -10,6 +10,7 @@ atat_helmet = {
 	         {"armor_health_encumbrance",0,0,0,0},
 	         {"armor_action_encumbrance",0,0,0,0},
 	         {"armor_mind_encumbrance",0,0,0,0},
+			 {"sockets",6,6,0},
 	},
 	customizationStringNames = {},
 	customizationValues = {}

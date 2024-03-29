@@ -6,6 +6,7 @@ imperial_medallion = {
 	customObjectName = "",
 	directObjectTemplate = "object/tangible/wearables/necklace/necklace_s09_quest.iff",
 	craftingValues = {
+		{"sockets",5,5,0},
 	},
 	customizationStringNames = {},
 	customizationValues = {},

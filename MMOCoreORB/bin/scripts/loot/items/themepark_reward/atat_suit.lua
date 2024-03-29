@@ -6,6 +6,7 @@ atat_suit = {
 	customObjectName = "",
 	directObjectTemplate = "object/tangible/wearables/bodysuit/bodysuit_atat_quest.iff",
 	craftingValues = {
+		{"sockets",5,5,0},
 	},
 	customizationStringNames = {},
 	customizationValues = {},

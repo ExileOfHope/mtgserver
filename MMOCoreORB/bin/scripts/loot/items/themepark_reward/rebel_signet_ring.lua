@@ -6,6 +6,7 @@ rebel_signet_ring = {
 	customObjectName = "",
 	directObjectTemplate = "object/tangible/wearables/ring/ring_s03_quest.iff",
 	craftingValues = {
+		{"sockets",5,5,0},
 	},
 	customizationStringNames = {},
 	customizationValues = {},

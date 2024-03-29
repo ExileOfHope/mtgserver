@@ -6,6 +6,7 @@ b_wing_pilot_survival_suit = {
 	customObjectName = "",
 	directObjectTemplate = "object/tangible/wearables/bodysuit/bodysuit_bwing_quest.iff",
 	craftingValues = {
+		{"sockets",4,4,0},
 	},
 	skillMods = {{"rifle_hit_while_moving", 5}, {"slope_move", 5}},
 	customizationStringNames = {},
