@@ -50,16 +50,12 @@ object_tangible_powerup_weapon_ranged_stock = object_tangible_powerup_weapon_sha
 	baseName = "Stock",
 
 	primary = {
-		{"maxRangeAccuracy", "Anti-Jitter", "cat_pup.pup_wpn_range_attack_mod_max"},
-		{"idealRange", "Balanced", "cat_pup.pup_wpn_range_mid"},
 		{"healthAttackCost", "Reactive", "cat_pup.pup_wpn_attack_cost_health"}
 	},
 
 	secondary = {
-		{"maxDamage", "Dissipation", "cat_pup.pup_wpn_damage_max"},
-		{"idealAccuracy", "Accuracy", "cat_pup.pup_wpn_range_attack_mod_mid"},
 		{"actionAttackCost", "Cushioning", "cat_pup.pup_wpn_attack_cost_action"},
-		{"attackSpeed", "Loading", "cat_pup.pup_wpn_attack_speed"}
+		{"mindAttackCost", "Dampening", "cat_pup.pup_wpn_attack_cost_mind"},
 	},
 
 	numberExperimentalProperties = {1, 1, 1, 1},
@@ -68,7 +64,7 @@ object_tangible_powerup_weapon_ranged_stock = object_tangible_powerup_weapon_sha
 	experimentalGroupTitles = {"null", "null", "null", "exp_effectiveness"},
 	experimentalSubGroupTitles = {"null", "null", "hitpoints", "effect"},
 	experimentalMin = {0, 0, 1000, 1},
-	experimentalMax = {0, 0, 1000, 100},
+	experimentalMax = {0, 0, 1000, 1000},
 	experimentalPrecision = {0, 0, 0, 0},
 	experimentalCombineType = {0, 0, 4, 1},
 }

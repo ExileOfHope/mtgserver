@@ -51,15 +51,16 @@ object_tangible_powerup_weapon_ranged_power = object_tangible_powerup_weapon_sha
 
 	primary = {
 		{"maxDamage", "Hot-Wired", "cat_pup.pup_wpn_damage_max"},
-		{"attackSpeed", "Quick-Charge", "cat_pup.pup_wpn_attack_speed"},
-		{"minDamage", "Short-Circuited", "cat_pup.pup_wpn_damage_min"},
-		{"actionAttackCost", "Tweaked", "cat_pup.pup_wpn_attack_cost_action"}
+		--{"attackSpeed", "Quick-Charge", "cat_pup.pup_wpn_attack_speed"},
+		--{"actionAttackCost", "Tweaked", "cat_pup.pup_wpn_attack_cost_action"}
 	},
 
 	secondary = {
-		{"mindAttackCost", "Compensation", "cat_pup.pup_wpn_attack_cost_mind"},
-		{"idealRange", "Overpowering", "cat_pup.pup_wpn_range_attack_mod_mid"},
-		{"pointBlankAccuracy", "Searing", "cat_pup.pup_wpn_range_attack_mod_zero"}
+		{"minDamage", "Short-Circuited", "cat_pup.pup_wpn_damage_min"},
+		--{"attackSpeed", "Quick-Charge", "cat_pup.pup_wpn_attack_speed"},
+		--{"mindAttackCost", "Compensation", "cat_pup.pup_wpn_attack_cost_mind"},
+		{"idealRange", "Overpowering", "cat_pup.pup_wpn_range_attack_mod_mid"}
+		--{"pointBlankAccuracy", "Searing", "cat_pup.pup_wpn_range_attack_mod_zero"}
 	},
 
 	numberExperimentalProperties = {1, 1, 1, 1},
@@ -68,7 +69,7 @@ object_tangible_powerup_weapon_ranged_power = object_tangible_powerup_weapon_sha
 	experimentalGroupTitles = {"null", "null", "null", "exp_effectiveness"},
 	experimentalSubGroupTitles = {"null", "null", "hitpoints", "effect"},
 	experimentalMin = {0, 0, 1000, 1},
-	experimentalMax = {0, 0, 1000, 100},
+	experimentalMax = {0, 0, 1000, 1000},
 	experimentalPrecision = {0, 0, 0, 0},
 	experimentalCombineType = {0, 0, 4, 1},
 }

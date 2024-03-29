@@ -50,18 +50,19 @@ object_tangible_powerup_weapon_melee_generic = object_tangible_powerup_weapon_sh
 	baseName = "Melee Powerup",
 
 	primary = {
-		{"healthAttackCost", "Balancing", "cat_pup.pup_wpn_attack_cost_health"},
-		{"pointBlankAccuracy", "Barbing", "cat_pup.pup_wpn_range_attack_mod_zero"},
-		{"mindAttackCost", "Compensating", "cat_pup.pup_wpn_attack_cost_mind"},
-		{"idealRange", "Extending", "cat_pup.pup_wpn_range_mid"},
+		--{"healthAttackCost", "Balancing", "cat_pup.pup_wpn_attack_cost_health"},
+		--{"pointBlankAccuracy", "Barbing", "cat_pup.pup_wpn_range_attack_mod_zero"},
+		--{"mindAttackCost", "Compensating", "cat_pup.pup_wpn_attack_cost_mind"},
+		{"maxDamage", "Steadying", "cat_pup.pup_wpn_damage_max"},
+		
 	},
 
 	secondary = {
 		{"attackSpeed", "Control-Enhancement", "cat_pup.pup_wpn_attack_speed"},
-		{"idealAccuracy", "Accuracy", "cat_pup.pup_wpn_range_attack_mod_mid"},
+		--{"idealAccuracy", "Accuracy", "cat_pup.pup_wpn_range_attack_mod_mid"},
 		{"minDamage", "Precision", "cat_pup.pup_wpn_damage_min"},
-		{"woundsRatio", "Wounding", "cat_pup.pup_wpn_wound_chance"},
-		{"maxDamage", "Steadying", "cat_pup.pup_wpn_damage_max"},
+		--{"woundsRatio", "Wounding", "cat_pup.pup_wpn_wound_chance"},
+		{"idealRange", "Extending", "cat_pup.pup_wpn_range_mid"},
 	},
 
 	numberExperimentalProperties = {1, 1, 1, 1},
@@ -70,7 +71,7 @@ object_tangible_powerup_weapon_melee_generic = object_tangible_powerup_weapon_sh
 	experimentalGroupTitles = {"null", "null", "null", "exp_effectiveness"},
 	experimentalSubGroupTitles = {"null", "null", "hitpoints", "effect"},
 	experimentalMin = {0, 0, 1000, 1},
-	experimentalMax = {0, 0, 1000, 100},
+	experimentalMax = {0, 0, 1000, 1000},
 	experimentalPrecision = {0, 0, 0, 0},
 	experimentalCombineType = {0, 0, 4, 1},
 }

@@ -50,16 +50,11 @@ object_tangible_powerup_weapon_ranged_barrel = object_tangible_powerup_weapon_sh
 	baseName = "Barrel",
 
 	primary = {
-		{"healthAttackCost", "Ported", "cat_pup.pup_wpn_attack_cost_health"},
-		{"pointBlankAccuracy", "Smoothed", "cat_pup.pup_wpn_range_attack_mod_zero"},
-		{"woundsRatio", "Taper-Bored", "cat_pup.pup_wpn_wound_chance"}
+		{"maxDamage", "Tuned", "cat_pup.pup_wpn_damage_max"}
 	},
 
 	secondary = {
-		{"idealAccuracy", "Alignment", "cat_pup.pup_wpn_range_attack_mod_mid"},
-		{"maxDamage", "Concentration", "cat_pup.pup_wpn_damage_max"},
-		{"mindAttackCost", "Dampening", "cat_pup.pup_wpn_attack_cost_mind"},
-		{"idealRange", "Condensing", "cat_pup.pup_wpn_range_mid"}
+		{"minDamage", "Short-Circuited", "cat_pup.pup_wpn_damage_min"},
 	},
 
 	numberExperimentalProperties = {1, 1, 1, 1},
@@ -68,7 +63,7 @@ object_tangible_powerup_weapon_ranged_barrel = object_tangible_powerup_weapon_sh
 	experimentalGroupTitles = {"null", "null", "null", "exp_effectiveness"},
 	experimentalSubGroupTitles = {"null", "null", "hitpoints", "effect"},
 	experimentalMin = {0, 0, 1000, 1},
-	experimentalMax = {0, 0, 1000, 100},
+	experimentalMax = {0, 0, 1000, 1000},
 	experimentalPrecision = {0, 0, 0, 0},
 	experimentalCombineType = {0, 0, 4, 1},
 }

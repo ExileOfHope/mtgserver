@@ -50,16 +50,13 @@ object_tangible_powerup_weapon_ranged_scope = object_tangible_powerup_weapon_sha
 	baseName = "Scope",
 
 	primary = {
-		{"maxRangeAccuracy", "Calibrated", "cat_pup.pup_wpn_range_attack_mod_max"},
-		{"mindAttackCost", "Powered", "cat_pup.pup_wpn_attack_cost_mind"},
-		{"minDamage", "Precision", "cat_pup.pup_wpn_damage_min"},
-		{"idealAccuracy", "Ranged", "cat_pup.pup_wpn_range_attack_mod_mid"}
+		{"attackSpeed", "Targeting", "cat_pup.pup_wpn_attack_speed"},
 	},
 
 	secondary = {
-		{"attackSpeed", "Targeting", "cat_pup.pup_wpn_attack_speed"},
-		{"woundsRatio", "Pin-Pointing", "cat_pup.pup_wpn_wound_chance"},
-		{"actionAttackCost", "Tracking", "cat_pup.pup_wpn_attack_cost_action"}
+		{"maxRangeAccuracy", "Calibrated", "cat_pup.pup_wpn_range_attack_mod_max"},
+		{"pointBlankAccuracy", "Flaring", "cat_pup.pup_wpn_range_attack_mod_zero"},
+		{"idealAccuracy", "Ranged", "cat_pup.pup_wpn_range_attack_mod_mid"},
 	},
 
 	numberExperimentalProperties = {1, 1, 1, 1},
@@ -68,7 +65,7 @@ object_tangible_powerup_weapon_ranged_scope = object_tangible_powerup_weapon_sha
 	experimentalGroupTitles = {"null", "null", "null", "exp_effectiveness"},
 	experimentalSubGroupTitles = {"null", "null", "hitpoints", "effect"},
 	experimentalMin = {0, 0, 1000, 1},
-	experimentalMax = {0, 0, 1000, 100},
+	experimentalMax = {0, 0, 1000, 1000},
 	experimentalPrecision = {0, 0, 0, 0},
 	experimentalCombineType = {0, 0, 4, 1},
 }
