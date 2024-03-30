@@ -105,21 +105,21 @@ object_tangible_wearables_armor_scout_trooper_armor_scout_trooper_gloves_camo = 
 	vulnerability = LIGHTSABER,
 
 	-- These are default Blue Frog stats
-	healthEncumbrance = 1,
-	actionEncumbrance = 1,
-	mindEncumbrance = 1,
+	healthEncumbrance = 10,
+	actionEncumbrance = 10,
+	mindEncumbrance = 10,
 
 	-- LIGHT, MEDIUM, HEAVY
 	rating = LIGHT,
 
-	kinetic = 60,
-	energy = 60,
-	electricity = 60,
-	stun = 25,
-	blast = 25,
-	heat = 60,
-	cold = 60,
-	acid = 60,
+	kinetic = 54,
+	energy = 54,
+	electricity = 54,
+	stun = 27,
+	blast = 27,
+	heat = 54,
+	cold = 54,
+	acid = 54,
 	lightSaber = 0
 }
 
