@@ -5,8 +5,8 @@ theme_park_reward_marauder_armor_bicep = {
 	minimumLevel = 0,
 	maximumLevel = 0,
 	lootItems = {
-		{itemTemplate = "armor_marauder_bicep_l", weight = 10000000},
-		{itemTemplate = "armor_marauder_bicep_r", weight = 0}
+		{itemTemplate = "armor_marauder_bicep_l", weight = 5000000},
+		{itemTemplate = "armor_marauder_bicep_r", weight = 5000000}
 	}
 }
 

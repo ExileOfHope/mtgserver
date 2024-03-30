@@ -5,8 +5,8 @@ theme_park_reward_marauder_armor_bracer = {
 	minimumLevel = 0,
 	maximumLevel = 0,
 	lootItems = {
-		{itemTemplate = "armor_marauder_bracer_l", weight = 10000000},
-		{itemTemplate = "armor_marauder_bracer_r", weight = 0}
+		{itemTemplate = "armor_marauder_bracer_l", weight = 5000000},
+		{itemTemplate = "armor_marauder_bracer_r", weight = 5000000}
 	}
 }
 
