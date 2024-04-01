@@ -402,7 +402,8 @@ bool ForageManagerImplementation::forageGiveResource(TransactionLog& trx, Creatu
 		}
 	}
 
-	int quantity = System::random(30) + 10;
+	int skillMod = player->getSkillMod("foraging") / 10.0f;
+	int quantity = (System::random(30) + 10 ) * skillMod;
 	resourceManager->harvestResourceToPlayer(trx, player, resource, quantity);
 	return true;
 }
