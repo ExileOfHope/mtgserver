@@ -1,12 +1,12 @@
 
-armor_scout_trooper_bicep_camo_r = {
+armor_scout_trooper_chest_plate = {
 	minimumLevel = 0,
 	maximumLevel = -1,
-	customObjectName = "Forest Trooper Bicep",
-	directObjectTemplate = "object/tangible/wearables/armor/scout_trooper/armor_scout_trooper_bicep_camo_r.iff",
+	customObjectName = "Scout Trooper Chest Plate",
+	directObjectTemplate = "object/tangible/wearables/armor/scout_trooper/armor_scout_trooper_chest_plate.iff",
 	craftingValues = {
 		{"armor_rating",1,1,0},
-	        {"armor_effectiveness",54,54,10},
+	        {"armor_effectiveness",60,60,10},
 	        {"armor_integrity",45000,45000,0},
 	        {"armor_health_encumbrance",10,10,0},
 	        {"armor_action_encumbrance",10,10,0},
@@ -18,4 +18,4 @@ armor_scout_trooper_bicep_camo_r = {
 	skillMods = {}
 }
 
-addLootItemTemplate("armor_scout_trooper_bicep_camo_r", armor_scout_trooper_bicep_camo_r)
+addLootItemTemplate("armor_scout_trooper_chest_plate", armor_scout_trooper_chest_plate)

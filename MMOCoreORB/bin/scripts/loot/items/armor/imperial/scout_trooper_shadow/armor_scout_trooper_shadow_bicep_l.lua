@@ -1,12 +1,12 @@
 
-armor_scout_trooper_bracer_camo_r = {
+armor_scout_trooper_shadow_bicep_l = {
 	minimumLevel = 0,
 	maximumLevel = -1,
-	customObjectName = "Forest Trooper Bracer",
-	directObjectTemplate = "object/tangible/wearables/armor/scout_trooper/armor_scout_trooper_bracer_camo_r.iff",
+	customObjectName = "Imperial Commando L Bicep",
+	directObjectTemplate = "object/tangible/wearables/armor/scout_trooper/armor_scout_trooper_bicep_l.iff",
 	craftingValues = {
 		{"armor_rating",1,1,0},
-	        {"armor_effectiveness",54,54,10},
+	        {"armor_effectiveness",70,70,10},
 	        {"armor_integrity",45000,45000,0},
 	        {"armor_health_encumbrance",10,10,0},
 	        {"armor_action_encumbrance",10,10,0},
@@ -18,4 +18,4 @@ armor_scout_trooper_bracer_camo_r = {
 	skillMods = {}
 }
 
-addLootItemTemplate("armor_scout_trooper_bracer_camo_r", armor_scout_trooper_bracer_camo_r)
+addLootItemTemplate("armor_scout_trooper_shadow_bicep_l", armor_scout_trooper_shadow_bicep_l)
