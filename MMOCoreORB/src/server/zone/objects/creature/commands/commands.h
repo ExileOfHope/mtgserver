@@ -247,6 +247,7 @@
 #include "FreezePlayerCommand.h"
 #include "FullAutoArea1Command.h"
 #include "FullAutoArea2Command.h"
+#include "FullAutoAssaultCommand.h"
 #include "FullAutoSingle1Command.h"
 #include "FullAutoSingle2Command.h"
 #include "GallopCommand.h"

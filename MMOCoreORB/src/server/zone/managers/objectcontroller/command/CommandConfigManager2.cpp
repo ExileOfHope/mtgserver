@@ -270,6 +270,7 @@
 #include "server/zone/objects/creature/commands/FreezePlayerCommand.h"
 #include "server/zone/objects/creature/commands/FullAutoArea1Command.h"
 #include "server/zone/objects/creature/commands/FullAutoArea2Command.h"
+#include "server/zone/objects/creature/commands/FullAutoAssaultCommand.h"
 #include "server/zone/objects/creature/commands/FullAutoSingle1Command.h"
 #include "server/zone/objects/creature/commands/FullAutoSingle2Command.h"
 #include "server/zone/objects/creature/commands/GallopCommand.h"
