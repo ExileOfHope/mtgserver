@@ -150,9 +150,7 @@ includeFile("items/armor/ubese_armor_helmet.lua")
 includeFile("items/armor/ubese_armor_jacket.lua")
 includeFile("items/armor/ubese_armor_pants.lua")
 includeFile("items/armor/ubese_armor_shirt.lua")
-includeFile("items/armor/imperial/stormtrooper/armor_stormtrooper_chestplate.lua")
-includeFile("items/armor/imperial/stormtrooper/armor_stormtrooper_helmet.lua")
-includeFile("items/armor/imperial/stormtrooper/armor_stormtrooper_leggings.lua")
+
 --CUSTOM STORMTROOPER LOOT SETS
 includeFile("items/armor/imperial/scout_trooper/armor_scout_trooper_bicep_l.lua")
 includeFile("items/armor/imperial/scout_trooper/armor_scout_trooper_bicep_r.lua")
