@@ -119,10 +119,10 @@ object_weapon_ranged_carbine_ep3_carbine_dc15 = object_weapon_ranged_carbine_ep3
 	attackType = RANGEDATTACK,
 
 	-- ENERGY, KINETIC, ELECTRICITY, STUN, BLAST, HEAT, COLD, ACID, FORCE, LIGHTSABER
-	damageType = STUN,
+	damageType = ENERGY,
 
 	-- NONE, LIGHT, MEDIUM, HEAVY
-	armorPiercing = MEDIUM,
+	armorPiercing = NONE,
 
 	-- combat_rangedspecialize_bactarifle, combat_rangedspecialize_rifle, combat_rangedspecialize_pistol, combat_rangedspecialize_heavy, combat_rangedspecialize_carbine
 	-- combat_meleespecialize_unarmed, combat_meleespecialize_twohand, combat_meleespecialize_polearm, combat_meleespecialize_onehand, combat_general,
@@ -156,18 +156,18 @@ object_weapon_ranged_carbine_ep3_carbine_dc15 = object_weapon_ranged_carbine_ep3
 	forceCost = 0,
 
 	pointBlankRange = 0,
-	pointBlankAccuracy = -30,
+	pointBlankAccuracy = -35,
 
-	idealRange = 50,
-	idealAccuracy = 40,
+	idealRange = 35,
+	idealAccuracy = 35,
 
 	maxRange = 70,
 	maxRangeAccuracy = -70,
 
-	minDamage = 300,
-	maxDamage = 1400,
+	minDamage = 304,
+	maxDamage = 608,
 
-	attackSpeed = 1,
+	attackSpeed = 0.6,
 
 	woundsRatio = 50,
 
