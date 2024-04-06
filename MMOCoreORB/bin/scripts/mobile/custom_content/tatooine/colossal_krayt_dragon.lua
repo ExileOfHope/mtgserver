@@ -12,11 +12,11 @@ colossal_krayt_dragon = Creature:new {
 	armor = 3,
 	resists = {195,195,195,195,195,195,195,195,-1},
 	meatType = "meat_carnivore",
-	meatAmount = 1000,
+	meatAmount = 2000,
 	hideType = "hide_bristley",
-	hideAmount = 950,
+	hideAmount = 1900,
 	boneType = "bone_mammal",
-	boneAmount = 905,
+	boneAmount = 1900,
 	milk = 0,
 	tamingChance = 0,
 	ferocity = 30,
@@ -27,10 +27,33 @@ colossal_krayt_dragon = Creature:new {
 	scale = 4,
 
 	templates = {"object/mobile/krayt_dragon.iff"},
-	lootGroups = {},
+	lootGroups = {
+		{
+			groups = {
+				{group = "krayt_tissue_rare", chance = 10000000},
+			},
+			lootChance = 7500000
+		},
+		{
+			groups = {
+				{group = "krayt_dragon_common", chance = 10000000},
+			},
+			lootChance = 7500000
+		},
+		{
+			groups = {
+				{group = "krayt_pearls", chance = 10000000},
+			},
+			lootChance = 7500000
+		}
+	},
 
-	weapons = {"creature_spit_heavy_flame"},
+	primaryWeapon = "unarmed",
+	secondaryWeapon = "object/weapon/ranged/creature/creature_spit_heavy_flame.iff",
+
 	conversationTemplate = "",
-	attacks = {}
+	
+	primaryAttacks = { {"creatureareacombo","stateAccuracyBonus=100"}, {"creatureareaknockdown","stateAccuracyBonus=100"} },
+	secondaryAttacks = { {"stunattack",""}, {"creatureareaattack",""} }
 }
 CreatureTemplates:addCreatureTemplate(colossal_krayt_dragon, "colossal_krayt_dragon")
