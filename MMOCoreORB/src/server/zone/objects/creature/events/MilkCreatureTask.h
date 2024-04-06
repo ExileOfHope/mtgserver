@@ -108,8 +108,9 @@ public:
 
 		String restype = creature->getMilkType();
 		int quantity = creature->getMilk();
+		float bonus = player->getSkillMod("creature_harvesting") / 10.0f;
 
-		int quantityExtracted = Math::max(quantity, 3);
+		int quantityExtracted = quantity * bonus;
 
 		ManagedReference<ResourceSpawn*> resourceSpawn = resourceManager->getCurrentSpawn(restype, player->getZone()->getZoneName());
 
