@@ -931,6 +931,13 @@ void CreatureManagerImplementation::harvest(Creature* creature, CreatureObject* 
 		player->sendSystemMessage("Tried to harvest something this creature didn't have, please report this error");
 		return;
 	}
+
+	int skillMod = player->getSkillMod("creature_harvesting");
+
+	if(quantity > 0 && quantity < skillMod && player->hasSkill("outdoors_ranger_novice")) {
+		quantity = skillMod;
+	}
+
 	int quantityExtracted = int(quantity * float(player->getSkillMod("creature_harvesting") / 100.0f));
 	quantityExtracted = Math::max(quantityExtracted, 3);
 
